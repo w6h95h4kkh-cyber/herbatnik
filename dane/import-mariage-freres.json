@@ -1,5 +1,5 @@
 {
- "opis": "Import od Misi (2026-09-26). Pola null = do uzupełnienia. Nie zgadywać typów/nut — uzupełnia Misia.",
+ "opis": "Import od Misi (2026-09-26). Nazwy+linki ze Steepster. Typ i opis_producenta tylko tam, gdzie nazwa pasuje do dane/katalog-mariage-freres.json. Reszta null = do uzupełnienia; nie zgadywać.",
  "herbaty": [
   {
    "nazwa": "Cannelé",
@@ -14,12 +14,13 @@
   {
    "nazwa": "Fuji-Yama",
    "marka": "Mariage Frères",
-   "typ": null,
+   "typ": "zielona",
    "pochodzenie": null,
    "aromaty": [],
    "kubki_z_porcji": null,
    "status": null,
-   "zrodlo": "https://steepster.com/teas/mariage-freres/12398-fuji-yama"
+   "zrodlo": "https://steepster.com/teas/mariage-freres/12398-fuji-yama",
+   "opis_producenta": "Green tea, a precious gift from Japan"
   },
   {
    "nazwa": "Apollon",
@@ -34,22 +35,24 @@
   {
    "nazwa": "Eros",
    "marka": "Mariage Frères",
-   "typ": null,
+   "typ": "czarna",
    "pochodzenie": null,
    "aromaty": [],
    "kubki_z_porcji": null,
    "status": null,
-   "zrodlo": "https://steepster.com/teas/mariage-freres/8041-eros"
+   "zrodlo": "https://steepster.com/teas/mariage-freres/8041-eros",
+   "opis_producenta": "Flowery black tea"
   },
   {
    "nazwa": "Yuzu Temple",
    "marka": "Mariage Frères",
-   "typ": null,
+   "typ": "zielona",
    "pochodzenie": null,
    "aromaty": [],
    "kubki_z_porcji": null,
    "status": null,
-   "zrodlo": "https://steepster.com/teas/mariage-freres/5922-yuzu-temple"
+   "zrodlo": "https://steepster.com/teas/mariage-freres/5922-yuzu-temple",
+   "opis_producenta": "Bright green tea with Japanese yuzu"
   },
   {
    "nazwa": "Géorgie, OP",
@@ -104,12 +107,13 @@
   {
    "nazwa": "Blue Himalaya",
    "marka": "Mariage Frères",
-   "typ": null,
+   "typ": "oolong",
    "pochodzenie": null,
    "aromaty": [],
    "kubki_z_porcji": null,
    "status": null,
-   "zrodlo": "https://steepster.com/teas/mariage-freres/20106-blue-himalaya"
+   "zrodlo": "https://steepster.com/teas/mariage-freres/20106-blue-himalaya",
+   "opis_producenta": "Blue tea, Nepal, Summer Flush"
   },
   {
    "nazwa": "Grand Oolong",
@@ -304,12 +308,13 @@
   {
    "nazwa": "Smoky Nara",
    "marka": "Mariage Frères",
-   "typ": null,
+   "typ": "czarna",
    "pochodzenie": null,
    "aromaty": [],
    "kubki_z_porcji": null,
    "status": null,
-   "zrodlo": "https://steepster.com/teas/mariage-freres/94101-smoky-nara"
+   "zrodlo": "https://steepster.com/teas/mariage-freres/94101-smoky-nara",
+   "opis_producenta": "Grand cru black tea smoked with oak from Japanese whisky barrels"
   },
   {
    "nazwa": "Dream Tea",
@@ -324,12 +329,13 @@
   {
    "nazwa": "Hallelujah",
    "marka": "Mariage Frères",
-   "typ": null,
+   "typ": "czarna",
    "pochodzenie": null,
    "aromaty": [],
    "kubki_z_porcji": null,
    "status": null,
-   "zrodlo": "https://steepster.com/teas/mariage-freres/102321-hallelujah"
+   "zrodlo": "https://steepster.com/teas/mariage-freres/102321-hallelujah",
+   "opis_producenta": "Black tea with festive notes of fruits & vanilla"
   },
   {
    "nazwa": "Vert à la Menthe",
@@ -360,6 +366,373 @@
    "kubki_z_porcji": null,
    "status": null,
    "zrodlo": "https://steepster.com/teas/mariage-freres/13739-bloemfontein"
+  },
+  {
+   "nazwa": "Veranda",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/33554-veranda"
+  },
+  {
+   "nazwa": "Ureshinocha",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/33559-ureshinocha"
+  },
+  {
+   "nazwa": "Napuk FTGFOP1",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/33561-napuk-ftgfop1"
+  },
+  {
+   "nazwa": "Lotus Blanc",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/33566-lotus-blanc"
+  },
+  {
+   "nazwa": "Phénix MF",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/36488-phenix-mf"
+  },
+  {
+   "nazwa": "Pêche",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/36919-peche"
+  },
+  {
+   "nazwa": "Hojicha",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/46362-hojicha"
+  },
+  {
+   "nazwa": "Paris Singapour",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/47086-paris-singapour"
+  },
+  {
+   "nazwa": "Japon",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/42168-japon"
+  },
+  {
+   "nazwa": "Sakura 2013",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/42170-sakura-2013"
+  },
+  {
+   "nazwa": "Matin Parisien",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/68462-matin-parisien"
+  },
+  {
+   "nazwa": "Lily Muguet - Black",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/58367-lily-muguet-black"
+  },
+  {
+   "nazwa": "Opera Rhapsody",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/98798-opera-rhapsody"
+  },
+  {
+   "nazwa": "Flower Moon",
+   "marka": "Mariage Frères",
+   "typ": "oolong",
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/98849-flower-moon",
+   "opis_producenta": "Blue Tea™, pearly almond and sweet spices, golden liqueur"
+  },
+  {
+   "nazwa": "Habibi",
+   "marka": "Mariage Frères",
+   "typ": "czarna",
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/105819-habibi",
+   "opis_producenta": "Gourmet black tea, rose lychee and orange blossom"
+  },
+  {
+   "nazwa": "Smoky Sakura",
+   "marka": "Mariage Frères",
+   "typ": "czarna",
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/101499-smoky-sakura",
+   "opis_producenta": "Grand cru black tea smoked with Japanese cherrywood"
+  },
+  {
+   "nazwa": "English Breakfast",
+   "marka": "Mariage Frères",
+   "typ": "czarna",
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/13660-english-breakfast",
+   "opis_producenta": "Strong & malty notorious morning black tea"
+  },
+  {
+   "nazwa": "Bannockburn FTGFOP1",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/14182-bannockburn-ftgfop1"
+  },
+  {
+   "nazwa": "Myrtille",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/10654-myrtille"
+  },
+  {
+   "nazwa": "Confucius",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/11556-confucius"
+  },
+  {
+   "nazwa": "Elixir d'Amour",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/12073-elixir-damour"
+  },
+  {
+   "nazwa": "Narcisse",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/8795-narcisse"
+  },
+  {
+   "nazwa": "Chandernagor",
+   "marka": "Mariage Frères",
+   "typ": "czarna",
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/6869-chandernagor",
+   "opis_producenta": "Black tea, imperial spices"
+  },
+  {
+   "nazwa": "Ruschka",
+   "marka": "Mariage Frères",
+   "typ": "czarna",
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/2812-ruschka",
+   "opis_producenta": "À la Russian black tea, scented with citrus fruit"
+  },
+  {
+   "nazwa": "Vivaldi",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/3682-vivaldi"
+  },
+  {
+   "nazwa": "Boléro",
+   "marka": "Mariage Frères",
+   "typ": "czarna",
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/12509-bolero",
+   "opis_producenta": "French Riviera fruity black tea"
+  },
+  {
+   "nazwa": "Maloon, FTGFOP",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/1155-maloon-ftgfop"
+  },
+  {
+   "nazwa": "Lingot d'Or",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/9534-lingot-dor"
+  },
+  {
+   "nazwa": "Violette",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/17701-violette"
+  },
+  {
+   "nazwa": "Matcha",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/17720-matcha"
+  },
+  {
+   "nazwa": "Russian Breakfast",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/18420-russian-breakfast"
+  },
+  {
+   "nazwa": "Aida",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/20879-aida"
+  },
+  {
+   "nazwa": "Queen Victoria",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/22027-queen-victoria"
+  },
+  {
+   "nazwa": "Ylang-Ylang",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/27762-ylang-ylang"
+  },
+  {
+   "nazwa": "Donyi Polo",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/27832-donyi-polo"
+  },
+  {
+   "nazwa": "Happy Queen",
+   "marka": "Mariage Frères",
+   "typ": null,
+   "pochodzenie": null,
+   "aromaty": [],
+   "kubki_z_porcji": null,
+   "status": null,
+   "zrodlo": "https://steepster.com/teas/mariage-freres/28335-happy-queen"
   }
  ]
 }
