@@ -3,7 +3,7 @@
 //   dane/katalog-*.json         → app/data/katalog.json  (podpowiedzi i lista „chcę kupić”)
 // Użycie: node scripts/build.mjs
 import { readdirSync, readFileSync, writeFileSync, mkdirSync } from 'node:fs';
-import { kluczTypu, idHerbaty } from '../app/js/wspolne.js';
+import { kluczTypu, idHerbaty, kluczNazwy } from '../app/js/wspolne.js';
 
 const STATUSY = ['mam', 'wypita', 'chce'];
 const katalog = new URL('../dane/', import.meta.url);
@@ -35,6 +35,8 @@ export function herbataZImportu(h) {
     link: link(h.zrodlo ?? h.link),
     opis: tekst(h.opis_producenta ?? h.opis),
     porcjaProducenta: tekst(h.porcja_producent ?? h.porcja),
+    // Kilka możliwych opisów z katalogu — Misia wybiera właściwy w karcie herbaty.
+    warianty: Array.isArray(h.warianty_w_katalogu) ? h.warianty_w_katalogu.map(tekst).filter(Boolean) : [],
   };
 }
 
@@ -77,6 +79,17 @@ const katalogi = pliki(/^katalog-.*\.json$/).map(plik => {
   })).filter(h => h.nazwa);
   return { id: plik.replace(/\.json$/, ''), marka, herbaty: bezDuplikatow(plik, warianty(herbaty)) };
 });
+
+// Warianty z importu → pełne pozycje katalogu (opis + typ + porcja), dopasowane po nazwie i opisie.
+const wszystkieZKatalogu = katalogi.flatMap(k => k.herbaty);
+for (const z of zestawy) {
+  for (const h of z.herbaty) {
+    h.warianty = h.warianty.map(opis => {
+      const k = wszystkieZKatalogu.find(x => kluczNazwy(x.nazwa) === kluczNazwy(h.nazwa) && x.opis === opis);
+      return { opis, typ: k?.typ || '', porcjaProducenta: k?.porcjaProducenta || '' };
+    });
+  }
+}
 
 const wyjscie = new URL('../app/data/', import.meta.url);
 mkdirSync(wyjscie, { recursive: true });

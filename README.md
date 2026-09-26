@@ -29,10 +29,10 @@ Adres: `https://<użytkownik>.github.io/herbatnik/`.
 - pole puste w aplikacji, a w pliku pojawiła się wartość → uzupełnia się;
 - **to, co wpisałaś w aplikacji, nigdy nie jest nadpisywane**. Jeśli wyczyścisz pole, które przyszło z pliku, nie wróci (chyba że w pliku zmieni się jego wartość).
 
-Format: `{ "herbaty": [ { "nazwa", "marka", "typ", "pochodzenie", "aromaty": [], "kubki_z_porcji", "status", "zrodlo", "opis_producenta", "porcja_producent" } ] }`. Pola `null` zostają puste. `zrodlo` → pole **Link**, `opis_producenta` → **Opis producenta**, `porcja_producent` → **Porcja wg producenta** (np. „100g ~ about 40 cups”; to co innego niż „kubki z jednej porcji”, które wpisujesz sama).
+Format: `{ "herbaty": [ { "nazwa", "marka", "typ", "pochodzenie", "aromaty": [], "kubki_z_porcji", "status", "zrodlo", "opis_producenta", "porcja_producent", "warianty_w_katalogu": [] } ] }`. Pola `null` zostają puste. `warianty_w_katalogu` to lista możliwych opisów z katalogu. Dopóki opis jest pusty, karta herbaty pokazuje je do wyboru, a wybór ustawia opis (oraz typ i porcję z katalogu, jeśli te są puste). `zrodlo` → pole **Link**, `opis_producenta` → **Opis producenta**, `porcja_producent` → **Porcja wg producenta** (np. „100g ~ about 40 cups”; to co innego niż „kubki z jednej porcji”, które wpisujesz sama).
 
 **`dane/katalog-*.json`**: katalog sklepu (`{ "herbaty": [ { "nazwa", "opis_producenta", "typ", "porcja" } ] }`, marka z nazwy pliku). Nie trafia do kolekcji sam z siebie. Służy do:
-- **autouzupełniania**: przy dodawaniu herbaty wpisz lub wybierz nazwę z listy, a puste pola marka, typ, opis i porcja uzupełnią się same; gdy pod jedną nazwą jest kilka produktów (np. Bel Ami: oolong i rooibos), aplikacja pokaże je do wyboru;
+- **autouzupełniania**: przy dodawaniu herbaty wpisz lub wybierz nazwę z listy, a puste pola marka, typ, opis i porcja uzupełnią się same; gdy pod jedną nazwą jest kilka produktów (np. Lily Muguet: czarna, zielona, biała), aplikacja pokaże wszystkie warianty z opisem do wyboru;
 - **listy „chcę kupić”**: Kolekcja → filtr „chcę kupić” → „Wybierz z katalogu Mariage Frères” → „+ chcę kupić”.
 
 Typy z danych mapowane na 7 typów aplikacji: rooibos, mate i owocowa → ziołowa; „mieszanka” → pusty.

@@ -27,7 +27,7 @@ assert.match(await s.textContent('.pola'), /Wg producenta\s*100g ~ about 40 cups
 assert.equal(await s.locator('.statusy .chip.wybrany').count(), 0);
 await zrzut('1b-karta-seed');
 await s.goto(URL_APP + '#/kolekcja');
-await s.click('#lista-herbat .pozycja:has-text("Apollon")');
+await s.click('#lista-herbat .pozycja:has-text("Anis")');
 assert.equal(await s.locator('.typ-herbaty').count(), 0); // brak w katalogu → puste, bez zgadywania
 assert.equal(await s.locator('.opis-producenta').count(), 0);
 await s.goto(URL_APP + '#/kolekcja');
@@ -46,7 +46,7 @@ await s.waitForSelector('.nazwa-herbaty:has-text("Mój Blend")');
 
 // Autouzupełnianie z katalogu: jednoznaczna nazwa → typ + opis + porcja
 await s.goto(URL_APP + '#/herbata/nowa');
-await s.waitForFunction(() => document.querySelectorAll('#katalog-nazw option').length > 300);
+await s.waitForFunction(() => document.querySelectorAll('#katalog-nazw option').length > 600);
 await s.fill('input[name=nazwa]', '88th night tea');
 assert.equal(await s.inputValue('input[name=marka]'), 'Mariage Frères');
 assert.equal(await s.inputValue('input[name=typ]:checked'), 'zielona');
@@ -56,21 +56,33 @@ await s.goto(URL_APP + '#/kolekcja');
 await s.goto(URL_APP + '#/herbata/nowa');
 await s.fill('input[name=nazwa]', 'Bel Ami');
 assert.equal(await s.locator('input[name=typ]:checked').count(), 0);
-assert.equal(await s.locator('[data-akcja=wariant-katalogu]').count(), 2);
+assert.equal(await s.locator('[data-akcja=wariant-katalogu]').count(), 3);
 await zrzut('2b-warianty');
 await s.click('[data-akcja=wariant-katalogu]:has-text("Rooibos")');
 assert.equal(await s.inputValue('input[name=typ]:checked'), 'ziolowa');
 assert.equal(await s.inputValue('textarea[name=opis]'), 'Red tea Rooibos');
 await s.goto(URL_APP + '#/kolekcja');
 
+// Warianty z importu: wybór opisu w karcie (typ i porcja z katalogu, tylko gdy puste)
+await s.click('#lista-herbat .pozycja:has-text("Elixir d\'Amour")');
+await s.waitForSelector('.wybor-wariantu');
+assert.equal(await s.locator('[data-akcja=wybierz-wariant]').count(), 2);
+await zrzut('2d-wariant-karta');
+await s.click('[data-akcja=wybierz-wariant]:has-text("Blue tea")');
+await s.waitForSelector('.opis-producenta');
+assert.match(await s.textContent('.opis-producenta'), /Blue tea, citrus note & rose/);
+assert.match(await s.textContent('.typ-herbaty'), /oolong/);
+assert.equal(await s.locator('[data-akcja=wybierz-wariant]').count(), 0);
+await s.goto(URL_APP + '#/kolekcja');
+
 // Katalog → „chcę kupić”
 await s.click('[data-akcja=filtr-status][data-k=chce]');
 await s.click('.wejscie-katalog');
 await s.fill('#szukaj-katalog', 'bel ami');
-assert.equal(await s.locator('.katalog-pozycja').count(), 2);
+assert.equal(await s.locator('.katalog-pozycja').count(), 3);
 await s.click('.katalog-pozycja:has-text("Scented Blue Tea") [data-akcja=dodaj-z-katalogu]');
 await s.waitForSelector('.katalog-pozycja:has-text("Scented Blue Tea") .w-kolekcji');
-assert.equal(await s.locator('[data-akcja=dodaj-z-katalogu]').count(), 1); // wariant rooibos nadal do dodania
+assert.equal(await s.locator('[data-akcja=dodaj-z-katalogu]').count(), 2); // pozostałe warianty nadal do dodania
 await s.fill('#szukaj-katalog', 'fuji-yama');
 assert.equal(await s.locator('.katalog-pozycja .w-kolekcji').count(), 1); // już w kolekcji z seeda
 await zrzut('2c-katalog');
@@ -124,7 +136,7 @@ await s.goto(URL_APP + '#/kolekcja');
 await s.waitForSelector('#lista-herbat .pozycja');
 assert.equal(await s.locator('#lista-herbat .pozycja').count(), 75);
 await s.click('[data-akcja=filtr-typ][data-k=zielona]');
-assert.equal(await s.locator('#lista-herbat .pozycja').count(), 7);
+assert.equal(await s.locator('#lista-herbat .pozycja').count(), 9);
 await s.click('[data-akcja=filtr-typ][data-k=wszystkie]');
 await s.fill('#szukaj', 'kwiaty');
 assert.equal(await s.locator('#lista-herbat .pozycja').count(), 1);

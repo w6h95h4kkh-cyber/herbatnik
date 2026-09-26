@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.0 — 2026-09-26 — Katalog MF komplet, wybór wariantu w karcie
+- Katalog Mariage Frères: 782 pozycje; podpowiedź nazwy pokazuje liczbę wariantów, formularz wszystkie warianty z opisem.
+- Kolekcja startowa: 43/72 herbat z opisem producenta (42 z typem, 29 z porcją).
+- Nowe pole z importu `warianty_w_katalogu`: karta herbaty bez opisu pokazuje możliwe opisy do wyboru; wybór ustawia opis, a typ i porcję tylko, jeśli są puste.
+- Szybsze dopasowywanie nazw (indeks katalogu) — płynnie na telefonie przy setkach pozycji.
+
 ## 0.3.0 — 2026-09-26 — Katalog Mariage Frères
 - Kolekcja startowa: 72 herbaty MF (30 z typem i opisem producenta, 13 z porcją producenta).
 - Seed śledzony pojedynczo: nowe herbaty dopisują się, puste pola uzupełniają, edycje w aplikacji nie są nadpisywane, usunięte nie wracają.

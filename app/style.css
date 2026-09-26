@@ -355,3 +355,6 @@ legend { font-family: var(--tytulowa); font-size: 15px; padding: 0; margin-botto
 #lista-katalogu { margin-top: 14px; }
 .katalog-pozycja .pozycja-dol { justify-content: flex-end; }
 .w-kolekcji { font-family: var(--geometryczna); font-size: 13px; color: var(--zloto-ciemne); text-decoration: none; padding: 8px 0; }
+.wybor-wariantu { margin: 16px 0 0; display: grid; gap: 6px; justify-items: center; }
+.wybor-wariantu p { margin: 0 0 2px; font-style: italic; color: var(--zloto-ciemne); font-size: 17px; }
+.wybor-wariantu .chip { white-space: normal; text-align: left; }

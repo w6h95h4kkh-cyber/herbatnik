@@ -1,5 +1,12 @@
 import * as db from './db.js';
-import { kluczNazwy } from './wspolne.js';
+import { kluczNazwy as kluczNazwyBezCache } from './wspolne.js';
+
+// Klucze nazw liczone raz (katalog ma setki pozycji, porównujemy je często).
+const kluczeNazw = new Map();
+function kluczNazwy(nazwa) {
+  if (!kluczeNazw.has(nazwa)) kluczeNazw.set(nazwa, kluczNazwyBezCache(nazwa));
+  return kluczeNazw.get(nazwa);
+}
 
 // ---------- Słowniki ----------
 export const TYPY = [
@@ -182,6 +189,10 @@ function widokHerbata(id) {
     <p class="ozdobnik">${h.marka ? esc(h.marka) : '&nbsp;'}</p>
     <h2 class="nazwa-herbaty">${esc(h.nazwa)}</h2>
     ${h.typ ? `<p class="typ-herbaty">${kropkaTypu(h.typ)}herbata ${typ(h.typ).n}</p>` : ''}
+    ${!h.opis && h.warianty?.length ? `<div class="wybor-wariantu">
+      <p>W katalogu ${esc(h.marka || 'sklepu')} ta nazwa ma ${h.warianty.length} ${h.warianty.length < 5 ? 'warianty' : 'wariantów'}. Który to?</p>
+      ${h.warianty.map((w, i) => `<button class="chip" data-akcja="wybierz-wariant" data-id="${h.id}" data-i="${i}">${esc(opisWariantu(w))}</button>`).join('')}
+    </div>` : ''}
     ${h.opis ? `<blockquote class="opis-producenta"><span>${esc(h.opis)}</span><small>opis producenta</small></blockquote>` : ''}
     ${sr ? `<p class="srednia">${gwiazdki(Math.round(sr))} <small>${fmtSr(sr)} · ${deg.filter(d => d.ocena).length} ocen</small></p>` : ''}
     <dl class="pola">
@@ -247,10 +258,12 @@ function widokFormHerbaty(id) {
 
 // ---------- Katalog sklepu ----------
 function opcjeKatalogu() {
-  const nazwy = new Map((stan.katalog || []).map(k => [kluczNazwy(k.nazwa), k]));
-  return [...nazwy.values()].map(k => `<option value="${esc(k.nazwa)}">${esc(k.marka)}</option>`).join('');
+  return [...(stan.katalogWgNazwy?.values() || [])].map(([k, ...reszta]) => {
+    const n = reszta.length + 1;
+    return `<option value="${esc(k.nazwa)}">${esc(k.marka)}${n > 1 ? ` · ${n} ${n < 5 ? 'warianty' : 'wariantów'}` : ''}</option>`;
+  }).join('');
 }
-const wariantyKatalogu = nazwa => (stan.katalog || []).filter(k => kluczNazwy(k.nazwa) === kluczNazwy(nazwa));
+const wariantyKatalogu = nazwa => stan.katalogWgNazwy?.get(kluczNazwy(nazwa)) || [];
 // Herbata z katalogu jest „w kolekcji”, gdy ma to samo id albo — jeśli nazwa w katalogu jest jednoznaczna — tę samą nazwę.
 const herbataWKolekcji = k => herbata(k.id) || (wariantyKatalogu(k.nazwa).length === 1
   ? stan.herbaty.find(h => kluczNazwy(h.nazwa) === kluczNazwy(k.nazwa) && (!h.marka || h.marka === k.marka)) : undefined);
@@ -342,6 +355,12 @@ async function wczytajKatalog() {
     const dane = await odp.json();
     stan.katalog = (dane.katalogi || []).flatMap(k => k.herbaty)
       .sort((a, b) => a.nazwa.localeCompare(b.nazwa, 'pl'));
+    stan.katalogWgNazwy = new Map();
+    stan.katalog.forEach(k => {
+      const kl = kluczNazwy(k.nazwa);
+      if (!stan.katalogWgNazwy.has(kl)) stan.katalogWgNazwy.set(kl, []);
+      stan.katalogWgNazwy.get(kl).push(k);
+    });
   } catch { return; }
   // Odśwież to, co zależy od katalogu, jeśli jest na ekranie.
   const dl = $('#katalog-nazw');
@@ -638,6 +657,17 @@ async function klik(e) {
     stan.filtrKatalogu.typ = el.dataset.k;
     el.parentElement.querySelectorAll('.chip').forEach(c => c.classList.toggle('wybrany', c === el));
     $('#lista-katalogu').innerHTML = listaKatalogu();
+  } else if (a === 'wybierz-wariant') {
+    // Wybór opisu w karcie: ustawia opis, a typ i porcję tylko jeśli są puste.
+    const h = herbata(el.dataset.id);
+    const w = h.warianty[Number(el.dataset.i)];
+    h.opis = w.opis;
+    if (!h.typ && w.typ) h.typ = w.typ;
+    if (!h.porcjaProducenta && w.porcjaProducenta) h.porcjaProducenta = w.porcjaProducenta;
+    h.zmieniono = teraz();
+    await db.zapisz('herbaty', h);
+    renderuj();
+    toast('Zapisano wariant');
   } else if (a === 'wariant-katalogu') {
     uzupelnijZKatalogu(el.form, stan.katalog.find(k => k.id === el.dataset.id));
   } else if (a === 'dodaj-z-katalogu') {
@@ -682,7 +712,7 @@ function wpisywanie(e) {
 // - nowa herbata z pliku → dodana (także gdy aplikacja jest już w użyciu),
 // - herbata usunięta w aplikacji → nie wraca,
 // - puste pole, dla którego plik ma nową wartość → uzupełnione; to, co wpisane w aplikacji, nie jest nadpisywane.
-const POLA_SEED = ['marka', 'typ', 'pochodzenie', 'aromaty', 'kubki', 'status', 'link', 'opis', 'porcjaProducenta'];
+const POLA_SEED = ['marka', 'typ', 'pochodzenie', 'aromaty', 'kubki', 'status', 'link', 'opis', 'porcjaProducenta', 'warianty'];
 const puste = v => v == null || v === '' || (Array.isArray(v) && !v.length);
 const rowne = (a, b) => JSON.stringify(a ?? '') === JSON.stringify(b ?? '');
 

@@ -14,7 +14,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/39593-cannele-mariage-freres",
      "opis": "Black tea Héritage Gourmand®",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-fuji-yama",
@@ -27,7 +28,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/12398-fuji-yama",
      "opis": "Green tea, a precious gift from Japan",
-     "porcjaProducenta": "100g ~ about 40 cups"
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-apollon",
@@ -40,7 +42,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/14185-apollon",
      "opis": "Blue tea, alluring golden liqueur with fruity notes",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-eros",
@@ -53,7 +56,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/8041-eros",
      "opis": "Flowery black tea",
-     "porcjaProducenta": "100g ~ about 40 cups"
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-yuzu-temple",
@@ -66,20 +70,22 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/5922-yuzu-temple",
      "opis": "Bright green tea with Japanese yuzu",
-     "porcjaProducenta": "100g ~ about 40 cups"
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-georgie-op",
      "nazwa": "Géorgie, OP",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "czarna",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/1348-georgie-op",
-     "opis": "",
-     "porcjaProducenta": ""
+     "opis": "OP - Black tea, Georgia",
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-phenix",
@@ -92,7 +98,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/9981-phenix",
      "opis": "Black tea with notes of honeyed hazelnuts",
-     "porcjaProducenta": "100g ~ about 40 cups"
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-anis",
@@ -105,20 +112,22 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/10203-anis",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-le-voyageur",
      "nazwa": "Le Voyageur",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "czarna",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/565-le-voyageur",
-     "opis": "",
-     "porcjaProducenta": ""
+     "opis": "Daytime scented black tea, memorable flavour",
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-dragon-de-feu",
@@ -131,7 +140,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/3926-dragon-de-feu",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-blue-himalaya",
@@ -144,20 +154,22 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/20106-blue-himalaya",
      "opis": "Blue tea, Nepal, Summer Flush",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-grand-oolong",
      "nazwa": "Grand Oolong",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "oolong",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/16686-grand-oolong",
-     "opis": "",
-     "porcjaProducenta": ""
+     "opis": "Blue tea™ - Formosa",
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-fleur-d-orient",
@@ -170,7 +182,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/21983-fleur-dorient",
      "opis": "Crafted green tea, jasmine, rose and marigold flowers",
-     "porcjaProducenta": "50g ~ about 20 cups"
+     "porcjaProducenta": "50g ~ about 20 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-tarry-souchong",
@@ -183,7 +196,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/17723-tarry-souchong",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-silver-dragon",
@@ -196,20 +210,22 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/33558-silver-dragon",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-rouge-tea",
      "nazwa": "Rouge Tea",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "ziolowa",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/33565-rouge-tea",
-     "opis": "",
-     "porcjaProducenta": ""
+     "opis": "Red tea Rooibos",
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-exposition-coloniale",
@@ -222,7 +238,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/40433-exposition-coloniale",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-christmas-pudding",
@@ -235,7 +252,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/41607-christmas-pudding",
      "opis": "Gourmet black tea, mellow notes of festive spices",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-chine",
@@ -248,7 +266,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/42167-chine",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-monteviot-sftgfop1",
@@ -261,7 +280,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/40368-monteviot-sftgfop1",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-sungma-ftfgop1",
@@ -274,20 +294,22 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/40370-sungma-ftfgop1",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-blue-tea",
      "nazwa": "Blue Tea",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "oolong",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/35511-blue-tea",
-     "opis": "",
-     "porcjaProducenta": ""
+     "opis": "Blue tea - China",
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-rouge-provence",
@@ -300,7 +322,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/31557-rouge-provence",
      "opis": "Theine-free Red Tea, rose & lavender",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-very-french",
@@ -313,7 +336,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/48944-very-french",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-black-magic-tea",
@@ -326,7 +350,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/48949-black-magic-tea",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-oolong",
@@ -339,7 +364,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/44264-oolong",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-midnight-green",
@@ -352,33 +378,36 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/45205-midnight-green",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-grand-keemun",
      "nazwa": "Grand Keemun",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "czarna",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/43689-grand-keemun",
-     "opis": "",
-     "porcjaProducenta": ""
+     "opis": "FOP - Black tea from China",
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-java-blue",
      "nazwa": "Java Blue",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "oolong",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/77847-java-blue",
-     "opis": "",
-     "porcjaProducenta": ""
+     "opis": "Blue tea, Indonesia",
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-paris-kyoto",
@@ -391,7 +420,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/82118-paris-kyoto",
      "opis": "Green tea",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-smoky-nara",
@@ -404,7 +434,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/94101-smoky-nara",
      "opis": "Grand cru black tea smoked with oak from Japanese whisky barrels",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-dream-tea",
@@ -417,7 +448,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/94822-dream-tea",
      "opis": "Herbal tea naturelly theine free, eight velvety soothing relaxing herbs",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-hallelujah",
@@ -430,7 +462,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/102321-hallelujah",
      "opis": "Black tea with festive notes of fruits & vanilla",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-vert-a-la-menthe",
@@ -443,7 +476,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/104783-vert-a-la-menthe",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-balthazar-bleu",
@@ -456,20 +490,22 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/105205-balthazar-bleu",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-bloemfontein",
      "nazwa": "Bloemfontein",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "ziolowa",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/13739-bloemfontein",
-     "opis": "",
-     "porcjaProducenta": ""
+     "opis": "Red tea Rooibos, fruity",
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-veranda",
@@ -482,20 +518,22 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/33554-veranda",
      "opis": "Black tea - Exotic fruits & flowers",
-     "porcjaProducenta": "100g ~ about 40 cups"
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-ureshinocha",
      "nazwa": "Ureshinocha",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "zielona",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/33559-ureshinocha",
-     "opis": "",
-     "porcjaProducenta": ""
+     "opis": "Green tea - Japan",
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-napuk-ftgfop1",
@@ -508,7 +546,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/33561-napuk-ftgfop1",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-lotus-blanc",
@@ -521,20 +560,22 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/33566-lotus-blanc",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-phenix-mf",
      "nazwa": "Phénix MF",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "czarna",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/36488-phenix-mf",
-     "opis": "",
-     "porcjaProducenta": ""
+     "opis": "Black tea with notes of honeyed hazelnuts",
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-peche",
@@ -547,20 +588,22 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/36919-peche",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-hojicha",
      "nazwa": "Hojicha",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "zielona",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/46362-hojicha",
-     "opis": "",
-     "porcjaProducenta": ""
+     "opis": "Toasted green tea - Japan",
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-paris-singapour",
@@ -573,7 +616,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/47086-paris-singapour",
      "opis": "Mellow green tea, refreshing and soothing",
-     "porcjaProducenta": "100g ~ about 40 cups"
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-japon",
@@ -586,7 +630,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/42168-japon",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-sakura-2013",
@@ -599,7 +644,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/42170-sakura-2013",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-matin-parisien",
@@ -612,7 +658,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/68462-matin-parisien",
      "opis": "Bright black tea, sparkling citrus notes",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-lily-muguet-black",
@@ -625,20 +672,22 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/58367-lily-muguet-black",
      "opis": "Black tea, lily of the valley fragrance",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-opera-rhapsody",
      "nazwa": "Opera Rhapsody",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "biala",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/98798-opera-rhapsody",
-     "opis": "",
-     "porcjaProducenta": ""
+     "opis": "Pink white tea with notes of vanilla and red fruits",
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-flower-moon",
@@ -650,8 +699,9 @@
      "kubki": "",
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/98849-flower-moon",
-     "opis": "Blue Tea™, pearly almond and sweet spices, golden liqueur",
-     "porcjaProducenta": ""
+     "opis": "Blue Tea™, pearly almond & sweet spices, golden liqueur",
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-habibi",
@@ -664,7 +714,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/105819-habibi",
      "opis": "Gourmet black tea, rose lychee and orange blossom",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-smoky-sakura",
@@ -677,7 +728,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/101499-smoky-sakura",
      "opis": "Grand cru black tea smoked with Japanese cherrywood",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-english-breakfast",
@@ -690,7 +742,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/13660-english-breakfast",
      "opis": "Strong & malty notorious morning black tea",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-bannockburn-ftgfop1",
@@ -703,7 +756,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/14182-bannockburn-ftgfop1",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-myrtille",
@@ -716,7 +770,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/10654-myrtille",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-confucius",
@@ -729,20 +784,33 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/11556-confucius",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-elixir-d-amour",
      "nazwa": "Elixir d'Amour",
      "marka": "Mariage Frères",
-     "typ": "czarna",
+     "typ": "",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/12073-elixir-damour",
-     "opis": "Black tea, citrus & flowers",
-     "porcjaProducenta": "100g ~ about 40 cups"
+     "opis": "",
+     "porcjaProducenta": "",
+     "warianty": [
+      {
+       "opis": "Black tea, citrus & flowers",
+       "typ": "czarna",
+       "porcjaProducenta": "100g ~ about 40 cups"
+      },
+      {
+       "opis": "Blue tea, citrus note & rose, golden liqueur",
+       "typ": "oolong",
+       "porcjaProducenta": ""
+      }
+     ]
     },
     {
      "id": "seed-mariage-freres-narcisse",
@@ -755,7 +823,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/8795-narcisse",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-chandernagor",
@@ -768,7 +837,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/6869-chandernagor",
      "opis": "Black tea, imperial spices",
-     "porcjaProducenta": "100g ~ about 40 cups"
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-ruschka",
@@ -781,7 +851,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/2812-ruschka",
      "opis": "À la Russian black tea, scented with citrus fruit",
-     "porcjaProducenta": "100g ~ about 40 cups"
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-vivaldi",
@@ -794,7 +865,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/3682-vivaldi",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-bolero",
@@ -807,7 +879,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/12509-bolero",
      "opis": "French Riviera fruity black tea",
-     "porcjaProducenta": "100g ~ about 40 cups"
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-maloon-ftgfop",
@@ -820,7 +893,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/1155-maloon-ftgfop",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-lingot-d-or",
@@ -833,7 +907,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/9534-lingot-dor",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-violette",
@@ -846,7 +921,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/17701-violette",
      "opis": "Scented black tea",
-     "porcjaProducenta": "100g ~ about 40 cups"
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-matcha",
@@ -859,7 +935,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/17720-matcha",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-russian-breakfast",
@@ -872,7 +949,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/18420-russian-breakfast",
      "opis": "Citrus flavoured full-bodied black tea",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-aida",
@@ -885,7 +963,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/20879-aida",
      "opis": "Black tea - Citrus",
-     "porcjaProducenta": "100g ~ about 40 cups"
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-queen-victoria",
@@ -897,8 +976,9 @@
      "kubki": "",
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/22027-queen-victoria",
-     "opis": "",
-     "porcjaProducenta": ""
+     "opis": "FTGFOP1 - Darjeeling Assemblage",
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-ylang-ylang",
@@ -911,20 +991,22 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/27762-ylang-ylang",
      "opis": "",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-donyi-polo",
      "nazwa": "Donyi Polo",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "czarna",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/27832-donyi-polo",
-     "opis": "",
-     "porcjaProducenta": ""
+     "opis": "FTGFOP1 - Black tea - Arunachal Pradesh",
+     "porcjaProducenta": "100g ~ about 40 cups",
+     "warianty": []
     },
     {
      "id": "seed-mariage-freres-happy-queen",
@@ -937,7 +1019,8 @@
      "status": "",
      "link": "https://steepster.com/teas/mariage-freres/28335-happy-queen",
      "opis": "Green tea citrus, flowers & exotic fruits",
-     "porcjaProducenta": ""
+     "porcjaProducenta": "",
+     "warianty": []
     }
    ]
   }
