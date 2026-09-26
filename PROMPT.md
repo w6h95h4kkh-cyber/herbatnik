@@ -17,7 +17,8 @@ Jedna aplikacja, trzy funkcje:
 - Czysty HTML/CSS/JS lub lekki framework — bez backendu. Dane w IndexedDB + eksport/import JSON (backup).
 - Treść nauki generowana skryptem z `wiedza/*.md` do JSON przy buildzie (obsłuż wikilinki i frontmatter YAML).
 - Hosting: GitHub Pages.
-- Estetyka: spokojna, botaniczna, jasna (jestem akwarelistką) — ma być ładnie, ale czytelnie.
+- Estetyka (wybrana przeze mnie wcześniej): styl „Elegancki / herbaciarnia / vintage" — kremowe tło (#fdf6ec), złote detale (#c8a060), cienkie podwójne ramki kart, antykwa (Playfair Display + Cormorant Garamond) w treści; ALE nagłówek/hero i przyciski krojem Syne (jak w stylu minimalistycznym). Ma być ładnie i czytelnie na telefonie.
+- Karta herbaty ma też pole: ile kubków z jednej torebki/porcji (np. „2–3 kubki").
 
 ## Zasady pracy
 - Najpierw MVP: sama KOLEKCJA + DEGUSTACJE, działające end-to-end na telefonie. Dopiero potem NAUKA.
