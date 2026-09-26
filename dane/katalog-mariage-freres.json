@@ -1,11 +1,17 @@
 {
- "opis": "Katalog sklepu Mariage Frères (4 strony wklejone przez Misię 2026-09-26). Opis producenta w oryginale. Typ wyprowadzony z opisu (Blue tea = oolong, Red tea = rooibos); null = niejednoznaczne. 'porcja' = informacja producenta o liczbie filiżanek.",
+ "opis": "Katalog sklepu Mariage Frères (9 stron wklejonych przez Misię 2026-09-26). Opis producenta w oryginale. Typ wyprowadzony tylko z opisu (Blue tea = oolong, Red tea = rooibos); null = opis nie mówi. 'porcja' = info producenta o liczbie filiżanek. Ta sama nazwa może mieć kilka wariantów (np. Lily Muguet czarna/zielona/biała).",
  "herbaty": [
+  {
+   "nazwa": "1854",
+   "opis_producenta": "Daytime black tea",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
   {
    "nazwa": "1854 Suprême",
    "opis_producenta": "Eternal green, black & white tea, intoxicating and precious",
    "porcja": null,
-   "typ": "mieszanka"
+   "typ": "biała"
   },
   {
    "nazwa": "88Th Night Tea",
@@ -14,10 +20,40 @@
    "typ": "zielona"
   },
   {
+   "nazwa": "A La Porte Chinoise",
+   "opis_producenta": "White, black, green & Blue tea daytime scented tea",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "mieszanka"
+  },
+  {
+   "nazwa": "Abricot D'Or",
+   "opis_producenta": "Scented black tea",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
    "nazwa": "Afrique Du Sud - Zoulou Tea",
    "opis_producenta": "Red tea Rooibos, fruits & flowers",
    "porcja": null,
    "typ": "rooibos"
+  },
+  {
+   "nazwa": "Ahinsa",
+   "opis_producenta": "Black tea – Ceylon",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Ahinsa Pekoe",
+   "opis_producenta": "Black tea, Ceylon",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Aïda",
+   "opis_producenta": "Black tea - Citrus",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
   },
   {
    "nazwa": "Alexandra David-Néel",
@@ -26,15 +62,81 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Alishan Cha",
+   "opis_producenta": "Blue tea, Formosa",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Aloobari",
+   "opis_producenta": "SFTGFOP1 DJ1/15 - Darjeeling First Flush",
+   "porcja": "50g ~ about 20 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Amami Cha",
+   "opis_producenta": "Green tea - Japan",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Amandier Blanc",
+   "opis_producenta": "Scented black tea, almond",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Ambootia",
+   "opis_producenta": "FTGFOP1 DJ1/2023 - Spring Flush – Premium First Flush",
+   "porcja": "50g ~ about 20 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Ambootia",
+   "opis_producenta": "Green tea - Darjeeling, India",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Ambootia",
+   "opis_producenta": "SFTGFOP1 - Black tea, Summer Flush – Darjeeling, India",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Ambootia",
+   "opis_producenta": "SFTGFOP1 - Black tea, summer flush - Darjeeling, India",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Ambootia",
+   "opis_producenta": "SFTGFOP1 EX3/2026 - Spring Flush – Premium First Flush",
+   "porcja": null,
+   "typ": null
+  },
+  {
+   "nazwa": "Ambre Bleu",
+   "opis_producenta": "Blue Tea - Formosa",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
+  },
+  {
    "nazwa": "American Breakfast Tea",
    "opis_producenta": "Rich malty black tea with caramel notes",
-   "porcja": null,
+   "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
+  },
+  {
+   "nazwa": "Angkor",
+   "opis_producenta": "Daytime green tea smooth & sensual",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
   },
   {
    "nazwa": "Apollon",
    "opis_producenta": "Blue tea, alluring golden liqueur with fruity notes",
-   "porcja": null,
+   "porcja": "100g ~ about 40 cups",
    "typ": "oolong"
   },
   {
@@ -68,16 +170,34 @@
    "typ": null
   },
   {
-   "nazwa": "Aïda",
-   "opis_producenta": "Black tea - Citrus",
-   "porcja": "100g ~ about 40 cups",
-   "typ": "czarna"
-  },
-  {
    "nazwa": "Babylonia",
    "opis_producenta": "Green iced tea with notes of fruits, citrus & cornflowers",
    "porcja": null,
    "typ": "zielona"
+  },
+  {
+   "nazwa": "Bal Masqué",
+   "opis_producenta": "Blue tea, flowery citrus notes, golden liqueur",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Balthazar",
+   "opis_producenta": "Blue tea, chocolate note with almond, golden liqueur",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Bancha Suprême",
+   "opis_producenta": "Green tea - Japan",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Bangkok In Love",
+   "opis_producenta": "Fragrant blue tea, golden liqueur",
+   "porcja": null,
+   "typ": "oolong"
   },
   {
    "nazwa": "Beau Breakfast Tea",
@@ -93,15 +213,27 @@
   },
   {
    "nazwa": "Bel Ami",
-   "opis_producenta": "Scented Blue Tea, golden liqueur",
+   "opis_producenta": "Green tea, flowers & vanilla",
    "porcja": null,
-   "typ": "oolong"
+   "typ": "zielona"
   },
   {
    "nazwa": "Bel Ami",
    "opis_producenta": "Red tea Rooibos",
    "porcja": null,
    "typ": "rooibos"
+  },
+  {
+   "nazwa": "Bel Ami",
+   "opis_producenta": "Scented Blue Tea, golden liqueur",
+   "porcja": null,
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Bhubrighat",
+   "opis_producenta": "FTGFOP1 - Black tea - Assam",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
   },
   {
    "nazwa": "Birmanie - Thé Du Triangle D'Or",
@@ -113,6 +245,12 @@
    "nazwa": "Birthday In Love",
    "opis_producenta": "Darjeeling black tea , with notes of bergamot",
    "porcja": null,
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Birthday Tea",
+   "opis_producenta": "Daytime black tea, spices & citrus",
+   "porcja": "500g ~ about 200 cups",
    "typ": "czarna"
   },
   {
@@ -140,9 +278,45 @@
    "typ": "czarna"
   },
   {
-   "nazwa": "Blanc & Rose",
-   "opis_producenta": "Mellow white tea with tender rose petals",
+   "nazwa": "Black Silk",
+   "opis_producenta": "Black tea - China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Blackwood",
+   "opis_producenta": "Crafted green tea – Ceylon",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Blackwood Bop",
+   "opis_producenta": "Black tea - Ceylon",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Blackwood Op",
+   "opis_producenta": "Rich malty black tea, fruity bouquet",
    "porcja": null,
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Blackwood Op1",
+   "opis_producenta": "Black Tea - Ceylon",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Blackwood Pekoe",
+   "opis_producenta": "Black tea - Ceylon",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Blanc Impérial",
+   "opis_producenta": "White tea - Viêt-Nam",
+   "porcja": "50g ~ about 20 cups",
    "typ": "biała"
   },
   {
@@ -152,10 +326,28 @@
    "typ": "biała"
   },
   {
-   "nazwa": "Bloomfield",
-   "opis_producenta": "FTGFOP1 DJ10/2024 - Spring Flush – Premium First Flush",
+   "nazwa": "Blanc & Rose",
+   "opis_producenta": "Mellow white tea and tender rose petals",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "biała"
+  },
+  {
+   "nazwa": "Blanc & Rose",
+   "opis_producenta": "Mellow white tea with tender rose petals",
    "porcja": null,
-   "typ": null
+   "typ": "biała"
+  },
+  {
+   "nazwa": "Blanc & Rose",
+   "opis_producenta": "Scented white tea",
+   "porcja": null,
+   "typ": "biała"
+  },
+  {
+   "nazwa": "Bloemfontein",
+   "opis_producenta": "Red tea Rooibos, fruity",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "rooibos"
   },
   {
    "nazwa": "Bloomfield",
@@ -164,9 +356,33 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Bloomfield",
+   "opis_producenta": "FTGFOP1 DJ10/2024 - Spring Flush – Premium First Flush",
+   "porcja": null,
+   "typ": null
+  },
+  {
+   "nazwa": "Bloomfield",
+   "opis_producenta": "SFTGFOP1 DJ4/2025 - Spring Flush – Premium First Flush",
+   "porcja": "50g ~ about 20 cups",
+   "typ": null
+  },
+  {
    "nazwa": "Blue Himalaya",
    "opis_producenta": "Blue tea, Nepal, Summer Flush",
    "porcja": null,
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Blue Himalaya",
+   "opis_producenta": "Blue tea™ - Nepal Summer Flush",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Blue Tea",
+   "opis_producenta": "Blue tea - China",
+   "porcja": "100g ~ about 40 cups",
    "typ": "oolong"
   },
   {
@@ -188,6 +404,12 @@
    "typ": "zielona"
   },
   {
+   "nazwa": "Brasilia",
+   "opis_producenta": "Black tea & maté, energetic assemblage",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "mieszanka"
+  },
+  {
    "nazwa": "Breakfast Earl Grey",
    "opis_producenta": "Magnificent bergamot morning black tea",
    "porcja": "100g ~ about 40 cups",
@@ -206,16 +428,46 @@
    "typ": "oolong"
   },
   {
+   "nazwa": "Brume De Jade",
+   "opis_producenta": "Green tea, China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
    "nazwa": "Brume De Jasmin",
    "opis_producenta": "Jasmine white tea",
    "porcja": "100g ~ about 40 cups",
    "typ": "biała"
   },
   {
+   "nazwa": "Brume De L'Aube",
+   "opis_producenta": "Blue tea, Korea",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "oolong"
+  },
+  {
    "nazwa": "Brume De Rose",
    "opis_producenta": "White tea, flowers & rose",
    "porcja": "100g ~ about 40 cups",
    "typ": "biała"
+  },
+  {
+   "nazwa": "Brume De Volcan",
+   "opis_producenta": "Green tea, Korea",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Brume De Volcan Suprême",
+   "opis_producenta": "Green tea, Korea",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Brume Du Pacifique",
+   "opis_producenta": "Colombian black tea, fashioned in the heart of the Andes",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
   },
   {
    "nazwa": "Butterscotch",
@@ -227,7 +479,7 @@
    "nazwa": "Cactus Bleu",
    "opis_producenta": "Blue iced tea with real cactus morcels, golden liqueur",
    "porcja": null,
-   "typ": null
+   "typ": "oolong"
   },
   {
    "nazwa": "Calisson",
@@ -236,15 +488,33 @@
    "typ": "rooibos"
   },
   {
+   "nazwa": "Cannelé",
+   "opis_producenta": "Black tea Héritage Gourmand®",
+   "porcja": null,
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Cannelle Aromatique",
+   "opis_producenta": "Scented black tea",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
    "nazwa": "Cannelle-Orange",
    "opis_producenta": "Black tea",
    "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
   },
   {
-   "nazwa": "Cannelé",
-   "opis_producenta": "Black tea Héritage Gourmand®",
-   "porcja": null,
+   "nazwa": "Carambola De Colombia",
+   "opis_producenta": "Colombian Green Tea, fashioned in the heart of the Andes",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Caramel Riche",
+   "opis_producenta": "Caramel scented black tea",
+   "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
   },
   {
@@ -254,28 +524,82 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Castleton",
+   "opis_producenta": "Black tea FTGFOP1, summer flush - Darjeeling, India",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Castleton",
+   "opis_producenta": "FTGFOP1 DJ-15/2025 - Spring Flush – Premium first flush",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Castleton",
+   "opis_producenta": "FTGFOP1 DJ2/2024 - Spring Flush - Premium First Flush",
+   "porcja": "50g ~ about 20 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Castleton",
+   "opis_producenta": "FTGFOP1 DJ51/20 - Darjeeling Summer Flush 2020",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Castleton",
+   "opis_producenta": "FTGFOP1- Black tea, Summer Frlush - Darjeeling, India",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Castleton Magic",
+   "opis_producenta": "Black tea FTGFOP1, summer flush - Darjeeling, India",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Castleton Moonlight",
+   "opis_producenta": "White tea, summer flush - Darjeeling, India",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "biała"
+  },
+  {
    "nazwa": "Ceylan - Thé Des Dieux",
    "opis_producenta": "Black tea, spices & flowers",
    "porcja": null,
    "typ": "czarna"
   },
   {
-   "nazwa": "Chamomilla",
-   "opis_producenta": "Wild chamomile flowers, artisan herbal tea",
-   "porcja": null,
-   "typ": "ziołowa"
+   "nazwa": "Cha Borane",
+   "opis_producenta": "Blue tea from Thailand",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
   },
   {
-   "nazwa": "Chaï - Chandernagor",
-   "opis_producenta": "Black tea, imperial spices",
+   "nazwa": "Cha Borane Suprême",
+   "opis_producenta": "Blue tea from Thailand",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Cha Do",
+   "opis_producenta": "Evening black tea, India & Formosa",
    "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
   },
   {
-   "nazwa": "Chaï - Karikal",
-   "opis_producenta": "Green tea, imperial spices",
-   "porcja": null,
+   "nazwa": "Cha Kio",
+   "opis_producenta": "Green tea, Thailand",
+   "porcja": "100g ~ about 40 cups",
    "typ": "zielona"
+  },
+  {
+   "nazwa": "Chaï Earl Grey",
+   "opis_producenta": "Black tea, imperial spices & bergamot",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
   },
   {
    "nazwa": "Chaï Matchaï",
@@ -290,10 +614,58 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Chaï Parisien",
+   "opis_producenta": "Spicy black tea with mellow fuity notes",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Chaïwallah",
+   "opis_producenta": "Blue tea chaï, imperial spices, golden liqueur",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Chaïwallah Rouge",
+   "opis_producenta": "Red rooibos chaï, imperial spices",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "rooibos"
+  },
+  {
+   "nazwa": "Chamomilla",
+   "opis_producenta": "Wild chamomile flowers, artisan herbal tea",
+   "porcja": null,
+   "typ": "ziołowa"
+  },
+  {
+   "nazwa": "Champasak",
+   "opis_producenta": "Smoky green tea - Laos",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Champus",
+   "opis_producenta": "Colombian Black Tea, fashioned in the heart of the Andes",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Chaï - Chandernagor",
+   "opis_producenta": "Black tea, imperial spices",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
    "nazwa": "Chine - Thé Du Dragon",
    "opis_producenta": "Crafted green tea, jasmine",
    "porcja": null,
    "typ": "zielona"
+  },
+  {
+   "nazwa": "Chongtong",
+   "opis_producenta": "FTGFOP1 DJ10/2023 - Spring Flush – Premium First Flush",
+   "porcja": "50g ~ about 20 cups",
+   "typ": null
   },
   {
    "nazwa": "Christmas Cake Tea",
@@ -304,6 +676,12 @@
   {
    "nazwa": "Christmas Earl Grey",
    "opis_producenta": "Black tea",
+   "porcja": null,
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Christmas In Love",
+   "opis_producenta": "Black tea with fruits and gentle spices",
    "porcja": null,
    "typ": "czarna"
   },
@@ -338,6 +716,18 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Chun Mee Mountain Tea",
+   "opis_producenta": "Green tea, China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Chun Mee Zhejiang",
+   "opis_producenta": "Green tea, China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
    "nazwa": "Citron Soleil",
    "opis_producenta": "Scented green tea",
    "porcja": "100g ~ about 40 cups",
@@ -350,6 +740,12 @@
    "typ": "zielona"
   },
   {
+   "nazwa": "Cocada De Colombia",
+   "opis_producenta": "Colombian Black Tea, fashioned in the heart of the Andes",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
    "nazwa": "Colombian Breakfast Chaï",
    "opis_producenta": "Black tea sweet spices, cocoa and coffee beans - Colombia",
    "porcja": null,
@@ -358,7 +754,13 @@
   {
    "nazwa": "Colombian Breakfast Chaï",
    "opis_producenta": "Black tea, sweet spices, cocoa and coffee beans - Colombia",
-   "porcja": null,
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Comète",
+   "opis_producenta": "Evening scented black tea, low in theine",
+   "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
   },
   {
@@ -366,6 +768,12 @@
    "opis_producenta": "Green tea, fruits & yuzu",
    "porcja": null,
    "typ": "zielona"
+  },
+  {
+   "nazwa": "Coup De Foudre",
+   "opis_producenta": "LOVE AT FIRST SIGHT® – ALLURING BLACK TEA",
+   "porcja": null,
+   "typ": "czarna"
   },
   {
    "nazwa": "Coup De Soleil",
@@ -376,7 +784,7 @@
   {
    "nazwa": "Covent Garden Morning",
    "opis_producenta": "Black tea, luscious and aromatic nutty notes",
-   "porcja": null,
+   "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
   },
   {
@@ -386,16 +794,40 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Darjeeling Camélia",
+   "opis_producenta": "SFTGFOP1 - Darjeeling Assemblage",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
+  },
+  {
    "nazwa": "Darjeeling Himalaya",
    "opis_producenta": "Grand afternoon black tea - India",
    "porcja": null,
    "typ": "czarna"
   },
   {
+   "nazwa": "Darjeeling Impérial",
+   "opis_producenta": "SFTGFOP1 - Darjeeling Assemblage",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
+  },
+  {
    "nazwa": "Darjeeling Master",
    "opis_producenta": "Spring & summer black teas assemblage",
    "porcja": null,
    "typ": "czarna"
+  },
+  {
+   "nazwa": "Darjeeling Orange Valley",
+   "opis_producenta": "Black tea, India – First Flush – FTGFOP1",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Darjeeling Orange Valley",
+   "opis_producenta": "Green tea - Darjeeling",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
   },
   {
    "nazwa": "Darjeeling Princeton",
@@ -406,7 +838,13 @@
   {
    "nazwa": "Darjeeling Rose Camélia",
    "opis_producenta": "Finest black tea & fragrant rose petals",
-   "porcja": null,
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "De Londres",
+   "opis_producenta": "Black tea for breakfast Cameroon, China & India",
+   "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
   },
   {
@@ -416,10 +854,28 @@
    "typ": "zielona"
   },
   {
+   "nazwa": "Donyi Polo",
+   "opis_producenta": "FTGFOP1 - Black tea - Arunachal Pradesh",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Donyi Polo White Tea",
+   "opis_producenta": "White tea - Arunachal Pradesh",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "biała"
+  },
+  {
    "nazwa": "Dream Tea",
    "opis_producenta": "Herbal tea naturelly theine free, eight velvety soothing relaxing herbs",
    "porcja": null,
    "typ": "ziołowa"
+  },
+  {
+   "nazwa": "Earl Grey",
+   "opis_producenta": "Black China tea with Bergamot scent",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
   },
   {
    "nazwa": "Earl Grey Beauty",
@@ -436,6 +892,18 @@
   {
    "nazwa": "Earl Grey D'Or",
    "opis_producenta": "Gorgeous golden black tea, divine bergamot",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Earl Grey Déthéiné",
+   "opis_producenta": "Theine-free tea - Bergamot",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Earl Grey French Blue",
+   "opis_producenta": "Black iced tea with notes of bergamot & royal blue flowers",
    "porcja": null,
    "typ": "czarna"
   },
@@ -444,12 +912,6 @@
    "opis_producenta": "Black tea, velvety bergamot & royal blue flowers",
    "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
-  },
-  {
-   "nazwa": "Earl Grey French Blue",
-   "opis_producenta": "Black iced tea with notes of bergamot & royal blue flowers",
-   "porcja": null,
-   "typ": null
   },
   {
    "nazwa": "Earl Grey Impérial",
@@ -462,6 +924,12 @@
    "opis_producenta": "Bergamot flavoured Darjeeling tea",
    "porcja": "100g ~ about 40 cups",
    "typ": null
+  },
+  {
+   "nazwa": "Earl Grey In Love",
+   "opis_producenta": "Fragrant blue tea, golden liqueur",
+   "porcja": null,
+   "typ": "oolong"
   },
   {
    "nazwa": "Earl Grey Limerance",
@@ -478,8 +946,14 @@
   {
    "nazwa": "Earl Grey Provence",
    "opis_producenta": "Black tea, bergamot & blue lavender",
-   "porcja": null,
+   "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
+  },
+  {
+   "nazwa": "Earl Grey Pu-Erh",
+   "opis_producenta": "Matured tea from China with bergamot scent",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "rooibos"
   },
   {
    "nazwa": "Earl Grey Rhapsody",
@@ -488,16 +962,22 @@
    "typ": "biała"
   },
   {
+   "nazwa": "Earl Grey Rhapsody",
+   "opis_producenta": "Pink white tea with notes of bergamot",
+   "porcja": null,
+   "typ": "biała"
+  },
+  {
+   "nazwa": "Earl Grey Sencha",
+   "opis_producenta": "Green tea from China with bergamot scent",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
    "nazwa": "Eau De Lune",
    "opis_producenta": "White tea, floral & exotic bouquet",
    "porcja": "100g ~ about 40 cups",
    "typ": "biała"
-  },
-  {
-   "nazwa": "Elixir D’Amour",
-   "opis_producenta": "Black tea, citrus & flowers",
-   "porcja": "100g ~ about 40 cups",
-   "typ": "czarna"
   },
   {
    "nazwa": "Eléphant Blanc",
@@ -506,9 +986,21 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Elixir D’Amour",
+   "opis_producenta": "Black tea, citrus & flowers",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Élixir D’Amour",
+   "opis_producenta": "Blue tea, citrus note & rose, golden liqueur",
+   "porcja": null,
+   "typ": "oolong"
+  },
+  {
    "nazwa": "Empereur Chen-Nung",
    "opis_producenta": "Well-balanced smoky mellow black tea",
-   "porcja": null,
+   "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
   },
   {
@@ -524,8 +1016,26 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "English Earl Grey",
+   "opis_producenta": "Black tea from China with bergamot & Darjeeling",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Éros",
+   "opis_producenta": "Flowery black tea",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
    "nazwa": "Esprit De Noël",
    "opis_producenta": "Festive black tea with sweet spices",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Ethelwold - Gbop",
+   "opis_producenta": "Black Tea - Assam",
    "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
   },
@@ -536,10 +1046,34 @@
    "typ": "zielona"
   },
   {
+   "nazwa": "Étoile Mystérieuse",
+   "opis_producenta": "Gourmet black tea",
+   "porcja": null,
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Evening Tea",
+   "opis_producenta": "Evening black tea, India & Ceylon",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Fall In Love",
+   "opis_producenta": "Black tea, rose & pâtisserie notes",
+   "porcja": null,
+   "typ": "czarna"
+  },
+  {
    "nazwa": "Fall In Love",
    "opis_producenta": "Blue tea, rose & pâtisserie notes, golden liqueur",
    "porcja": null,
    "typ": "oolong"
+  },
+  {
+   "nazwa": "Fall In Love",
+   "opis_producenta": "Green tea, rose & pâtisserie notes",
+   "porcja": null,
+   "typ": "zielona"
   },
   {
    "nazwa": "Fantôme De L'Opéra",
@@ -554,6 +1088,12 @@
    "typ": "zielona"
   },
   {
+   "nazwa": "Feu De Thé",
+   "opis_producenta": "Smoky black tea for breakfast",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
    "nazwa": "Fils Du Ciel",
    "opis_producenta": "Green tea - Exotic fruits",
    "porcja": "100g ~ about 40 cups",
@@ -566,10 +1106,28 @@
    "typ": "zielona"
   },
   {
+   "nazwa": "Five O’Clock Tea",
+   "opis_producenta": "Daytime black tea, Ceylon",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
    "nazwa": "Fleur D'Eau",
    "opis_producenta": "Scented white tea",
    "porcja": null,
    "typ": "biała"
+  },
+  {
+   "nazwa": "Fleur D'Eau",
+   "opis_producenta": "Thé blanc - Yin Zhen, citrus notes",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "biała"
+  },
+  {
+   "nazwa": "Fleur D’Opium",
+   "opis_producenta": "Black tea - China, Hunan",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
   },
   {
    "nazwa": "Fleur D'Orient",
@@ -584,6 +1142,12 @@
    "typ": "zielona"
   },
   {
+   "nazwa": "Fleur De Darjeeling",
+   "opis_producenta": "Blue tea™ - Darjeeling with Camelia Sinensis flower",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
+  },
+  {
    "nazwa": "Fleur De Voyage",
    "opis_producenta": "Crafted green tea, jasmine and marigold flowers",
    "porcja": "50g ~ about 20 cups",
@@ -596,14 +1160,26 @@
    "typ": "zielona"
   },
   {
+   "nazwa": "Fleurs D’Oranger",
+   "opis_producenta": "Scented tea assemblage",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
+  },
+  {
    "nazwa": "Flower Moon",
-   "opis_producenta": "Blue Tea™, pearly almond and sweet spices, golden liqueur",
+   "opis_producenta": "Blue Tea™, pearly almond & sweet spices, golden liqueur",
    "porcja": null,
    "typ": "oolong"
   },
   {
    "nazwa": "Flower Moon",
-   "opis_producenta": "Blue Tea™, pearly almond & sweet spices, golden liqueur",
+   "opis_producenta": "Blue Tea™, pearly almond and sweet spices, golden liqueur",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Flower Summer",
+   "opis_producenta": "Iced blue tea, a summer of flowers, golden liqueur",
    "porcja": null,
    "typ": "oolong"
   },
@@ -618,6 +1194,12 @@
    "opis_producenta": "Black tea, citrus",
    "porcja": null,
    "typ": "czarna"
+  },
+  {
+   "nazwa": "French Afternoon Tea",
+   "opis_producenta": "Silky green tea with hints of velvety vanilla , golden liqueur",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
   },
   {
    "nazwa": "French Afternoon Tea",
@@ -638,9 +1220,57 @@
    "typ": "zielona"
   },
   {
+   "nazwa": "Fukamushicha",
+   "opis_producenta": "Green tea - Japan",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Full Moon Party",
+   "opis_producenta": "Green tea - spices, almond & flowers",
+   "porcja": null,
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Full Moon Party",
+   "opis_producenta": "Red Rooibos - spices, almond & flowers",
+   "porcja": null,
+   "typ": "rooibos"
+  },
+  {
+   "nazwa": "Full Moon Rhapsody",
+   "opis_producenta": "Pink white tea with notes of white almonds",
+   "porcja": null,
+   "typ": "biała"
+  },
+  {
    "nazwa": "Gabacha",
    "opis_producenta": "Green tea, immensely umami and comforting - Japan",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Gaoshan Cha",
+   "opis_producenta": "Blue tea, Formosa",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Garden Party",
+   "opis_producenta": "Jubilant blue tea, fruity flowery notes",
    "porcja": null,
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Gengis Khan",
+   "opis_producenta": "Daytime smoky black tea",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Genmaïcha",
+   "opis_producenta": "Green tea & roasted popped rice - Japan",
+   "porcja": "100g ~ about 40 cups",
    "typ": "zielona"
   },
   {
@@ -650,10 +1280,112 @@
    "typ": "zielona"
   },
   {
+   "nazwa": "Géorgie",
+   "opis_producenta": "OP - Black tea, Georgia",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
    "nazwa": "Ginger Summer",
    "opis_producenta": "Iced Black tea",
    "porcja": null,
    "typ": "czarna"
+  },
+  {
+   "nazwa": "Ginza Premier",
+   "opis_producenta": "Blue tea with citrus notes - Tea and love from Tokyo, golden liqueur",
+   "porcja": null,
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Gold Himalaya",
+   "opis_producenta": "Black tea - Nepal First Flush 2017",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Golden Monkey King",
+   "opis_producenta": "Black tea, China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Gouria",
+   "opis_producenta": "Green tea - Georgia",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Gouria Op1",
+   "opis_producenta": "Black tea, Georgia",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Gouverneur",
+   "opis_producenta": "Rich, smooth morning black tea",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Gozhang Maojian",
+   "opis_producenta": "Green tea, China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Grand Bois Chéri",
+   "opis_producenta": "BOP - Black tea - Mauritius",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Grand Earl Grey",
+   "opis_producenta": "Black tea with bergamot scent from Ceylon",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Grand Keemun",
+   "opis_producenta": "FOP - Black tea from China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Grand Oolong",
+   "opis_producenta": "Blue tea™ - Formosa",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Grand Oolong Fancy",
+   "opis_producenta": "Blue tea",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Grand Yunnan",
+   "opis_producenta": "Black tea",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Guayaba De Colombia",
+   "opis_producenta": "Colombian Green Tea, fashioned in the heart of Colombia",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Guerriers",
+   "opis_producenta": "Black tea for breakfast, Asia & Africa",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Gunpowder",
+   "opis_producenta": "Green tea - China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
   },
   {
    "nazwa": "Gyokuro Impérial Hakuyocha",
@@ -662,10 +1394,40 @@
    "typ": null
   },
   {
+   "nazwa": "Gyokuro Kagoshima",
+   "opis_producenta": "Green tea, Japan",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Gyokuro Kansaï",
+   "opis_producenta": "Green tea supérieur, Japan",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Gyokuro Kyoto",
+   "opis_producenta": "Green Tea - Japan",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Gyokuro Supreme Asahina",
+   "opis_producenta": "Green tea - Japan",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "zielona"
+  },
+  {
    "nazwa": "Habibi",
    "opis_producenta": "Gourmet black tea, rose lychee and orange blossom",
    "porcja": null,
    "typ": "czarna"
+  },
+  {
+   "nazwa": "Habibi In Love",
+   "opis_producenta": "Fragrant blue tea, with notes of lychee, delicate rose, and orange blossom",
+   "porcja": null,
+   "typ": "oolong"
   },
   {
    "nazwa": "Habibi Rhapsody",
@@ -698,8 +1460,20 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Happy Valley",
+   "opis_producenta": "FTGFOP1, black tea, summer flush, Darjeeling - India",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
    "nazwa": "Havana",
    "opis_producenta": "Green iced tea with notes of flowers & fruits",
+   "porcja": null,
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Hawaïï:Kawaïï",
+   "opis_producenta": "Iced green tea with notes of hibiscus flowers, pineapple and red fruits",
    "porcja": null,
    "typ": "zielona"
   },
@@ -710,16 +1484,16 @@
    "typ": "rooibos"
   },
   {
-   "nazwa": "Hawaïï:Kawaïï",
-   "opis_producenta": "Iced green tea with notes of hibiscus flowers, pineapple and red fruits",
-   "porcja": null,
-   "typ": "zielona"
-  },
-  {
    "nazwa": "Himalayan Peach",
    "opis_producenta": "Scented peach black tea - Darjeeling",
    "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
+  },
+  {
+   "nazwa": "Hojicha",
+   "opis_producenta": "Toasted green tea - Japan",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
   },
   {
    "nazwa": "Honyamacha-Meicha",
@@ -728,10 +1502,34 @@
    "typ": "zielona"
   },
   {
+   "nazwa": "Huang Cha",
+   "opis_producenta": "Yellow tea - Yunnan, China",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "żółta"
+  },
+  {
+   "nazwa": "Hyson Gunpowder",
+   "opis_producenta": "Green tea, China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
    "nazwa": "I Have A Dream",
    "opis_producenta": "Gourmet black tea with sparkling citrus notes",
    "porcja": null,
    "typ": "czarna"
+  },
+  {
+   "nazwa": "Île Des Dieux",
+   "opis_producenta": "Green tea, Korea",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Île Des Dieux Suprême",
+   "opis_producenta": "Green tea - Korea",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
   },
   {
    "nazwa": "Ile Magique",
@@ -746,10 +1544,22 @@
    "typ": null
   },
   {
+   "nazwa": "Imperial Souchong",
+   "opis_producenta": "Unsmoked flowery black tea",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
    "nazwa": "Inde - Thé Des Maharajahs",
    "opis_producenta": "Black tea, citrus & patisserie notes",
    "porcja": null,
    "typ": "czarna"
+  },
+  {
+   "nazwa": "Iskandar",
+   "opis_producenta": "Green iced tea with notes of velvety violet",
+   "porcja": null,
+   "typ": "zielona"
   },
   {
    "nazwa": "Iskandar",
@@ -758,10 +1568,10 @@
    "typ": "zielona"
   },
   {
-   "nazwa": "Iskandar",
-   "opis_producenta": "Green iced tea with notes of velvety violet",
-   "porcja": null,
-   "typ": "zielona"
+   "nazwa": "Ivory Himalaya",
+   "opis_producenta": "White tea - Nepal Summer Flush",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "biała"
   },
   {
    "nazwa": "Ivory Himalaya",
@@ -771,9 +1581,21 @@
   },
   {
    "nazwa": "Jade Himalaya",
+   "opis_producenta": "Green tea - Nepal Summer Flush",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Jade Himalaya",
    "opis_producenta": "Green tea, Nepal, Summer Flush",
    "porcja": null,
    "typ": "zielona"
+  },
+  {
+   "nazwa": "Jamirah Blend",
+   "opis_producenta": "GFBOP - Black tea - Assam Summer Flush",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
   },
   {
    "nazwa": "Japon - Thé Des Samouraïs",
@@ -800,6 +1622,12 @@
    "typ": "zielona"
   },
   {
+   "nazwa": "Jasmin Chung Feng",
+   "opis_producenta": "Green tea scented with jasmine",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
    "nazwa": "Jasmin Divin",
    "opis_producenta": "Green tea with jasmine flowers",
    "porcja": "100g ~ about 40 cups",
@@ -807,6 +1635,12 @@
   },
   {
    "nazwa": "Jasmin Empereur Pu Yi",
+   "opis_producenta": "Green tea scented with jasmine flowers",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Jasmin Impérial",
    "opis_producenta": "Green tea scented with jasmine flowers",
    "porcja": "100g ~ about 40 cups",
    "typ": "zielona"
@@ -842,16 +1676,148 @@
    "typ": "zielona"
   },
   {
+   "nazwa": "Jasmine Rhapsody",
+   "opis_producenta": "Pink white tea with notes of jasmine",
+   "porcja": null,
+   "typ": "biała"
+  },
+  {
+   "nazwa": "Java Blanc",
+   "opis_producenta": "White tea, Indonesia",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "biała"
+  },
+  {
+   "nazwa": "Java Blue",
+   "opis_producenta": "Blue tea, Indonesia",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Java Blue Suprême",
+   "opis_producenta": "Blue tea, Indonesia",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
+  },
+  {
    "nazwa": "Joie De Vivre In Goa",
    "opis_producenta": "Sublime White Tea - Scented white tea",
    "porcja": null,
    "typ": "biała"
   },
   {
+   "nazwa": "Jungpana Ftgfop1",
+   "opis_producenta": "Black tea, summer flush - Darjeeling India",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Kaiser",
+   "opis_producenta": "Black tea for breakfast - German recipe",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Kaori Cha",
+   "opis_producenta": "Green tea & roasted popped rice - Japan",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Chaï - Karikal",
+   "opis_producenta": "Green tea, imperial spices",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Kawanecha",
+   "opis_producenta": "Green tea - Japan",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Keemun Imperial",
+   "opis_producenta": "Black tea, China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Kenilworth",
+   "opis_producenta": "OP1 - Black tea Ceylon",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Kimberley",
+   "opis_producenta": "Red tea Rooibos - Fruity & flowery",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "rooibos"
+  },
+  {
+   "nazwa": "Kirishima Cha",
+   "opis_producenta": "Green tea - Japan",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Kissed Blue Tea",
+   "opis_producenta": "Blue tea",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Kissed Oriental Beauty",
+   "opis_producenta": "Blue Tea, China",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Ko Kant",
+   "opis_producenta": "Green tea, Burma",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Kuki Hojicha",
+   "opis_producenta": "Toasted green tea - Japan",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Kuki Tencha",
+   "opis_producenta": "Green tea from Japan",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Kukicha",
+   "opis_producenta": "Green tea - Japan",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Kyoto Oolong",
+   "opis_producenta": "Japan Blue tea",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "oolong"
+  },
+  {
    "nazwa": "La Route Du Temps",
    "opis_producenta": "Flowery green tea & sweet ginger",
-   "porcja": null,
+   "porcja": "100g ~ about 40 cups",
    "typ": "zielona"
+  },
+  {
+   "nazwa": "Lan Na Thai",
+   "opis_producenta": "Green tea, Thailand",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Lanterne Rouge",
+   "opis_producenta": "FTGFOP1 - Black tea - China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
   },
   {
    "nazwa": "Laos - Thé Des Moussons",
@@ -862,7 +1828,7 @@
   {
    "nazwa": "Lapsang Chinbara",
    "opis_producenta": "Black tea, authentic smoky Lapsang Souchong",
-   "porcja": null,
+   "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
   },
   {
@@ -870,6 +1836,24 @@
    "opis_producenta": "Green mate & tender spices",
    "porcja": null,
    "typ": "mate"
+  },
+  {
+   "nazwa": "Latino Mucho",
+   "opis_producenta": "Green maté & bergamot",
+   "porcja": null,
+   "typ": "mate"
+  },
+  {
+   "nazwa": "Le Consul",
+   "opis_producenta": "Black tea for breakfast strong & subtle",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Le Voyageur",
+   "opis_producenta": "Daytime scented black tea, memorable flavour",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
   },
   {
    "nazwa": "Libertango",
@@ -914,15 +1898,21 @@
    "typ": "oolong"
   },
   {
+   "nazwa": "London Rhapsody",
+   "opis_producenta": "Pink white tea with notes of bergamot, mint, and lavender",
+   "porcja": null,
+   "typ": "biała"
+  },
+  {
+   "nazwa": "Los Andes",
+   "opis_producenta": "Colombian Black Tea, fashioned in the heart of the Andes",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
    "nazwa": "Lotus Pourpre",
    "opis_producenta": "Blue tea with Lotus stamen",
    "porcja": "50g ~ about 20 cups",
-   "typ": "oolong"
-  },
-  {
-   "nazwa": "Love Song Tea",
-   "opis_producenta": "Scented Blue Tea, golden liqueur",
-   "porcja": null,
    "typ": "oolong"
   },
   {
@@ -938,10 +1928,10 @@
    "typ": "zielona"
   },
   {
-   "nazwa": "Love Story",
-   "opis_producenta": "Gourmet black tea with enveloping fruity & flowery notes",
+   "nazwa": "Love Song Tea",
+   "opis_producenta": "Scented Blue Tea, golden liqueur",
    "porcja": null,
-   "typ": "czarna"
+   "typ": "oolong"
   },
   {
    "nazwa": "Love Story",
@@ -950,9 +1940,51 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Love Story",
+   "opis_producenta": "Gourmet black tea with enveloping fruity & flowery notes",
+   "porcja": null,
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Lu Yu",
+   "opis_producenta": "Smoky black tea for breakfast, bergamot",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Lucky Tea 168",
+   "opis_producenta": "Lucky blue tea, notes of clover flowers, golden liqueur",
+   "porcja": null,
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Lulo De Colombia",
+   "opis_producenta": "Colombian Green Tea, fashioned in the heart of the Andes",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
    "nazwa": "Lune Rouge",
    "opis_producenta": "Mild green tea - rose, ginger & honey",
-   "porcja": null,
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Lung Ching",
+   "opis_producenta": "Green tea - China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Lung Ching D'Or",
+   "opis_producenta": "Green tea - China",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Lung Ching Impérial",
+   "opis_producenta": "Green tea, China",
+   "porcja": "50g ~ about 20 cups",
    "typ": "zielona"
   },
   {
@@ -974,9 +2006,39 @@
    "typ": "zielona"
   },
   {
+   "nazwa": "Maharajah",
+   "opis_producenta": "Daytime black tea, India",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Mahé",
+   "opis_producenta": "Evening black, green & Blue tea assemblage",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "mieszanka"
+  },
+  {
+   "nazwa": "Maison De Thé",
+   "opis_producenta": "Black tea for breakfast, China & Formosa",
+   "porcja": "500g ~ about 200 cups",
+   "typ": "czarna"
+  },
+  {
    "nazwa": "Majestic Lime & Ginger",
    "opis_producenta": "Comforting aromatic blue tea, golden liqueur",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Majesty",
+   "opis_producenta": "Smoky black tea for breakfast, Ceylon & China",
    "porcja": null,
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Malaïka Blue",
+   "opis_producenta": "Blue tea from Malawi",
+   "porcja": "100g ~ about 40 cups",
    "typ": "oolong"
   },
   {
@@ -986,10 +2048,34 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Mandarine In Love",
+   "opis_producenta": "Flavoured green tea",
+   "porcja": null,
+   "typ": "zielona"
+  },
+  {
    "nazwa": "Mangue Amazone",
    "opis_producenta": "Scented black tea",
    "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
+  },
+  {
+   "nazwa": "Manjhee Valley",
+   "opis_producenta": "SFTGFOP1 - Black tea - Himachal Pradesh",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Maori Blue",
+   "opis_producenta": "Blue tea, New Zealand",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Maori Blue, Millesime 2010",
+   "opis_producenta": "Blue tea, New Zealand",
+   "porcja": null,
+   "typ": "oolong"
   },
   {
    "nazwa": "Maori Blue Suprême",
@@ -999,9 +2085,33 @@
   },
   {
    "nazwa": "Maori Noir",
+   "opis_producenta": "Black tea - New Zealand",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Maori Noir",
    "opis_producenta": "Black tea, New Zealand",
    "porcja": null,
    "typ": "czarna"
+  },
+  {
+   "nazwa": "Maori Robe Rouge",
+   "opis_producenta": "Blue tea - New Zealand",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Marais In Love",
+   "opis_producenta": "Fragrant blue tea, golden liqueur",
+   "porcja": null,
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Marais Premier",
+   "opis_producenta": "Joyful and Parisian Blue Tea, with citrus notes, golden liqueur",
+   "porcja": null,
+   "typ": "oolong"
   },
   {
    "nazwa": "Marco Polo",
@@ -1016,8 +2126,26 @@
    "typ": "oolong"
   },
   {
+   "nazwa": "Marco Polo Blue Sublime",
+   "opis_producenta": "Legendary blue tea, bewitching fruity note, golden liqueur",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Marco Polo Rhapsody",
+   "opis_producenta": "Pink white tea with fruity and floral notes",
+   "porcja": null,
+   "typ": "biała"
+  },
+  {
    "nazwa": "Marco Polo Rouge",
    "opis_producenta": "Red Tea naturally theine-free, mellow , fruity & flowery",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "rooibos"
+  },
+  {
+   "nazwa": "Marco Polo Rouge Sublime",
+   "opis_producenta": "Legendary rooibos, bewitching fruity note",
    "porcja": "100g ~ about 40 cups",
    "typ": "rooibos"
   },
@@ -1030,8 +2158,26 @@
   {
    "nazwa": "Marco Polo Vert Sublime",
    "opis_producenta": "Green tea, legendary & bewitching fruity notes",
-   "porcja": null,
+   "porcja": "100g ~ about 40 cups",
    "typ": "zielona"
+  },
+  {
+   "nazwa": "Margaret’s Hope",
+   "opis_producenta": "FTGFOP1 DJ-4/2025 - Récolte de Printemps - Premium First Flush",
+   "porcja": "50g ~ about 20 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Margaret’s Hope",
+   "opis_producenta": "FTGFOP1 DJ19/2023 - Spring Flush – Premium First Flush",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Margaret's Hope",
+   "opis_producenta": "FTGFOP1 DJ26/2018 Darjeeling First Flush",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
   },
   {
    "nazwa": "Master",
@@ -1040,15 +2186,39 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Matcha Kyoto",
+   "opis_producenta": "Ceremonial powdered green tea – Cultivar Samidori - Uji, Japan",
+   "porcja": null,
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Matcha Midori",
+   "opis_producenta": "Powdered green tea – Cultivar Yabukita - Miyazaki, Japan",
+   "porcja": null,
+   "typ": "zielona"
+  },
+  {
    "nazwa": "Matcha Uji",
    "opis_producenta": "Powdered green tea – Cultivar Yabukita - Uji, Japan",
    "porcja": null,
    "typ": "zielona"
   },
   {
+   "nazwa": "Matcha Yuzu",
+   "opis_producenta": "Powdered green tea – Cultivar Saemidori, Yabukita, Samidori - Shizuoka, Japan",
+   "porcja": null,
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Matin D'Afrique",
+   "opis_producenta": "Fine Africa black teas with a vanilla note",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
    "nazwa": "Matin Parisien",
    "opis_producenta": "Bright black tea, sparkling citrus notes",
-   "porcja": null,
+   "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
   },
   {
@@ -1084,7 +2254,7 @@
   {
    "nazwa": "Milky Blue",
    "opis_producenta": "Seductive Blue Tea™, with a rich milky note",
-   "porcja": null,
+   "porcja": "100g ~ about 40 cups",
    "typ": "oolong"
   },
   {
@@ -1092,6 +2262,18 @@
    "opis_producenta": "Silky blue tea with lush milky notes",
    "porcja": "100g ~ about 40 cups",
    "typ": "oolong"
+  },
+  {
+   "nazwa": "Milky Blue Caramelo",
+   "opis_producenta": "Notes riches de dulce de leche et cacao",
+   "porcja": null,
+   "typ": null
+  },
+  {
+   "nazwa": "Milky Blue Caramelo",
+   "opis_producenta": "Rich notes of dulce de leche and cacao",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
   },
   {
    "nazwa": "Milky China Blue",
@@ -1106,10 +2288,16 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Miyazaki Cha",
+   "opis_producenta": "Green tea, Japan",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
    "nazwa": "Montagne D'Or",
    "opis_producenta": "Golden Mountain - Sweet black fruity tea",
-   "porcja": null,
-   "typ": null
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
   },
   {
    "nazwa": "Montagne De Jade",
@@ -1130,16 +2318,46 @@
    "typ": "biała"
   },
   {
-   "nazwa": "Montagne D’Or",
-   "opis_producenta": "Golden Mountain - Sweet black fruity tea",
+   "nazwa": "Montagne Kong Ming",
+   "opis_producenta": "Green tea, China",
    "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Moon Palace",
+   "opis_producenta": "Blue tea from Thailand",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Moondakotee",
+   "opis_producenta": "FTGFOP1 DJ15/2018 - Darjeeling First Flush 2018",
+   "porcja": null,
    "typ": null
+  },
+  {
+   "nazwa": "Moonshine Glenburn",
+   "opis_producenta": "Darjeeling - White tea",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "biała"
   },
   {
    "nazwa": "Morning Glory",
    "opis_producenta": "Black tea, sunny and mellow citrus notes",
-   "porcja": null,
+   "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
+  },
+  {
+   "nazwa": "Morning Tea",
+   "opis_producenta": "Black tea for breakfast - India & Ceylon",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Mountain Li Cha",
+   "opis_producenta": "Blue tea, Formosa",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "oolong"
   },
   {
    "nazwa": "Mousse Au Chocolat",
@@ -1154,22 +2372,88 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Namaskar",
+   "opis_producenta": "Scented black tea",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Namring",
+   "opis_producenta": "FTGFOP1 DJ2/2016 - Darjeeling Premium First Flush",
+   "porcja": "50g ~ about 20 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Namring",
+   "opis_producenta": "SFTGFOP1 DJ1/2014 - Darjeeling Premium First Flush",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Namring High Mountain",
+   "opis_producenta": "EX14/2018 - Blue tea™ Darjeeling",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Namring-Queen Upper",
+   "opis_producenta": "FTGFOP1 EX4/2018 - Darjeeling Premium First Flush",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
+  },
+  {
    "nazwa": "Namring Royal Upper",
    "opis_producenta": "FTGFOP1EX-11/2024 - Spring Flush – Premium First Flush",
    "porcja": "50g ~ about 20 cups",
    "typ": null
   },
   {
+   "nazwa": "Namring Upper",
+   "opis_producenta": "FTGFOP1 - Spring Flush – Premium First Flush",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Namring Upper",
+   "opis_producenta": "FTGFOP1 EX156/2017 Darjeeling Summer Flush",
+   "porcja": "50g ~ about 20 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Namring Upper",
+   "opis_producenta": "SFTGFOP1 DJ18/2015 - Darjeeling Premium First Flush",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Namring Upper Elixir",
+   "opis_producenta": "FTGFOP1 EX3/2026 - Spring Flush – Premium First Flush",
+   "porcja": null,
+   "typ": null
+  },
+  {
    "nazwa": "Namring Upper Fairy",
    "opis_producenta": "FTGFOP1 /2024 - Récolte d'été - Thé Noir - Darjeeling Inde",
    "porcja": "100g ~ about 40 cups",
-   "typ": null
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Namring Upper Glory",
+   "opis_producenta": "Black Tea FTGFOP1, summer flush - Darjeeling, India",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "czarna"
   },
   {
    "nazwa": "Namring Upper Harmony",
    "opis_producenta": "FTGFOP1 /2024 - Récolte d'été - Thé Noir – Darjeeling Inde",
    "porcja": "100g ~ about 40 cups",
-   "typ": null
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Namring Upper Moonlight",
+   "opis_producenta": "White tea, summer flush - Darjeeling, India",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "biała"
   },
   {
    "nazwa": "Neige D'Argent",
@@ -1198,8 +2482,14 @@
   {
    "nazwa": "Nil Rouge",
    "opis_producenta": "Red tea naturally theine-free, fruity & lemony",
-   "porcja": null,
+   "porcja": "100g ~ about 40 cups",
    "typ": "rooibos"
+  },
+  {
+   "nazwa": "Nishi Cha",
+   "opis_producenta": "Green tea - Japan",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "zielona"
   },
   {
    "nazwa": "Nocturne Oriental",
@@ -1208,16 +2498,34 @@
    "typ": "zielona"
   },
   {
-   "nazwa": "Noix De Coco Velours",
-   "opis_producenta": "Scented black tea",
-   "porcja": "100g ~ about 40 cups",
+   "nazwa": "Noël Amour",
+   "opis_producenta": "Black tea with Christmas spices & fruits",
+   "porcja": null,
    "typ": "czarna"
+  },
+  {
+   "nazwa": "Noël Amour",
+   "opis_producenta": "Blue tea with Christmas spices & fruits, golden liqueur",
+   "porcja": null,
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Noël Amour",
+   "opis_producenta": "Green tea with Christmas spices & fruits",
+   "porcja": null,
+   "typ": "zielona"
   },
   {
    "nazwa": "Noël Amour",
    "opis_producenta": "Red rooibos with Christmas spices & fruits",
    "porcja": null,
    "typ": "rooibos"
+  },
+  {
+   "nazwa": "Noël Amour",
+   "opis_producenta": "White tea with Christmas spices & fruits",
+   "porcja": null,
+   "typ": "biała"
   },
   {
    "nazwa": "Noël Impérial",
@@ -1244,10 +2552,70 @@
    "typ": "zielona"
   },
   {
+   "nazwa": "Noël Princier",
+   "opis_producenta": "Festive green tea",
+   "porcja": null,
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Noël Rhapsody",
+   "opis_producenta": "Pink white tea with gourmet notes of Christmas brioche",
+   "porcja": null,
+   "typ": "biała"
+  },
+  {
+   "nazwa": "Noël Royal",
+   "opis_producenta": "Festive black tea",
+   "porcja": null,
+   "typ": "czarna"
+  },
+  {
    "nazwa": "Noël Tea",
    "opis_producenta": "Gourmet black tea, sweet festive Christmas spices",
    "porcja": null,
    "typ": "czarna"
+  },
+  {
+   "nazwa": "Noix De Coco Velours",
+   "opis_producenta": "Scented black tea",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "North Tukvar",
+   "opis_producenta": "SFTGFOP1 DJ1/2015 - Darjeeling Premium First Flush",
+   "porcja": "50g ~ about 20 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Nostalgie",
+   "opis_producenta": "Evening black tea, low in theine",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Oaks",
+   "opis_producenta": "SFTGFOP1 DJ-1/2025 - Récolte de Printemps - Premium First Flush",
+   "porcja": "50g ~ about 20 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Oaks Bps",
+   "opis_producenta": "Black tea, summer flush - Darjeeling, India",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Oaks – Strawberry Moon",
+   "opis_producenta": "White tea, summer flush - Darjeeling, India",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "biała"
+  },
+  {
+   "nazwa": "Oolong Fancy",
+   "opis_producenta": "Blue tea, Formosa",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
   },
   {
    "nazwa": "Opéra Blue",
@@ -1262,9 +2630,39 @@
    "typ": "zielona"
   },
   {
+   "nazwa": "Opéra In Love",
+   "opis_producenta": "Fragrant black tea with notes of red fruits and vanilla",
+   "porcja": null,
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Opéra Rhapsody",
+   "opis_producenta": "Pink white tea with notes of vanilla and red fruits",
+   "porcja": null,
+   "typ": "biała"
+  },
+  {
+   "nazwa": "Opium Hill",
+   "opis_producenta": "Blue tea from Thailand",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
+  },
+  {
    "nazwa": "Orange Amère",
    "opis_producenta": "Scented black tea",
    "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Orange Angélique",
+   "opis_producenta": "Orange scented black tea",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Orange Angélique",
+   "opis_producenta": "Thé noir, natural fragrance of sweet orange",
+   "porcja": null,
    "typ": "czarna"
   },
   {
@@ -1274,9 +2672,15 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Orchidée Bleue",
+   "opis_producenta": "Blue tea, Thailand",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
+  },
+  {
    "nazwa": "Orchidée Magique",
    "opis_producenta": "Silky blue tea with a sensual aroma of orchid, golden liqueur",
-   "porcja": null,
+   "porcja": "100g ~ about 40 cups",
    "typ": "oolong"
   },
   {
@@ -1292,10 +2696,40 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Oriental Beauty",
+   "opis_producenta": "Blue tea, Formosa",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Oro Verde",
+   "opis_producenta": "Colombian Green Tea, fashioned in the heart of the Andes",
+   "porcja": null,
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Pai Mu Tan Impérial",
+   "opis_producenta": "White tea, China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "biała"
+  },
+  {
    "nazwa": "Panama",
    "opis_producenta": "Green iced tea with notes of flowers, fruits & mint, golden liqueur",
    "porcja": null,
    "typ": "zielona"
+  },
+  {
+   "nazwa": "Pandam",
+   "opis_producenta": "FTGFOP1 DJ1/17 - Darjeeling First Flush",
+   "porcja": "50g ~ about 20 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Paramaribo",
+   "opis_producenta": "Black tea for breakfast Africa",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
   },
   {
    "nazwa": "Parc Royal",
@@ -1304,31 +2738,13 @@
    "typ": "czarna"
   },
   {
-   "nazwa": "Paris - Bangkok",
-   "opis_producenta": "Black tea",
-   "porcja": null,
+   "nazwa": "Paris-Aoyama",
+   "opis_producenta": "Elegant rosy black tea, fruity and flowery",
+   "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
   },
   {
-   "nazwa": "Paris - Kyoto",
-   "opis_producenta": "Green tea",
-   "porcja": null,
-   "typ": "zielona"
-  },
-  {
-   "nazwa": "Paris - New York",
-   "opis_producenta": "Green tea, golden liqueur",
-   "porcja": null,
-   "typ": "zielona"
-  },
-  {
-   "nazwa": "Paris - Saïgon",
-   "opis_producenta": "Green tea",
-   "porcja": null,
-   "typ": "zielona"
-  },
-  {
-   "nazwa": "Paris - Shanghaï",
+   "nazwa": "Paris - Bangkok",
    "opis_producenta": "Black tea",
    "porcja": null,
    "typ": "czarna"
@@ -1342,7 +2758,7 @@
   {
    "nazwa": "Paris Breakfast Tea",
    "opis_producenta": "Flamboyant black tea with citrus notes",
-   "porcja": null,
+   "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
   },
   {
@@ -1358,6 +2774,54 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Paris-Ginza",
+   "opis_producenta": "Black tea with notes of red fruit and caramel",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Paris In Love",
+   "opis_producenta": "Flavoured blue tea, golden liqueur",
+   "porcja": null,
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Paris - Kyoto",
+   "opis_producenta": "Green tea",
+   "porcja": null,
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Paris-London",
+   "opis_producenta": "Black tea, cordial bouquet of rose and lavander",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Paris-Marais",
+   "opis_producenta": "Seductive lemony green tea with rosy ginger",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Paris - New York",
+   "opis_producenta": "Green tea, golden liqueur",
+   "porcja": null,
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Paris-Provence",
+   "opis_producenta": "Silky white tea, lavender & rosy mint",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "biała"
+  },
+  {
+   "nazwa": "Paris-Provence",
+   "opis_producenta": "Silky white tea, lavender and rosy mint",
+   "porcja": null,
+   "typ": "biała"
+  },
+  {
    "nazwa": "Paris Rhapsody",
    "opis_producenta": "Pink white tea with notes of citrus and red fruits",
    "porcja": null,
@@ -1368,6 +2832,24 @@
    "opis_producenta": "Blue Tea™, yuzu essential oil, golden liqueur",
    "porcja": null,
    "typ": "oolong"
+  },
+  {
+   "nazwa": "Paris - Saïgon",
+   "opis_producenta": "Green tea",
+   "porcja": null,
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Paris - Shanghaï",
+   "opis_producenta": "Black tea",
+   "porcja": null,
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Paris-Singapour",
+   "opis_producenta": "Mellow green tea, refreshing and soothing",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
   },
   {
    "nazwa": "Paris Summer",
@@ -1382,58 +2864,34 @@
    "typ": "biała"
   },
   {
+   "nazwa": "Paris-Tokyo",
+   "opis_producenta": "Darjeeling black tea with a magic note of yuzu",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Paris White Day",
+   "opis_producenta": "Flavoured black tea",
+   "porcja": null,
+   "typ": "czarna"
+  },
+  {
    "nazwa": "Paris White Day",
    "opis_producenta": "Flavoured blue tea, golden liqueur",
    "porcja": null,
    "typ": "oolong"
   },
   {
-   "nazwa": "Paris-Aoyama",
-   "opis_producenta": "Elegant rosy black tea, fruity and flowery",
-   "porcja": "100g ~ about 40 cups",
-   "typ": "czarna"
-  },
-  {
-   "nazwa": "Paris-Ginza",
-   "opis_producenta": "Black tea with notes of red fruit and caramel",
-   "porcja": "100g ~ about 40 cups",
-   "typ": "czarna"
-  },
-  {
-   "nazwa": "Paris-London",
-   "opis_producenta": "Black tea, cordial bouquet of rose and lavander",
+   "nazwa": "Paris White Day",
+   "opis_producenta": "Flavoured green tea",
    "porcja": null,
-   "typ": "czarna"
-  },
-  {
-   "nazwa": "Paris-Marais",
-   "opis_producenta": "Seductive lemony green tea with rosy ginger",
-   "porcja": "100g ~ about 40 cups",
    "typ": "zielona"
   },
   {
-   "nazwa": "Paris-Provence",
-   "opis_producenta": "Silky white tea, lavender and rosy mint",
+   "nazwa": "Paris White Day",
+   "opis_producenta": "Flavoured red rooibos",
    "porcja": null,
-   "typ": "biała"
-  },
-  {
-   "nazwa": "Paris-Provence",
-   "opis_producenta": "Silky white tea, lavender & rosy mint",
-   "porcja": "50g ~ about 20 cups",
-   "typ": "biała"
-  },
-  {
-   "nazwa": "Paris-Singapour",
-   "opis_producenta": "Mellow green tea, refreshing and soothing",
-   "porcja": "100g ~ about 40 cups",
-   "typ": "zielona"
-  },
-  {
-   "nazwa": "Paris-Tokyo",
-   "opis_producenta": "Darjeeling black tea with a magic note of yuzu",
-   "porcja": "100g ~ about 40 cups",
-   "typ": "czarna"
+   "typ": "rooibos"
   },
   {
    "nazwa": "Pavillon De Laque",
@@ -1446,6 +2904,24 @@
    "opis_producenta": "White tea Yin Zhen and smooth spices",
    "porcja": "50g ~ about 20 cups",
    "typ": "biała"
+  },
+  {
+   "nazwa": "Peace Mountain Tea",
+   "opis_producenta": "Blue Tea ,Thailand",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Pêche D’Amour",
+   "opis_producenta": "Scented green tea - Thé Singulier",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Pei Hou",
+   "opis_producenta": "Green tea - China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
   },
   {
    "nazwa": "Perles D'Argent",
@@ -1496,14 +2972,20 @@
    "typ": "biała"
   },
   {
-   "nazwa": "Pleine Lune",
-   "opis_producenta": "Almond & spices black tea",
-   "porcja": "100g ~ about 40 cups",
-   "typ": "czarna"
+   "nazwa": "Pivoine D'Himalaya",
+   "opis_producenta": "Darjeeling - White tea - Ambootia",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "biała"
   },
   {
-   "nazwa": "Polo Club",
-   "opis_producenta": "Wonderfully fruity & flowery fragrant black tea",
+   "nazwa": "Plantation",
+   "opis_producenta": "Evening green & Blue tea assemblage, Darjeeling",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "mieszanka"
+  },
+  {
+   "nazwa": "Pleine Lune",
+   "opis_producenta": "Almond & spices black tea",
    "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
   },
@@ -1512,6 +2994,12 @@
    "opis_producenta": "Green Mate MARCO POLO",
    "porcja": null,
    "typ": "mate"
+  },
+  {
+   "nazwa": "Polo Club",
+   "opis_producenta": "Wonderfully fruity & flowery fragrant black tea",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
   },
   {
    "nazwa": "Polo Club Blue",
@@ -1526,10 +3014,16 @@
    "typ": "oolong"
   },
   {
-   "nazwa": "Polo Club Sublime",
-   "opis_producenta": "Legendary black tea, bewitching fruity notes",
+   "nazwa": "Polo Club Rouge",
+   "opis_producenta": "Red Tea naturally theine-free, mellow , fruity & flowery",
    "porcja": "100g ~ about 40 cups",
-   "typ": "czarna"
+   "typ": "rooibos"
+  },
+  {
+   "nazwa": "Polo Club Rouge",
+   "opis_producenta": "Red tea Rooibos - Fruity & flowery",
+   "porcja": null,
+   "typ": "rooibos"
   },
   {
    "nazwa": "Polo Club Sublime",
@@ -1538,8 +3032,26 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Polo Club Sublime",
+   "opis_producenta": "Legendary black tea, bewitching fruity notes",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Polo Club Vert Sublime",
+   "opis_producenta": "Mythical green tea with bewitching fruity notes",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
    "nazwa": "Pomme Du Désir",
    "opis_producenta": "Scented black tea",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Pondichéry",
+   "opis_producenta": "Morning black tea, rose, notes of vanilla",
    "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
   },
@@ -1550,10 +3062,76 @@
    "typ": "zielona"
   },
   {
+   "nazwa": "Prince Bhodi Dharma",
+   "opis_producenta": "Daytime black tea, Darjeeling & Yunnan",
+   "porcja": null,
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Prince De Colombo",
+   "opis_producenta": "Black tea, Ceylon",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
    "nazwa": "Prince Igor",
    "opis_producenta": "Green & black tea – Notes of red fruits and rare citrus",
    "porcja": "100g ~ about 40 cups",
    "typ": "mieszanka"
+  },
+  {
+   "nazwa": "Princeton",
+   "opis_producenta": "Assemblage of finest spring black teas",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Provence In Love",
+   "opis_producenta": "Fragrant blue Tea, with notes of red fruits and lavender flowers",
+   "porcja": null,
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Provence Rhapsody",
+   "opis_producenta": "Pink white tea with notes of red fruits and lavender",
+   "porcja": null,
+   "typ": "biała"
+  },
+  {
+   "nazwa": "Pu-Erh",
+   "opis_producenta": "Matured tea, China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "rooibos"
+  },
+  {
+   "nazwa": "Pu-Erh 2017",
+   "opis_producenta": "Matured tea - China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "rooibos"
+  },
+  {
+   "nazwa": "Pu-Erh D'Or",
+   "opis_producenta": "Matured tea, China",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "rooibos"
+  },
+  {
+   "nazwa": "Pu -Erh D'Outre-Mer",
+   "opis_producenta": "Matured tea, China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "rooibos"
+  },
+  {
+   "nazwa": "Pu-Erh Fleur De Thé",
+   "opis_producenta": "Matured tea",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "rooibos"
+  },
+  {
+   "nazwa": "Pu-Erh, Millésime 2008",
+   "opis_producenta": "Matured tea - China",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "rooibos"
   },
   {
    "nazwa": "Pu-Erh, Millésime 2013",
@@ -1562,16 +3140,100 @@
    "typ": "rooibos"
   },
   {
+   "nazwa": "Pu-Erh Suprême",
+   "opis_producenta": "Matured tea, China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "rooibos"
+  },
+  {
+   "nazwa": "Puits Du Dragon",
+   "opis_producenta": "Green tea - China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Puits Du Dragon Impérial",
+   "opis_producenta": "Green tea - China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Putharjhora",
+   "opis_producenta": "FTGFOP1- Black tea - Dooars, India",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Puttabong",
+   "opis_producenta": "FTGFOP1 DJ4/2022 - Spring Flush - Premium First Flush",
+   "porcja": "50g ~ about 20 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Puttabong",
+   "opis_producenta": "FTGFOP1 DJ5/2023 - Spring Flush - Premium First Flush",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Puttabong Queen",
+   "opis_producenta": "SFTGFOP1 DJ6/16 - Darjeeling First Flush",
+   "porcja": "50g ~ about 20 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Puttabong Suprême",
+   "opis_producenta": "SFTGFOP1 DJ2/15 - Darjeeling First Flush",
+   "porcja": "50g ~ about 20 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Queen Victoria",
+   "opis_producenta": "FTGFOP1 - Darjeeling Assemblage",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Rainbow In Love",
+   "opis_producenta": "Fragrant blue tea with notes of citrus, golden liqueur",
+   "porcja": null,
+   "typ": "oolong"
+  },
+  {
    "nazwa": "Rainbow Rhapsody",
    "opis_producenta": "Pink white tea with notes of citrus",
    "porcja": null,
    "typ": "biała"
   },
   {
+   "nazwa": "Rajah",
+   "opis_producenta": "TGFOP - Darjeeling Assemblage",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Rajini",
+   "opis_producenta": "Evening black tea, rose",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
    "nazwa": "Rare Milky Blue",
    "opis_producenta": "Blue tea, Formosa - Nantou",
    "porcja": null,
    "typ": "oolong"
+  },
+  {
+   "nazwa": "Ratnapura",
+   "opis_producenta": "OP - Black tea - Ceylon",
+   "porcja": null,
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Red Himalaya",
+   "opis_producenta": "Black tea - Nepal Autumn Flush",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
   },
   {
    "nazwa": "Red Himalaya",
@@ -1586,10 +3248,10 @@
    "typ": "zielona"
   },
   {
-   "nazwa": "Rio Summer",
-   "opis_producenta": "Red rooibos ice tea with note of fruity mint, yerba mate & açaí",
-   "porcja": null,
-   "typ": "mate"
+   "nazwa": "Richmond",
+   "opis_producenta": "Red tea Rooibos cinnamon & orange",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "rooibos"
   },
   {
    "nazwa": "Rio Summer",
@@ -1598,22 +3260,112 @@
    "typ": "mate"
   },
   {
+   "nazwa": "Rio Summer",
+   "opis_producenta": "Red rooibos ice tea with note of fruity mint, yerba mate & açaí",
+   "porcja": null,
+   "typ": "mate"
+  },
+  {
+   "nazwa": "Risheehat",
+   "opis_producenta": "SFTGFOP1 DJ32/2016 - Darjeeling First Flush",
+   "porcja": "50g ~ about 20 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "River Tea",
+   "opis_producenta": "Green tea, China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Robe Noire",
+   "opis_producenta": "Black tea - China, Hunan",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Robe Rouge",
+   "opis_producenta": "Blue Tea, China",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Roi Des Earl Grey",
+   "opis_producenta": "Yunnan black tea and bergamot",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Roi Des Paï Mu Tan",
+   "opis_producenta": "White tea - China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "biała"
+  },
+  {
+   "nazwa": "Roi Du Keemun",
+   "opis_producenta": "Black tea, China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Roi Du Yunnan",
+   "opis_producenta": "FTGFOP1 - Black tea - China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Roi Soleil",
+   "opis_producenta": "Daytime smoky black tea, Yunnan",
+   "porcja": null,
+   "typ": "czarna"
+  },
+  {
    "nazwa": "Rooibos Midnight Magic",
    "opis_producenta": "Rooibos with a fruity candy taste",
    "porcja": null,
    "typ": "rooibos"
   },
   {
+   "nazwa": "Rooibos Vert",
+   "opis_producenta": "Theine free",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Rose D’Amour",
+   "opis_producenta": "Noble blue tea, Damascus rose, golden liqueur",
+   "porcja": null,
+   "typ": "oolong"
+  },
+  {
    "nazwa": "Rose D'Himalaya",
    "opis_producenta": "Amazingly rosy Darjeeling black tea",
-   "porcja": null,
+   "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
+  },
+  {
+   "nazwa": "Rose De Porcelaine",
+   "opis_producenta": "Black tea, China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Rose De Siam",
+   "opis_producenta": "Blue tea from Thailand",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
   },
   {
    "nazwa": "Rose De Soie",
    "opis_producenta": "Scented black tea",
    "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
+  },
+  {
+   "nazwa": "Rose Milonga",
+   "opis_producenta": "Green maté & almond rose",
+   "porcja": null,
+   "typ": "mate"
   },
   {
    "nazwa": "Rose Royale",
@@ -1629,14 +3381,38 @@
   },
   {
    "nazwa": "Rouge Bourbon",
+   "opis_producenta": "Red tea naturally theine-free, mellow French vanilla taste",
+   "porcja": null,
+   "typ": "rooibos"
+  },
+  {
+   "nazwa": "Rouge Bourbon",
    "opis_producenta": "Red tea naturelly theine-free, mellow French vanilla taste",
    "porcja": "100g ~ about 40 cups",
    "typ": "rooibos"
   },
   {
-   "nazwa": "Rouge Bourbon",
-   "opis_producenta": "Red tea naturally theine-free, mellow French vanilla taste",
-   "porcja": null,
+   "nazwa": "Rouge D'Automne",
+   "opis_producenta": "Black tea - Marron glacé",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Rouge D'Automne",
+   "opis_producenta": "Green tea - Marron glacé",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Rouge D'Automne",
+   "opis_producenta": "Theine-free red tea with notes of marron glacé",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "rooibos"
+  },
+  {
+   "nazwa": "Rouge Earl Grey",
+   "opis_producenta": "Red tea Rooibos",
+   "porcja": "100g ~ about 40 cups",
    "typ": "rooibos"
   },
   {
@@ -1648,8 +3424,8 @@
   {
    "nazwa": "Rouge Métis",
    "opis_producenta": "Red tea naturally theine-free, red & black fruits, mild flowers",
-   "porcja": null,
-   "typ": "rooibos"
+   "porcja": "100g ~ about 40 cups",
+   "typ": "mieszanka"
   },
   {
    "nazwa": "Rouge Opéra",
@@ -1658,28 +3434,76 @@
    "typ": "rooibos"
   },
   {
+   "nazwa": "Rouge Opéra",
+   "opis_producenta": "Theine-free Red tea, red fruits & vanilla fragrance",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "rooibos"
+  },
+  {
    "nazwa": "Rouge Pleine Lune",
    "opis_producenta": "Theine-free almond Red Tea with a fruity twist",
-   "porcja": null,
+   "porcja": "100g ~ about 40 cups",
    "typ": "rooibos"
   },
   {
    "nazwa": "Rouge Provence",
    "opis_producenta": "Theine-free Red Tea, rose & lavender",
-   "porcja": null,
+   "porcja": "100g ~ about 40 cups",
    "typ": "rooibos"
   },
   {
    "nazwa": "Rouge Ruschka",
    "opis_producenta": "Theine-free flowery Red Tea & citrus flavour",
-   "porcja": null,
+   "porcja": "100g ~ about 40 cups",
    "typ": "rooibos"
   },
   {
    "nazwa": "Rouge Sahara",
    "opis_producenta": "Red Tea, theine-free, voluptuous and savoury mint",
-   "porcja": null,
+   "porcja": "100g ~ about 40 cups",
    "typ": "rooibos"
+  },
+  {
+   "nazwa": "Rouge Tea",
+   "opis_producenta": "Red tea Rooibos",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "rooibos"
+  },
+  {
+   "nazwa": "Royal Purple Tea",
+   "opis_producenta": "Purple liqueur, velvety and sensual",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Royal Thai Tea",
+   "opis_producenta": "Blue tea from Thailand",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Royal White Tea",
+   "opis_producenta": "White tea from Thailand",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "biała"
+  },
+  {
+   "nazwa": "Rukeri",
+   "opis_producenta": "Black tea, Rwanda",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Rungmook",
+   "opis_producenta": "FTGFOP1 DJ1/2017 Darjeeling Premium First Flush",
+   "porcja": "50g ~ about 20 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Rungmook Ftgfop1 Dj3/2018",
+   "opis_producenta": "FTGFOP1 DJ3/18 - Darjeeling First Flush 2018",
+   "porcja": "50g ~ about 20 cups",
+   "typ": null
   },
   {
    "nazwa": "Ruschka",
@@ -1696,7 +3520,7 @@
   {
    "nazwa": "Russian Breakfast Tea",
    "opis_producenta": "Citrus flavoured full-bodied black tea",
-   "porcja": null,
+   "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
   },
   {
@@ -1718,6 +3542,18 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Saint James",
+   "opis_producenta": "BOP - Black tea Ceylon",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Saint James",
+   "opis_producenta": "OP - Black tea Ceylon",
+   "porcja": null,
+   "typ": "czarna"
+  },
+  {
    "nazwa": "Saint-Valentin",
    "opis_producenta": "Black tea - Citrus & flowers",
    "porcja": "100g ~ about 40 cups",
@@ -1730,6 +3566,12 @@
    "typ": "zielona"
   },
   {
+   "nazwa": "Sakura Blue",
+   "opis_producenta": "Blue tea with notes of blooming cherry trees, golden liqueur",
+   "porcja": null,
+   "typ": "oolong"
+  },
+  {
    "nazwa": "Sakura Impérial",
    "opis_producenta": "Green tea - With notes of blooming cherry trees",
    "porcja": "100g ~ about 40 cups",
@@ -1738,6 +3580,18 @@
   {
    "nazwa": "Sakura Sakura !",
    "opis_producenta": "Sensual floral green tea",
+   "porcja": null,
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Sakura, Sakura ! 2025",
+   "opis_producenta": "Green tea, notes of blooming cherry trees",
+   "porcja": null,
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Sakura, Sakura ! 2026",
+   "opis_producenta": "Green tea, notes of blooming cherry trees",
    "porcja": null,
    "typ": "zielona"
   },
@@ -1754,9 +3608,69 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Saphir Himalaya",
+   "opis_producenta": "Blue tea™ - Nepal First Flush",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Selim Hill",
+   "opis_producenta": "SFTGFOP1 DJ-5/2025 - Spring Flush – Premium First Flush",
+   "porcja": "50g ~ about 20 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Sencha Ariake",
+   "opis_producenta": "Green tea - Japan",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Sencha Kyoto",
+   "opis_producenta": "Green tea - Japan",
+   "porcja": null,
+   "typ": "zielona"
+  },
+  {
    "nazwa": "Sencha Matcha Emeraude",
    "opis_producenta": "Lush mellow green tea - Japan",
    "porcja": null,
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Sencha Midori",
+   "opis_producenta": "Green tea - Japan",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Sencha Nara",
+   "opis_producenta": "Green tea - Japan",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Sencha Tani",
+   "opis_producenta": "Green tea - Japan",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Sencha Uji",
+   "opis_producenta": "Green tea - Japan",
+   "porcja": null,
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Sencha Wazuka",
+   "opis_producenta": "Green tea - Japan",
+   "porcja": null,
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Sencha Yame",
+   "opis_producenta": "Green tea - Japan",
+   "porcja": "100g ~ about 40 cups",
    "typ": "zielona"
   },
   {
@@ -1766,10 +3680,34 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Shan Tea Op",
+   "opis_producenta": "Black tea",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
    "nazwa": "Shanghaï Breakfast Tea",
    "opis_producenta": "Joyful aromatic morning assemblage",
    "porcja": null,
    "typ": null
+  },
+  {
+   "nazwa": "Shui Hsien Supreme",
+   "opis_producenta": "Blue tea, China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Siam Club",
+   "opis_producenta": "Green tea, Thailand",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Silver Himalaya",
+   "opis_producenta": "Black tea - Nepal Summer Flush",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
   },
   {
    "nazwa": "Silver Himalaya",
@@ -1778,8 +3716,38 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Sivara",
+   "opis_producenta": "Black tea, red rooibos and sweet mint, low in theine",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "mieszanka"
+  },
+  {
+   "nazwa": "Sivitar",
+   "opis_producenta": "FTGFOP1 DJ2/2017 - Darjeeling First Flush",
+   "porcja": "50g ~ about 20 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Sivitar,Ftgfop1 Dj7/2018",
+   "opis_producenta": "FTGFOP1 DJ7/18 - Darjeeling First Flush 2018",
+   "porcja": "50g ~ about 20 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Smoky Earl Grey",
+   "opis_producenta": "Daytime smoky black tea bergamot",
+   "porcja": null,
+   "typ": "czarna"
+  },
+  {
    "nazwa": "Smoky Hinoki",
    "opis_producenta": "Grand black tea smoked with Japanese cypress",
+   "porcja": null,
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Smoky Matsu",
+   "opis_producenta": "Majestic black tea smoked with precious Japanese black pine",
    "porcja": null,
    "typ": "czarna"
   },
@@ -1802,6 +3770,18 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Sorbet Bleu",
+   "opis_producenta": "Blue iced tea, joyful scented tea, golden liqueur",
+   "porcja": null,
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Sultane",
+   "opis_producenta": "French taste brisk morning black tea",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
    "nazwa": "Summer Rosé",
    "opis_producenta": "Pink white iced tea with red fruits, grape bergamot & pomegranate",
    "porcja": null,
@@ -1818,6 +3798,18 @@
    "opis_producenta": "Green iced tea with japanese citrus",
    "porcja": null,
    "typ": "zielona"
+  },
+  {
+   "nazwa": "Sun Moon Lake Tea",
+   "opis_producenta": "Black tea, Formosa",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Surabaya",
+   "opis_producenta": "Red tea Rooibos - Flowers & vanilla",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "rooibos"
   },
   {
    "nazwa": "Swan Lake",
@@ -1844,19 +3836,37 @@
    "typ": "zielona"
   },
   {
+   "nazwa": "Tamaryokucha",
+   "opis_producenta": "Green tea, Japan",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Tanka Cha",
+   "opis_producenta": "Green tea - Japan",
+   "porcja": null,
+   "typ": "zielona"
+  },
+  {
    "nazwa": "Tarte Tatin",
    "opis_producenta": "Red tea Rooibos Héritage Gourmand®",
    "porcja": null,
    "typ": "rooibos"
   },
   {
-   "nazwa": "Temple De L'Aube",
-   "opis_producenta": "Flowery soft citrus green tea",
-   "porcja": null,
-   "typ": "zielona"
+   "nazwa": "Tea Party",
+   "opis_producenta": "Daytime scented black tea, delicately flavoured",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
   },
   {
-   "nazwa": "Temple De L’Aube",
+   "nazwa": "Temi Supreme",
+   "opis_producenta": "FTGFOP1 - Black tea Sikkim",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Temple De L'Aube",
    "opis_producenta": "Flowery soft citrus green tea",
    "porcja": "100g ~ about 40 cups",
    "typ": "zielona"
@@ -1874,9 +3884,33 @@
    "typ": "biała"
   },
   {
+   "nazwa": "Thaï Beauty",
+   "opis_producenta": "Blue tea from Thailand",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Thaï Orchidée",
+   "opis_producenta": "Blue tea, Thailand",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Thaï Oriental Beauty",
+   "opis_producenta": "Blue Tea from Thailand",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "oolong"
+  },
+  {
    "nazwa": "Thaïlande - Thé Des Offrandes",
    "opis_producenta": "Green tea, flowery",
    "porcja": null,
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Thé À L'Opéra",
+   "opis_producenta": "Green tea, sweet notes of vanilla & red fruits",
+   "porcja": "100g ~ about 40 cups",
    "typ": "zielona"
   },
   {
@@ -1946,6 +3980,12 @@
    "typ": "oolong"
   },
   {
+   "nazwa": "Thé Céladon",
+   "opis_producenta": "Green tea for breakfast - Chrysanthemum flowers",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
    "nazwa": "Thé Dansant",
    "opis_producenta": "Balthazar®, Rouge Métis® & Vert Amande™",
    "porcja": null,
@@ -1956,6 +3996,12 @@
    "opis_producenta": "Black tea, notes of crème brûlée and red fruits - New Blend",
    "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
+  },
+  {
+   "nazwa": "Thé De La Longévité Suprême",
+   "opis_producenta": "White tea - China",
+   "porcja": null,
+   "typ": "biała"
   },
   {
    "nazwa": "Thé De Lune",
@@ -1985,7 +4031,25 @@
    "nazwa": "Thé Des Maharajahs",
    "opis_producenta": "Black iced tea, fruity & vanilla notes",
    "porcja": null,
-   "typ": null
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Thé Des Mandarins Jasmin",
+   "opis_producenta": "White tea scented with jasmine - China",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "biała"
+  },
+  {
+   "nazwa": "Thé Des Pluies",
+   "opis_producenta": "Black tea - Viêt-Nam",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Thé Des Poètes Solitaires",
+   "opis_producenta": "Evening black & Blue tea assemblage, Darjeeling and China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "mieszanka"
   },
   {
    "nazwa": "Thé Des Voyageurs",
@@ -2000,6 +4064,12 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Thé Interdit",
+   "opis_producenta": "Green, white & Blue tea assemblage, spicy scented tea",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "mieszanka"
+  },
+  {
    "nazwa": "Thé Princier",
    "opis_producenta": "White tea, sparkling citrus and succulent fruits",
    "porcja": null,
@@ -2009,7 +4079,19 @@
    "nazwa": "Thé Rouge De Pâques",
    "opis_producenta": "Black tea & red rooibos",
    "porcja": null,
-   "typ": "rooibos"
+   "typ": "mieszanka"
+  },
+  {
+   "nazwa": "Thé Sous Les Nuages",
+   "opis_producenta": "GFOP - Black tea - China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Thé Sur Le Nil",
+   "opis_producenta": "Green iced tea with a fruity & lemony taste",
+   "porcja": null,
+   "typ": "zielona"
   },
   {
    "nazwa": "Thé Sur Le Nil",
@@ -2018,9 +4100,9 @@
    "typ": "zielona"
   },
   {
-   "nazwa": "Thé Sur Le Nil",
-   "opis_producenta": "Green iced tea with a fruity & lemony taste",
-   "porcja": null,
+   "nazwa": "Thé Vert À La Menthe Suprême",
+   "opis_producenta": "Scented green tea - Spearmint",
+   "porcja": "100g ~ about 40 cups",
    "typ": "zielona"
   },
   {
@@ -2060,22 +4142,28 @@
    "typ": "zielona"
   },
   {
-   "nazwa": "Thé Vert À La Menthe Suprême",
-   "opis_producenta": "Scented green tea - Spearmint",
+   "nazwa": "Thiashola,Fop",
+   "opis_producenta": "Black tea, Nilgiri",
    "porcja": "100g ~ about 40 cups",
-   "typ": "zielona"
+   "typ": "czarna"
   },
   {
-   "nazwa": "Thé À L'Opéra",
-   "opis_producenta": "Green tea, sweet notes of vanilla & red fruits",
+   "nazwa": "Thymus Citriodorus",
+   "opis_producenta": "Leaves of fragrant lemon thyme - Artisan herbal tea",
    "porcja": null,
-   "typ": "zielona"
+   "typ": "ziołowa"
   },
   {
-   "nazwa": "Thé À L’Opéra",
-   "opis_producenta": "Green tea, sweet notes of vanilla & red fruits",
-   "porcja": "100g ~ about 40 cups",
-   "typ": "zielona"
+   "nazwa": "Ti Kuan Yin Impérial",
+   "opis_producenta": "Blue tea, Formosa",
+   "porcja": null,
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Ti Kuan Yin Jade",
+   "opis_producenta": "Blue tea, Formosa",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "oolong"
   },
   {
    "nazwa": "Tibet - Thé Des Prières",
@@ -2092,7 +4180,7 @@
   {
    "nazwa": "Tokyo Breakfast Tea",
    "opis_producenta": "A mellow black tea with peppy yuzu",
-   "porcja": null,
+   "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
   },
   {
@@ -2108,8 +4196,74 @@
    "typ": "zielona"
   },
   {
+   "nazwa": "Tokyo Rhapsody",
+   "opis_producenta": "Pink white tea with notes of Japanese fruits and maple syrup",
+   "porcja": null,
+   "typ": "biała"
+  },
+  {
+   "nazwa": "Tokyo Summer",
+   "opis_producenta": "Green iced tea",
+   "porcja": null,
+   "typ": "zielona"
+  },
+  {
    "nazwa": "Trois Noix",
    "opis_producenta": "Black tea, nut, almond & pecan nut",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Tung Ting",
+   "opis_producenta": "Blue tea, Formosa",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Tung Ting Jade",
+   "opis_producenta": "Blue tea, Formosa",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Tung Ting Suprême",
+   "opis_producenta": "Blue tea, Formosa",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "oolong"
+  },
+  {
+   "nazwa": "Turzum Bliss",
+   "opis_producenta": "FTGFOP1 DJ7/2022 – Premium First Flush",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Turzum Joy",
+   "opis_producenta": "FTGFOP1 DJ4/2022 – Spring Flush - Premium First Flush",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Tzar Alexandre",
+   "opis_producenta": "Evening smoky black tea with citrus scent",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Ume Cha 2025",
+   "opis_producenta": "Green Tea with notes of blooming plum trees",
+   "porcja": null,
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Ureshinocha",
+   "opis_producenta": "Green tea - Japan",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Uva Highlands",
+   "opis_producenta": "Black tea, Ceylon",
    "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
   },
@@ -2126,12 +4280,6 @@
    "typ": "czarna"
   },
   {
-   "nazwa": "Vanille Orchidee Rouge",
-   "opis_producenta": "Red rooibos, fragrance of pure vanilla",
-   "porcja": null,
-   "typ": "rooibos"
-  },
-  {
    "nazwa": "Vanille Orchidée Noire",
    "opis_producenta": "Scented black tea",
    "porcja": "100g ~ about 40 cups",
@@ -2144,16 +4292,34 @@
    "typ": "rooibos"
   },
   {
+   "nazwa": "Vanille Orchidee Rouge",
+   "opis_producenta": "Red rooibos, fragrance of pure vanilla",
+   "porcja": null,
+   "typ": "rooibos"
+  },
+  {
    "nazwa": "Vanille Orchidée Verte",
    "opis_producenta": "Vanilla green tea",
    "porcja": "100g ~ about 40 cups",
    "typ": "zielona"
   },
   {
+   "nazwa": "Véranda",
+   "opis_producenta": "Black tea - Exotic fruits & flowers",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
    "nazwa": "Verbena Citriodora",
    "opis_producenta": "Lemon verbena leaves, artisan herbal tea",
    "porcja": null,
    "typ": "ziołowa"
+  },
+  {
+   "nazwa": "Vert Amande",
+   "opis_producenta": "Scented green tea",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
   },
   {
    "nazwa": "Vert Provence",
@@ -2189,7 +4355,7 @@
    "nazwa": "Violetta",
    "opis_producenta": "Black iced tea with notes of flowers & violet",
    "porcja": null,
-   "typ": null
+   "typ": "czarna"
   },
   {
    "nazwa": "Violette",
@@ -2204,8 +4370,14 @@
    "typ": "czarna"
   },
   {
-   "nazwa": "Véranda",
-   "opis_producenta": "Black tea - Exotic fruits & flowers",
+   "nazwa": "Washington",
+   "opis_producenta": "Black tea for breakfast India & Ceylon",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Wedding",
+   "opis_producenta": "Black tea for breakfast Ceylon",
    "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
   },
@@ -2216,10 +4388,28 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "White Downy",
+   "opis_producenta": "Green tea, China, Guang-Xi province",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
    "nazwa": "White Himalaya",
    "opis_producenta": "White tea, Nepal, Summer Flush",
    "porcja": null,
    "typ": "biała"
+  },
+  {
+   "nazwa": "White Monkey",
+   "opis_producenta": "Green tea, China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "White Pu-Erh",
+   "opis_producenta": "Matured tea, China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "rooibos"
   },
   {
    "nazwa": "White Rhapsody",
@@ -2228,10 +4418,22 @@
    "typ": "biała"
   },
   {
+   "nazwa": "Yanagicha",
+   "opis_producenta": "Green tea - Japan",
+   "porcja": null,
+   "typ": "zielona"
+  },
+  {
    "nazwa": "Yanaon",
    "opis_producenta": "Black & green tea, festive flowers",
    "porcja": "100g ~ about 40 cups",
    "typ": "mieszanka"
+  },
+  {
+   "nazwa": "Yang Tse Kiang",
+   "opis_producenta": "Evening scented black tea, relaxing",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
   },
   {
    "nazwa": "Year Of Dragon",
@@ -2270,6 +4472,12 @@
    "typ": "rooibos"
   },
   {
+   "nazwa": "Year Of The Rabbit",
+   "opis_producenta": "Thé des Signes® - Blue tea, mint & goji berries, golden liqueur",
+   "porcja": null,
+   "typ": "oolong"
+  },
+  {
    "nazwa": "Year Of The Rat",
    "opis_producenta": "Thé des Signes® - Blue tea, goji berry, golden liqueur",
    "porcja": null,
@@ -2294,10 +4502,52 @@
    "typ": "zielona"
   },
   {
-   "nazwa": "Yunnan Impérial",
-   "opis_producenta": "King of black China teas",
+   "nazwa": "Year Of The Tiger",
+   "opis_producenta": "Thé des Signes® - Black tea & goji berries",
    "porcja": null,
    "typ": "czarna"
+  },
+  {
+   "nazwa": "Yen Bai Pu-Erh 2007",
+   "opis_producenta": "Matured tea - Viêt-Nam",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "rooibos"
+  },
+  {
+   "nazwa": "Yin Zhen",
+   "opis_producenta": "White tea, China",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "biała"
+  },
+  {
+   "nazwa": "Yixing Cha",
+   "opis_producenta": "Green tea, China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Yunnan Impérial",
+   "opis_producenta": "King of black China teas",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Yunnan Imperial Supreme",
+   "opis_producenta": "SFTGFOP1, black tea",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Yunnan Valley",
+   "opis_producenta": "Black tea, China",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Yuzu Bouquet",
+   "opis_producenta": "Low theine Kukicha green tea, mellow umami with divine yuzu - Japan",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "zielona"
   },
   {
    "nazwa": "Yuzu Indigo",
@@ -2316,18 +4566,6 @@
    "opis_producenta": "Bright green tea with Japanese yuzu",
    "porcja": "100g ~ about 40 cups",
    "typ": "zielona"
-  },
-  {
-   "nazwa": "Éros",
-   "opis_producenta": "Flowery black tea",
-   "porcja": "100g ~ about 40 cups",
-   "typ": "czarna"
-  },
-  {
-   "nazwa": "Étoile Mystérieuse",
-   "opis_producenta": "Gourmet black tea",
-   "porcja": null,
-   "typ": "czarna"
   }
  ]
 }
