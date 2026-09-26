@@ -4,8 +4,11 @@
 
 **herbaty** — `id, nazwa, marka, typ, pochodzenie, aromaty[], kubki, status, utworzono, zmieniono`
 - `typ`: czarna · zielona · żółta · oolong · biała · ciemna/pu-erh · ziołowa (opcjonalny)
-- `status`: mam · wypita · chcę kupić
+- `status`: mam · wypita · chcę kupić (opcjonalny)
 - `kubki`: tekst („2–3”)
+- `link`: adres http(s), np. Steepster
+
+**meta** — `zestawy.wczytane[]`: które pliki `dane/import-*.json` zostały już wczytane
 
 **degustacje** — `id, herbataId, data, temperatura (°C), czas (s), ocena 1–5, notatka, utworzono, zmieniono` (wszystko poza herbatą opcjonalne)
 
@@ -27,6 +30,8 @@
 - **Temperatura i czas** podpowiadają się z ostatniej degustacji tej samej herbaty — bez domyślnych wartości „z wiedzy ogólnej”.
 - **Degustacja w 3 tapnięciach:** z karty herbaty: *Degustuję → gwiazdka → Zapisz*; z zakładki Degustacje: *+ → herbata → Zapisz*. Data domyślnie dziś.
 - **Kolekcja grupowana wg marki** (MF / Kusmi / PdT naturalnie się rozdzielają), w grupie alfabetycznie.
-- **71 herbat z kalendarzy** — nie wpisuję ich z pamięci (nie znam dokładnych składów kalendarzy). Można je dodać ręcznie albo przygotować listę i wczytać importem (format w README).
+- **Herbaty startowe** z `dane/import-*.json` → `app/data/seed.json` (skrypt `scripts/build.mjs`). Każdy plik wczytuje się raz na urządzeniu (zapamiętane w magazynie `meta`), więc usunięte/edytowane herbaty nie są nadpisywane. Id herbaty = `seed-<marka>-<nazwa>` (stałe, więc kopia/import nie dubluje wpisów).
+- **Pola `null` z importu zostają puste** — również status (herbata nie ma wtedy żadnego statusu, widać ją w „wszystkie”). Typy i nuty uzupełnia Misia.
+- Stuknięcie w zaznaczony status/typ w formularzu odznacza go.
 - **Nazwa** herbaty jest jedynym wymaganym polem.
 - Ceny, zdjęcia, zestawy/kalendarze jako osobne pole — nie dodane (nie było w specyfikacji) → `POMYSLY.md`.

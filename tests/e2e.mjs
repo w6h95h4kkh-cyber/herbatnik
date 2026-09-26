@@ -16,7 +16,15 @@ const zrzut = async n => zrzuty && s.screenshot({ path: `${zrzuty}/${n}.png`, fu
 
 await s.goto(URL_APP);
 await s.waitForSelector('.marka-app');
-await zrzut('1-pusta');
+// Seed: 36 herbat Mariage Frères z pustymi polami i linkiem
+await s.waitForFunction(() => document.querySelectorAll('#lista-herbat .pozycja').length === 36);
+await zrzut('1-seed');
+await s.click('#lista-herbat .pozycja:has-text("Cannelé")');
+assert.equal(await s.getAttribute('.pola a', 'href'), 'https://steepster.com/teas/mariage-freres/39593-cannele-mariage-freres');
+assert.equal(await s.locator('.typ-herbaty').count(), 0);
+assert.equal(await s.locator('.statusy .chip.wybrany').count(), 0);
+await zrzut('1b-karta-seed');
+await s.goto(URL_APP + '#/kolekcja');
 
 // Dodaj herbatę
 await s.click('.fab');
@@ -70,7 +78,7 @@ await s.goto(URL_APP + '#/kolekcja');
 
 // Filtry i wyszukiwanie
 await s.waitForSelector('#lista-herbat .pozycja');
-assert.equal(await s.locator('#lista-herbat .pozycja').count(), 2);
+assert.equal(await s.locator('#lista-herbat .pozycja').count(), 38);
 await s.click('[data-akcja=filtr-typ][data-k=zielona]');
 assert.equal(await s.locator('#lista-herbat .pozycja').count(), 1);
 await s.click('[data-akcja=filtr-typ][data-k=wszystkie]');
@@ -98,10 +106,10 @@ s2.on('dialog', d => d.accept());
 await s2.goto(URL_APP + '#/kopia');
 await s.close();
 await s2.waitForSelector('.liczby-male');
-assert.match(await s2.textContent('.liczby-male'), /0 herbat/);
+assert.match(await s2.textContent('.liczby-male'), /36 herbat · 0 degustacji/);
 await s2.setInputFiles('#plik-importu', sciezka);
 s2.on('pageerror', e => bledy.push(e.message));
-await s2.waitForFunction(() => /2 herbat · 2 degustacji/.test(document.querySelector('.liczby-male')?.textContent));
+await s2.waitForFunction(() => /38 herbat · 2 degustacji/.test(document.querySelector('.liczby-male')?.textContent));
 
 // Offline: po odświeżeniu bez sieci aplikacja nadal działa
 await s2.waitForFunction(() => navigator.serviceWorker.controller || navigator.serviceWorker.ready);
@@ -111,8 +119,17 @@ await kontekst.setOffline(true);
 await s2.goto(URL_APP + '#/kolekcja');
 await s2.reload();
 await s2.waitForSelector('#lista-herbat .pozycja');
-assert.equal(await s2.locator('#lista-herbat .pozycja').count(), 2);
+assert.equal(await s2.locator('#lista-herbat .pozycja').count(), 38);
 await kontekst.setOffline(false);
+
+// Usunięta herbata startowa nie wraca po ponownym uruchomieniu
+await s2.click('#lista-herbat .pozycja:has-text("Cannelé")');
+await s2.click('[data-akcja=usun-herbate]');
+await s2.waitForSelector('#lista-herbat .pozycja');
+await s2.reload();
+await s2.waitForSelector('#lista-herbat .pozycja');
+await s2.waitForTimeout(500);
+assert.equal(await s2.locator('#lista-herbat .pozycja').count(), 37);
 
 assert.deepEqual(bledy, []);
 await przegladarka.close();

@@ -1,6 +1,6 @@
 // Service worker: cała aplikacja w cache → działa offline.
 // Przy każdej zmianie plików aplikacji podbij WERSJA (i window.HERBATNIK_WERSJA w index.html).
-const WERSJA = 'herbatnik-0.1.0';
+const WERSJA = 'herbatnik-0.2.0';
 const PLIKI = [
   './',
   'index.html',
@@ -9,6 +9,7 @@ const PLIKI = [
   'manifest.webmanifest',
   'js/app.js',
   'js/db.js',
+  'data/seed.json',
   'icons/icon.svg',
   'icons/icon-192.png',
   'icons/icon-512.png',

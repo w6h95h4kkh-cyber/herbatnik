@@ -57,6 +57,11 @@ export function fmtCzas(s) {
   const m = Math.floor(s / 60), r = s % 60;
   return r ? `${m}:${String(r).padStart(2, '0')}` : String(m);
 }
+// Tylko adresy http(s) — nic innego nie trafi do href.
+export function bezpiecznyLink(txt) {
+  const t = String(txt ?? '').trim();
+  try { return /^https?:$/.test(new URL(t).protocol) ? t : ''; } catch { return ''; }
+}
 const gwiazdki = (o, klasa = '') =>
   o ? `<span class="gwiazdki ${klasa}" aria-label="ocena ${o} na 5">${'★'.repeat(o)}<span class="puste">${'★'.repeat(5 - o)}</span></span>` : '';
 const srednia = arr => (arr.length ? arr.reduce((a, b) => a + b, 0) / arr.length : null);
@@ -156,7 +161,7 @@ function listaHerbat() {
       return `<li><a class="karta pozycja" href="#/herbata/${h.id}">
         <span class="pozycja-nazwa">${esc(h.nazwa)}</span>
         <span class="pozycja-meta">${h.typ ? `${kropkaTypu(h.typ)}${typ(h.typ).n}` : ''}${h.aromaty?.length ? ` · <i>${esc(h.aromaty.join(', '))}</i>` : ''}</span>
-        <span class="pozycja-dol">${sr ? gwiazdki(Math.round(sr), 'male') : ''}${h.status !== 'mam' ? `<span class="znacznik s-${h.status}">${status(h.status).n}</span>` : ''}</span>
+        <span class="pozycja-dol">${sr ? gwiazdki(Math.round(sr), 'male') : ''}${h.status && h.status !== 'mam' ? `<span class="znacznik s-${h.status}">${status(h.status).n}</span>` : ''}</span>
       </a></li>`;
     }).join('')}</ul>`).join('');
 }
@@ -176,6 +181,7 @@ function widokHerbata(id) {
     <dl class="pola">
       ${pole('Pochodzenie', esc(h.pochodzenie))}
       ${pole('Aromaty', h.aromaty?.length ? `<i>${esc(h.aromaty.join(', '))}</i>` : '')}
+      ${pole('Link', h.link ? `<a href="${esc(h.link)}" target="_blank" rel="noopener noreferrer">${esc(new URL(h.link).hostname.replace(/^www\./, ''))} ↗</a>` : '')}
       ${pole('Z jednej porcji', h.kubki ? `${esc(h.kubki)} ${/kub/i.test(h.kubki) ? '' : 'kubki'}` : '')}
     </dl>
     <div class="chipy statusy" role="group" aria-label="Status">
@@ -220,6 +226,7 @@ function widokFormHerbaty(id) {
     <label>Pochodzenie<input name="pochodzenie" value="${esc(w.pochodzenie)}" placeholder="np. Chiny, Yunnan"></label>
     <label><span>Aromaty <small>(po przecinku)</small></span><input name="aromaty" value="${esc((w.aromaty || []).join(', '))}" placeholder="np. wanilia, owoce, kwiaty"></label>
     <label><span>Z jednej porcji <small>(ile kubków)</small></span><input name="kubki" value="${esc(w.kubki)}" placeholder="np. 2–3"></label>
+    <label><span>Link <small>(np. Steepster)</small></span><input name="link" type="url" inputmode="url" value="${esc(w.link)}" placeholder="https://…"></label>
     <fieldset><legend>Status</legend><div class="chipy">
       ${STATUSY.map(s => `<label class="chip"><input type="radio" name="status" value="${s.k}" ${w.status === s.k ? 'checked' : ''}>${s.n}</label>`).join('')}
     </div></fieldset>
@@ -380,7 +387,8 @@ async function zapiszHerbate(form) {
     pochodzenie: f.get('pochodzenie').trim(),
     aromaty: f.get('aromaty').split(',').map(s => s.trim()).filter(Boolean),
     kubki: f.get('kubki').trim(),
-    status: f.get('status') || 'mam',
+    status: f.get('status') || '',
+    link: bezpiecznyLink(f.get('link')),
     utworzono: stara?.utworzono || teraz(),
     zmieniono: teraz(),
   };
@@ -512,14 +520,14 @@ async function klik(e) {
   }
 }
 
-// Stuknięcie w zaznaczony już typ odznacza go (typ jest opcjonalny).
+// Stuknięcie w zaznaczony już typ/status odznacza go (oba są opcjonalne).
 function zapamietajRadio(e) {
-  const r = e.target.closest('label.chip')?.querySelector('input[type=radio][name=typ]');
+  const r = e.target.closest('label.chip')?.querySelector('input[type=radio]:is([name=typ],[name=status])');
   if (r) r.dataset.bylo = r.checked;
 }
 function odznaczRadio(e) {
   const r = e.target;
-  if (r.matches?.('input[type=radio][name=typ]') && r.dataset.bylo === 'true') {
+  if (r.matches?.('input[type=radio]:is([name=typ],[name=status])') && r.dataset.bylo === 'true') {
     r.checked = false;
     r.dataset.bylo = 'false';
   }
@@ -536,6 +544,30 @@ function wpisywanie(e) {
     pole.focus();
     pole.setSelectionRange(v.length, v.length);
   }
+}
+
+// Herbaty startowe z data/seed.json (generowane z dane/import-*.json).
+// Każdy zestaw wczytuje się raz — potem herbaty są już Twoje (edycja, usuwanie).
+async function wczytajZestawyStartowe() {
+  let seed;
+  try {
+    const odp = await fetch('data/seed.json', { cache: 'no-cache' });
+    if (!odp.ok) return 0;
+    seed = await odp.json();
+  } catch { return 0; } // offline przy pierwszym starcie — spróbujemy następnym razem
+  const meta = (await db.pobierz('meta', 'zestawy')) || { klucz: 'zestawy', wczytane: [] };
+  const nowe = (seed.zestawy || []).filter(z => !meta.wczytane.includes(z.id));
+  if (!nowe.length) return 0;
+  const sa = new Set(stan.herbaty.map(h => h.id));
+  const czas = teraz();
+  const herbaty = nowe.flatMap(z => z.herbaty)
+    .filter(h => h.id && h.nazwa && !sa.has(h.id))
+    .map(h => ({ ...h, link: bezpiecznyLink(h.link), utworzono: czas, zmieniono: czas }));
+  if (herbaty.length) await db.zapiszWiele('herbaty', herbaty);
+  meta.wczytane.push(...nowe.map(z => z.id));
+  await db.zapisz('meta', meta);
+  stan.herbaty.push(...herbaty);
+  return herbaty.length;
 }
 
 async function wczytaj() {
@@ -563,6 +595,8 @@ export async function start() {
   window.addEventListener('hashchange', () => { nawigacjaWewnetrzna = true; renderuj(); window.scrollTo(0, 0); });
   try {
     await wczytaj();
+    const ile = await wczytajZestawyStartowe();
+    if (ile) toast(`Dodano ${ile} herbat do kolekcji`);
   } catch (e) {
     main.innerHTML = `<p class="pusto">Nie mogę otworzyć bazy danych w tej przeglądarce (${esc(e.message)}). W trybie prywatnym niektóre przeglądarki blokują zapis.</p>`;
     return;

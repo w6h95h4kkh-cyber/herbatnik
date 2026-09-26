@@ -1,6 +1,6 @@
-// Cienka warstwa nad IndexedDB. Dwa magazyny: herbaty i degustacje.
+// Cienka warstwa nad IndexedDB. Magazyny: herbaty, degustacje i meta (ustawienia wewnętrzne).
 const NAZWA_BAZY = 'herbatnik';
-const WERSJA_BAZY = 1;
+const WERSJA_BAZY = 2;
 export const MAGAZYNY = ['herbaty', 'degustacje'];
 
 let bazaPromise = null;
@@ -17,6 +17,9 @@ function otworz() {
       if (!db.objectStoreNames.contains('degustacje')) {
         const s = db.createObjectStore('degustacje', { keyPath: 'id' });
         s.createIndex('herbataId', 'herbataId');
+      }
+      if (!db.objectStoreNames.contains('meta')) {
+        db.createObjectStore('meta', { keyPath: 'klucz' });
       }
     };
     req.onsuccess = () => resolve(req.result);
@@ -37,6 +40,10 @@ function transakcja(magazyn, tryb, praca) {
 
 export function wszystkie(magazyn) {
   return transakcja(magazyn, 'readonly', tx => tx.objectStore(magazyn).getAll());
+}
+
+export function pobierz(magazyn, klucz) {
+  return transakcja(magazyn, 'readonly', tx => tx.objectStore(magazyn).get(klucz));
 }
 
 export function zapisz(magazyn, obiekt) {
