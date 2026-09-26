@@ -1,0 +1,3114 @@
+{
+ "katalogi": [
+  {
+   "id": "katalog-mariage-freres",
+   "marka": "Mariage Frères",
+   "herbaty": [
+    {
+     "id": "seed-mariage-freres-1854-supreme",
+     "nazwa": "1854 Suprême",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "Eternal green, black & white tea, intoxicating and precious",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-88th-night-tea",
+     "nazwa": "88Th Night Tea",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Grand cru green tea from Japan",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-afrique-du-sud-zoulou-tea",
+     "nazwa": "Afrique Du Sud - Zoulou Tea",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Red tea Rooibos, fruits & flowers",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-alexandra-david-neel",
+     "nazwa": "Alexandra David-Néel",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Adventurers' black tea, spicy and fruity",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-american-breakfast-tea",
+     "nazwa": "American Breakfast Tea",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Rich malty black tea with caramel notes",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-apollon",
+     "nazwa": "Apollon",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Blue tea, alluring golden liqueur with fruity notes",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-arabie-the-des-rois",
+     "nazwa": "Arabie - Thé Des Rois",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea, flowers & royal mint",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-automne-blanc",
+     "nazwa": "Automne Blanc",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "White tea pomegranate, lychee & quince",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-automne-bleu",
+     "nazwa": "Automne Bleu",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Blue Tea pomegranate, lychee & quince",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-automne-rose",
+     "nazwa": "Automne Rose",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Rooibos pomegranate, lychee & quince",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-aviateur",
+     "nazwa": "Aviateur",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "Darjeeling with velvety floral notes",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-aida",
+     "nazwa": "Aïda",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea - Citrus",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-babylonia",
+     "nazwa": "Babylonia",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green iced tea with notes of fruits, citrus & cornflowers",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-beau-breakfast-tea",
+     "nazwa": "Beau Breakfast Tea",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Mellow black tea, Bengal quince, hibiscus",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-beautiful-tea",
+     "nazwa": "Beautiful Tea",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Gourmet black tea with fruity note of pomegranate",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-bel-ami",
+     "nazwa": "Bel Ami",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Scented Blue Tea, golden liqueur",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-bel-ami-2",
+     "nazwa": "Bel Ami",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Red tea Rooibos",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-birmanie-the-du-triangle-d-or",
+     "nazwa": "Birmanie - Thé Du Triangle D'Or",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea, flowery",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-birthday-in-love",
+     "nazwa": "Birthday In Love",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Darjeeling black tea , with notes of bergamot",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-black-leopard",
+     "nazwa": "Black Léopard",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, slightly smoky over guava leaves - Austral Africa",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-black-leopard-2",
+     "nazwa": "Black Léopard",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "ack tea, slightly smoky over guava leaves - Austral Africa",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-black-opera",
+     "nazwa": "Black Opéra",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Gourmet black tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-black-orchid",
+     "nazwa": "Black Orchid",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Silky vanilla black tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-blanc-rose",
+     "nazwa": "Blanc & Rose",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "Mellow white tea with tender rose petals",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-blanc-jasmin",
+     "nazwa": "Blanc Jasmin",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "White Tea Yin Zhen with Jasmine Flowers",
+     "porcjaProducenta": "50g ~ about 20 cups"
+    },
+    {
+     "id": "seed-mariage-freres-bloomfield",
+     "nazwa": "Bloomfield",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "FTGFOP1 DJ10/2024 - Spring Flush – Premium First Flush",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-bloomfield-2",
+     "nazwa": "Bloomfield",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "BLACK TEA, SUMMER FLUSH – DARJEELING, INDIA",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-blue-himalaya",
+     "nazwa": "Blue Himalaya",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Blue tea, Nepal, Summer Flush",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-blue-valentine",
+     "nazwa": "Blue Valentine",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Blue tea, mellow floral notes, golden liqueur",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-bolero",
+     "nazwa": "Boléro",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "French Riviera fruity black tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-bouddha-bleu",
+     "nazwa": "Bouddha Bleu",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea with fragrances of ripe fruit",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-breakfast-earl-grey",
+     "nazwa": "Breakfast Earl Grey",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Magnificent bergamot morning black tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-britannia-the-de-la-couronne",
+     "nazwa": "Britannia - Thé De La Couronne",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, citrus & fruits",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-brume-d-opium",
+     "nazwa": "Brume D'Opium",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Blue tea™, Thailand",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-brume-de-jasmin",
+     "nazwa": "Brume De Jasmin",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "Jasmine white tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-brume-de-rose",
+     "nazwa": "Brume De Rose",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "White tea, flowers & rose",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-butterscotch",
+     "nazwa": "Butterscotch",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea - Chocolate & caramel",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-cactus-bleu",
+     "nazwa": "Cactus Bleu",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "Blue iced tea with real cactus morcels, golden liqueur",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-calisson",
+     "nazwa": "Calisson",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Red tea Rooibos Héritage Gourmand®",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-cannelle-orange",
+     "nazwa": "Cannelle-Orange",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-cannele",
+     "nazwa": "Cannelé",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea Héritage Gourmand®",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-carre-d-or",
+     "nazwa": "Carré D'Or",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea with notes of chocolate, caramel & red fruits",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-ceylan-the-des-dieux",
+     "nazwa": "Ceylan - Thé Des Dieux",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, spices & flowers",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-chamomilla",
+     "nazwa": "Chamomilla",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Wild chamomile flowers, artisan herbal tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-chai-chandernagor",
+     "nazwa": "Chaï - Chandernagor",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, imperial spices",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-chai-karikal",
+     "nazwa": "Chaï - Karikal",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea, imperial spices",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-chai-matchai",
+     "nazwa": "Chaï Matchaï",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Japan matcha, green tea, imperial spices",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-chai-parisien",
+     "nazwa": "Chaï Parisien",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Spicy black tea with mellow fruity notes",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-chine-the-du-dragon",
+     "nazwa": "Chine - Thé Du Dragon",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Crafted green tea, jasmine",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-christmas-cake-tea",
+     "nazwa": "Christmas Cake Tea",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Gourmet black tea, praline caramel vanilla notes",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-christmas-earl-grey",
+     "nazwa": "Christmas Earl Grey",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-christmas-orange",
+     "nazwa": "Christmas Orange",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Gourmet black tea, luscious notes of candied orange",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-christmas-party",
+     "nazwa": "Christmas Party",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "taste of Christmas treats",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-christmas-pudding-tea",
+     "nazwa": "Christmas Pudding Tea",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Gourmet black tea, mellow notes of festive spices",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-christmas-song",
+     "nazwa": "Christmas Song",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "Almond & Bergamot",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-christmas-strawberry",
+     "nazwa": "Christmas Strawberry",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Gourmet black tea, sweet strawberry, hints of vanilla",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-citron-soleil",
+     "nazwa": "Citron Soleil",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Scented green tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-citron-vert-exuberant",
+     "nazwa": "Citron Vert Exubérant",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Scented green tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-colombian-breakfast-chai",
+     "nazwa": "Colombian Breakfast Chaï",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea sweet spices, cocoa and coffee beans - Colombia",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-colombian-breakfast-chai-2",
+     "nazwa": "Colombian Breakfast Chaï",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, sweet spices, cocoa and coffee beans - Colombia",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-coree-the-de-l-aube",
+     "nazwa": "Coreé - Thé De L'Aube",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea, fruits & yuzu",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-coup-de-soleil",
+     "nazwa": "Coup De Soleil",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Gourmet black tea, hints of wild strawberry and caramel",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-covent-garden-morning",
+     "nazwa": "Covent Garden Morning",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, luscious and aromatic nutty notes",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-crepe-earl-grey",
+     "nazwa": "Crêpe Earl Grey",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea Héritage Gourmand®",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-darjeeling-himalaya",
+     "nazwa": "Darjeeling Himalaya",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Grand afternoon black tea - India",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-darjeeling-master",
+     "nazwa": "Darjeeling Master",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Spring & summer black teas assemblage",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-darjeeling-princeton",
+     "nazwa": "Darjeeling Princeton",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Assemblage of finest spring black teas",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-darjeeling-rose-camelia",
+     "nazwa": "Darjeeling Rose Camélia",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Finest black tea & fragrant rose petals",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-de-stress-tea",
+     "nazwa": "De-Stress Tea",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Relaxing green tea with floral notes",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-dream-tea",
+     "nazwa": "Dream Tea",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Herbal tea naturelly theine free, eight velvety soothing relaxing herbs",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-earl-grey-beauty",
+     "nazwa": "Earl Grey Beauty",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Blue tea from China with bergamot",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-earl-grey-charisma",
+     "nazwa": "Earl Grey Charisma",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Flavoured green tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-earl-grey-d-or",
+     "nazwa": "Earl Grey D'Or",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Gorgeous golden black tea, divine bergamot",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-earl-grey-french-blue",
+     "nazwa": "Earl Grey French Blue",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, velvety bergamot & royal blue flowers",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-earl-grey-french-blue-2",
+     "nazwa": "Earl Grey French Blue",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "Black iced tea with notes of bergamot & royal blue flowers",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-earl-grey-imperial",
+     "nazwa": "Earl Grey Impérial",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Bergamot flavoured Darjeeling black tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-earl-grey-imperial-2",
+     "nazwa": "Earl Grey Impérial",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "Bergamot flavoured Darjeeling tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-earl-grey-limerance",
+     "nazwa": "Earl Grey Limerance",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea assemblage",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-earl-grey-magique",
+     "nazwa": "Earl Grey Magique",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "Imperial white tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-earl-grey-provence",
+     "nazwa": "Earl Grey Provence",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, bergamot & blue lavender",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-earl-grey-rhapsody",
+     "nazwa": "Earl Grey Rhapsody",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "Assemblageed white tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-eau-de-lune",
+     "nazwa": "Eau De Lune",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "White tea, floral & exotic bouquet",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-elixir-d-amour",
+     "nazwa": "Elixir D’Amour",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, citrus & flowers",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-elephant-blanc",
+     "nazwa": "Eléphant Blanc",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea - Festive fruits & flowers",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-empereur-chen-nung",
+     "nazwa": "Empereur Chen-Nung",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Well-balanced smoky mellow black tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-english-breakfast",
+     "nazwa": "English Breakfast",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Strong & malty notorious morning black tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-english-breakfast-tea",
+     "nazwa": "English Breakfast Tea",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Strong & malty notorious morning black tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-esprit-de-noel",
+     "nazwa": "Esprit De Noël",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Festive black tea with sweet spices",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-etoile-de-france",
+     "nazwa": "Etoile De France",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea - Vanilla & pâtisserie notes",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-fall-in-love",
+     "nazwa": "Fall In Love",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Blue tea, rose & pâtisserie notes, golden liqueur",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-fantome-de-l-opera",
+     "nazwa": "Fantôme De L'Opéra",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea, mysterious citrus notes & ginger",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-festin-d-or",
+     "nazwa": "Festin D’Or",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea - Citrus, flowers & mint",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-fils-du-ciel",
+     "nazwa": "Fils Du Ciel",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea - Exotic fruits",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-financier",
+     "nazwa": "Financier",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea Héritage Gourmand®",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-fleur-d-eau",
+     "nazwa": "Fleur D'Eau",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "Scented white tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-fleur-d-orient",
+     "nazwa": "Fleur D'Orient",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Crafted green tea, jasmine, rose and marigold flowers",
+     "porcjaProducenta": "50g ~ about 20 cups"
+    },
+    {
+     "id": "seed-mariage-freres-fleur-de-bouddha",
+     "nazwa": "Fleur De Bouddha",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Crafted green tea, jasmine and marigold flowers",
+     "porcjaProducenta": "50g ~ about 20 cups"
+    },
+    {
+     "id": "seed-mariage-freres-fleur-de-voyage",
+     "nazwa": "Fleur De Voyage",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Crafted green tea, jasmine and marigold flowers",
+     "porcjaProducenta": "50g ~ about 20 cups"
+    },
+    {
+     "id": "seed-mariage-freres-fleur-du-desir",
+     "nazwa": "Fleur Du Désir",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Crafted green tea, jasmine and marigold flowers",
+     "porcjaProducenta": "50g ~ about 20 cups"
+    },
+    {
+     "id": "seed-mariage-freres-flower-moon",
+     "nazwa": "Flower Moon",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Blue Tea™, pearly almond and sweet spices, golden liqueur",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-flower-moon-2",
+     "nazwa": "Flower Moon",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Blue Tea™, pearly almond & sweet spices, golden liqueur",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-fragrant-road-to-kyoto",
+     "nazwa": "Fragrant Road To Kyoto",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Sublime Green Tea - Scented green tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-france-the-des-lumieres",
+     "nazwa": "France - Thé Des Lumières",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, citrus",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-french-afternoon-tea",
+     "nazwa": "French Afternoon Tea",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Silky green tea with hints of velvety vanilla, golden liqueur",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-french-breakfast-tea",
+     "nazwa": "French Breakfast Tea",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, rich, elegant and refined flavour",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-fuji-yama",
+     "nazwa": "Fuji-Yama",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea, a precious gift from Japan",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-gabacha",
+     "nazwa": "Gabacha",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea, immensely umami and comforting - Japan",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-genmaicha-matcha-emeraude",
+     "nazwa": "Genmaïcha Matcha Émeraude",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Umami silky green tea & roasted popped rice - Japan",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-ginger-summer",
+     "nazwa": "Ginger Summer",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Iced Black tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-gyokuro-imperial-hakuyocha",
+     "nazwa": "Gyokuro Impérial Hakuyocha",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "Thé vert - Jardin Précieux - Japon",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-habibi",
+     "nazwa": "Habibi",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Gourmet black tea, rose lychee and orange blossom",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-habibi-rhapsody",
+     "nazwa": "Habibi Rhapsody",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "Pink white tea with notes of lychee and orange blossom",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-hallelujah",
+     "nazwa": "Hallelujah",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea with festive notes of fruits & vanilla",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-happy-ending",
+     "nazwa": "Happy Ending",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Eight tender cheerful enchanting herbs",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-happy-queen",
+     "nazwa": "Happy Queen",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea citrus, flowers & exotic fruits",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-happy-tea",
+     "nazwa": "Happy Tea",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Gourmet black tea with yuzu, rose petals & marshmallow note",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-havana",
+     "nazwa": "Havana",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green iced tea with notes of flowers & fruits",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-hawaii-kawaii",
+     "nazwa": "Hawaïï:Kawaïï",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Iced rooibos with notes of hibiscus, pineapple & red fruits",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-hawaii-kawaii-2",
+     "nazwa": "Hawaïï:Kawaïï",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Iced green tea with notes of hibiscus flowers, pineapple and red fruits",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-himalayan-peach",
+     "nazwa": "Himalayan Peach",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Scented peach black tea - Darjeeling",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-honyamacha-meicha",
+     "nazwa": "Honyamacha-Meicha",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea, Japan",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-i-have-a-dream",
+     "nazwa": "I Have A Dream",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Gourmet black tea with sparkling citrus notes",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-ile-magique",
+     "nazwa": "Ile Magique",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "Black & green tea, flowers & citrus",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-imperial-russia",
+     "nazwa": "Imperial Russia",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "Citrus scented Russian style Darjeeling tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-inde-the-des-maharajahs",
+     "nazwa": "Inde - Thé Des Maharajahs",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, citrus & patisserie notes",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-iskandar",
+     "nazwa": "Iskandar",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea with velvety violet flavour",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-iskandar-2",
+     "nazwa": "Iskandar",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green iced tea with notes of velvety violet",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-ivory-himalaya",
+     "nazwa": "Ivory Himalaya",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "White tea, Nepal, Summer Flush",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-jade-himalaya",
+     "nazwa": "Jade Himalaya",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea, Nepal, Summer Flush",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-japon-the-des-samourais",
+     "nazwa": "Japon - Thé Des Samouraïs",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea, vanilla, citrus & exotic fruits",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-jasmin",
+     "nazwa": "Jasmin",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea scented with jasmine flowers",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-jasmin-beauty",
+     "nazwa": "Jasmin Beauty",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea scented with jasmine flowers, China",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-jasmin-boheme",
+     "nazwa": "Jasmin Bohème",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Bright green tea scented with Jasmine - China",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-jasmin-divin",
+     "nazwa": "Jasmin Divin",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea with jasmine flowers",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-jasmin-empereur-pu-yi",
+     "nazwa": "Jasmin Empereur Pu Yi",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea scented with jasmine flowers",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-jasmin-magique",
+     "nazwa": "Jasmin Magique",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea scented with jasmine flowers",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-jasmin-mandarin",
+     "nazwa": "Jasmin Mandarin",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea, scented with sweet jasmine flowers",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-jasmin-monkey-king",
+     "nazwa": "Jasmin Monkey King",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea with jasmine flowers",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-jasmin-precieux",
+     "nazwa": "Jasmin Precieux",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Blue tea™ scented with jasmine flowers",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-jasmine-in-love",
+     "nazwa": "Jasmine In Love",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Fragrant Green Tea, with notes of jasmine and love",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-joie-de-vivre-in-goa",
+     "nazwa": "Joie De Vivre In Goa",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "Sublime White Tea - Scented white tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-la-route-du-temps",
+     "nazwa": "La Route Du Temps",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Flowery green tea & sweet ginger",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-laos-the-des-moussons",
+     "nazwa": "Laos - Thé Des Moussons",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea, flowery",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-lapsang-chinbara",
+     "nazwa": "Lapsang Chinbara",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, authentic smoky Lapsang Souchong",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-latin-lover",
+     "nazwa": "Latin Lover",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Green mate & tender spices",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-libertango",
+     "nazwa": "Libertango",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Green mate & citrus",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-lily-muguet",
+     "nazwa": "Lily Muguet",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, lily of the valley fragrance",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-lily-muguet-2",
+     "nazwa": "Lily Muguet",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea, lily of the valley fragrance",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-lily-muguet-3",
+     "nazwa": "Lily Muguet",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "White tea, lily of the valley fragrance",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-locombia-colombia",
+     "nazwa": "Locombia Colombia",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea pomegrenate notes, pineapple morsels - Colombia",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-locombia-colombia-2",
+     "nazwa": "Locombia Colombia",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea, pomegrenate notes, pineapple morsels - Colombia",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-london-in-love",
+     "nazwa": "London In Love",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Fragrant blue tea, golden liqueur",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-lotus-pourpre",
+     "nazwa": "Lotus Pourpre",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Blue tea with Lotus stamen",
+     "porcjaProducenta": "50g ~ about 20 cups"
+    },
+    {
+     "id": "seed-mariage-freres-love-song-tea",
+     "nazwa": "Love Song Tea",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Scented Blue Tea, golden liqueur",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-love-song-tea-2",
+     "nazwa": "Love Song Tea",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea with almond milk & rose",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-love-song-tea-3",
+     "nazwa": "Love Song Tea",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea with almond milk & rose",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-love-story",
+     "nazwa": "Love Story",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Gourmet black tea with enveloping fruity & flowery notes",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-love-story-2",
+     "nazwa": "Love Story",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, enveloping fruity flowery notes",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-lune-rouge",
+     "nazwa": "Lune Rouge",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Mild green tea - rose, ginger & honey",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-macaron",
+     "nazwa": "Macaron",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea Héritage Gourmand®",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-madame-butterfly",
+     "nazwa": "Madame Butterfly",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "White tea - Flowery",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-madeleine",
+     "nazwa": "Madeleine",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea Héritage Gourmand®",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-majestic-lime-ginger",
+     "nazwa": "Majestic Lime & Ginger",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Comforting aromatic blue tea, golden liqueur",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-mandalay",
+     "nazwa": "Mandalay",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea - Burmese spices",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-mangue-amazone",
+     "nazwa": "Mangue Amazone",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Scented black tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-maori-blue-supreme",
+     "nazwa": "Maori Blue Suprême",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Blue tea, New Zealand",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-maori-noir",
+     "nazwa": "Maori Noir",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, New Zealand",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-marco-polo",
+     "nazwa": "Marco Polo",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Wonderfully fruity & flowery fragrant black tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-marco-polo-blue",
+     "nazwa": "Marco Polo Blue",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Velvety Blue Tea™ with a fruity & flowery taste, golden liqueur",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-marco-polo-rouge",
+     "nazwa": "Marco Polo Rouge",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Red Tea naturally theine-free, mellow , fruity & flowery",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-marco-polo-sublime",
+     "nazwa": "Marco Polo Sublime",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, legendary bewitching fruity notes",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-marco-polo-vert-sublime",
+     "nazwa": "Marco Polo Vert Sublime",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea, legendary & bewitching fruity notes",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-master",
+     "nazwa": "Master",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Spring & summer black teas assemblage",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-matcha-uji",
+     "nazwa": "Matcha Uji",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Powdered green tea – Cultivar Yabukita - Uji, Japan",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-matin-parisien",
+     "nazwa": "Matin Parisien",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Bright black tea, sparkling citrus notes",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-mentha-piperita",
+     "nazwa": "Mentha Piperita",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Peppermint leaves, artisan herbal tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-menthe-poivree-infinie",
+     "nazwa": "Menthe Poivrée Infinie",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea with exhilarating notes of peppermint",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-midnight-in-jerusalem",
+     "nazwa": "Midnight In Jerusalem",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Sublime Blue Tea - Scented blue tea, golden liqueur",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-midnight-in-paris",
+     "nazwa": "Midnight In Paris",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "Parisian tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-midnight-magic",
+     "nazwa": "Midnight Magic",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea with a fruity candy taste",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-milky-blue",
+     "nazwa": "Milky Blue",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Seductive Blue Tea™, with a rich milky note",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-milky-blue-absolu",
+     "nazwa": "Milky Blue Absolu",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Silky blue tea with lush milky notes",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-milky-china-blue",
+     "nazwa": "Milky China Blue",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Flowery blue tea with gourmet milky flavour, golden liqueur",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-mirabeau",
+     "nazwa": "Mirabeau",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Poetic black tea, hibiscus, liqueurice & lychee",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-montagne-d-or",
+     "nazwa": "Montagne D'Or",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "Golden Mountain - Sweet black fruity tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-montagne-de-jade",
+     "nazwa": "Montagne De Jade",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Jade Mountain - Fruity & flowery green tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-montagne-de-la-lune",
+     "nazwa": "Montagne De La Lune",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "Scented white tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-montagne-de-la-lune-2",
+     "nazwa": "Montagne De La Lune",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "White Tea Yin Zhen and flowers",
+     "porcjaProducenta": "50g ~ about 20 cups"
+    },
+    {
+     "id": "seed-mariage-freres-montagne-d-or-2",
+     "nazwa": "Montagne D’Or",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "Golden Mountain - Sweet black fruity tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-morning-glory",
+     "nazwa": "Morning Glory",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, sunny and mellow citrus notes",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-mousse-au-chocolat",
+     "nazwa": "Mousse Au Chocolat",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea Héritage Gourmand®",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-nakupenda-fop",
+     "nazwa": "Nakupenda - Fop",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea from Malawi - First Flush",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-namring-royal-upper",
+     "nazwa": "Namring Royal Upper",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "FTGFOP1EX-11/2024 - Spring Flush – Premium First Flush",
+     "porcjaProducenta": "50g ~ about 20 cups"
+    },
+    {
+     "id": "seed-mariage-freres-namring-upper-fairy",
+     "nazwa": "Namring Upper Fairy",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "FTGFOP1 /2024 - Récolte d'été - Thé Noir - Darjeeling Inde",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-namring-upper-harmony",
+     "nazwa": "Namring Upper Harmony",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "FTGFOP1 /2024 - Récolte d'été - Thé Noir – Darjeeling Inde",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-neige-d-argent",
+     "nazwa": "Neige D'Argent",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "White tea, fruity",
+     "porcjaProducenta": "500g ~ about 200 cups"
+    },
+    {
+     "id": "seed-mariage-freres-neige-de-soie",
+     "nazwa": "Neige De Soie",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "Scented white tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-neige-de-soie-2",
+     "nazwa": "Neige De Soie",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "White tea, silky and mild Yin Zhen",
+     "porcjaProducenta": "50g ~ about 20 cups"
+    },
+    {
+     "id": "seed-mariage-freres-nil-noir",
+     "nazwa": "Nil Noir",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black Nile - Fruity & lemony black tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-nil-rouge",
+     "nazwa": "Nil Rouge",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Red tea naturally theine-free, fruity & lemony",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-nocturne-oriental",
+     "nazwa": "Nocturne Oriental",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Sensual floral citrus green tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-noix-de-coco-velours",
+     "nazwa": "Noix De Coco Velours",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Scented black tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-noel-amour",
+     "nazwa": "Noël Amour",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Red rooibos with Christmas spices & fruits",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-noel-imperial",
+     "nazwa": "Noël Impérial",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Festive blue tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-noel-in-love",
+     "nazwa": "Noël In Love",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Fragrant blue tea, golden liqueur",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-noel-majeste",
+     "nazwa": "Noël Majesté",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Festive rooibos tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-noel-nouveau",
+     "nazwa": "Noël Nouveau",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea with wonderful festive spices",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-noel-tea",
+     "nazwa": "Noël Tea",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Gourmet black tea, sweet festive Christmas spices",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-opera-blue",
+     "nazwa": "Opéra Blue",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Blue Tea™, soft notes of red fruits & vanilla, golden liqueur",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-opera-haute-couture",
+     "nazwa": "Opéra Haute Couture",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Noble green tea with fancy notes of red fruit",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-orange-amere",
+     "nazwa": "Orange Amère",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Scented black tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-orange-pekoe-ceylan",
+     "nazwa": "Orange Pekoe Ceylan",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Full-bodied brisk black tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-orchidee-magique",
+     "nazwa": "Orchidée Magique",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Silky blue tea with a sensual aroma of orchid, golden liqueur",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-orient-the-des-prophetes",
+     "nazwa": "Orient - Thé Des Prophètes",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, fruity",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-oriental",
+     "nazwa": "Oriental",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Mild black tea - rose, jasmine & mandarin",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-panama",
+     "nazwa": "Panama",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green iced tea with notes of flowers, fruits & mint, golden liqueur",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-parc-royal",
+     "nazwa": "Parc Royal",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea scented with elegant flowers",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-paris-bangkok",
+     "nazwa": "Paris - Bangkok",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-paris-kyoto",
+     "nazwa": "Paris - Kyoto",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-paris-new-york",
+     "nazwa": "Paris - New York",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea, golden liqueur",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-paris-saigon",
+     "nazwa": "Paris - Saïgon",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-paris-shanghai",
+     "nazwa": "Paris - Shanghaï",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-paris-bastille-day",
+     "nazwa": "Paris Bastille Day",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "14 JUILLET® - Blue tea™ - Thé Parisien™",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-paris-breakfast-tea",
+     "nazwa": "Paris Breakfast Tea",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Flamboyant black tea with citrus notes",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-paris-earl-grey",
+     "nazwa": "Paris Earl Grey",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, shimmering tea with bergamot royale",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-paris-earl-grey-2",
+     "nazwa": "Paris Earl Grey",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Shimmering black tea with bergamot royale",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-paris-rhapsody",
+     "nazwa": "Paris Rhapsody",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "Pink white tea with notes of citrus and red fruits",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-paris-royal",
+     "nazwa": "Paris Royal",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Blue Tea™, yuzu essential oil, golden liqueur",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-paris-summer",
+     "nazwa": "Paris Summer",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Iced green tea with natural aromas of yuzu, mint & green bergamot",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-paris-tea-time",
+     "nazwa": "Paris Tea Time",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "White tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-paris-white-day",
+     "nazwa": "Paris White Day",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Flavoured blue tea, golden liqueur",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-paris-aoyama",
+     "nazwa": "Paris-Aoyama",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Elegant rosy black tea, fruity and flowery",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-paris-ginza",
+     "nazwa": "Paris-Ginza",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea with notes of red fruit and caramel",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-paris-london",
+     "nazwa": "Paris-London",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, cordial bouquet of rose and lavander",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-paris-marais",
+     "nazwa": "Paris-Marais",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Seductive lemony green tea with rosy ginger",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-paris-provence",
+     "nazwa": "Paris-Provence",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "Silky white tea, lavender and rosy mint",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-paris-provence-2",
+     "nazwa": "Paris-Provence",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "Silky white tea, lavender & rosy mint",
+     "porcjaProducenta": "50g ~ about 20 cups"
+    },
+    {
+     "id": "seed-mariage-freres-paris-singapour",
+     "nazwa": "Paris-Singapour",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Mellow green tea, refreshing and soothing",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-paris-tokyo",
+     "nazwa": "Paris-Tokyo",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Darjeeling black tea with a magic note of yuzu",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-pavillon-de-laque",
+     "nazwa": "Pavillon De Laque",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "Scented white tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-pavillon-de-laque-2",
+     "nazwa": "Pavillon De Laque",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "White tea Yin Zhen and smooth spices",
+     "porcjaProducenta": "50g ~ about 20 cups"
+    },
+    {
+     "id": "seed-mariage-freres-perles-d-argent",
+     "nazwa": "Perles D'Argent",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea & silver, jasmine",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-perles-d-or",
+     "nazwa": "Perles D'Or",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea & gold, jasmine",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-perles-de-the-au-jasmin-supreme",
+     "nazwa": "Perles De Thé Au Jasmin Suprême",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Jasmine crafted green tea, China",
+     "porcjaProducenta": "50g ~ about 20 cups"
+    },
+    {
+     "id": "seed-mariage-freres-pharaon",
+     "nazwa": "Pharaon",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Exotic fruity green tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-phenix",
+     "nazwa": "Phénix",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea with notes of honeyed hazelnuts",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-pink-cactus",
+     "nazwa": "Pink Cactus",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Iced red rooibos with real cactus morcels",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-pitahaya-de-colombia",
+     "nazwa": "Pitahaya De Colombia",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea, silky and sensual dragon fruit pulp - Colombia",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-pivoine-blanche-sauvage",
+     "nazwa": "Pivoine Blanche Sauvage",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "White tea",
+     "porcjaProducenta": "50g ~ about 20 cups"
+    },
+    {
+     "id": "seed-mariage-freres-pleine-lune",
+     "nazwa": "Pleine Lune",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Almond & spices black tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-polo-club",
+     "nazwa": "Polo Club",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Wonderfully fruity & flowery fragrant black tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-polo-club-2",
+     "nazwa": "Polo Club",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Green Mate MARCO POLO",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-polo-club-blue",
+     "nazwa": "Polo Club Blue",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Velvety Blue Tea™ with a fruity & flowery taste, golden liqueur",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-polo-club-blue-2",
+     "nazwa": "Polo Club Blue",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Velvety blue tea, fruity & flowery, golden liqueur",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-polo-club-sublime",
+     "nazwa": "Polo Club Sublime",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Legendary black tea, bewitching fruity notes",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-polo-club-sublime-2",
+     "nazwa": "Polo Club Sublime",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, legendary bewitching fruity notes",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-pomme-du-desir",
+     "nazwa": "Pomme Du Désir",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Scented black tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-poudre-de-jade",
+     "nazwa": "Poudre De Jade",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Powdered green tea – Cultivar Yabukita - Shizuoka, Japan",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-prince-igor",
+     "nazwa": "Prince Igor",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "Green & black tea – Notes of red fruits and rare citrus",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-pu-erh-millesime-2013",
+     "nazwa": "Pu-Erh, Millésime 2013",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Matured tea - China",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-rainbow-rhapsody",
+     "nazwa": "Rainbow Rhapsody",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "Pink white tea with notes of citrus",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-rare-milky-blue",
+     "nazwa": "Rare Milky Blue",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Blue tea, Formosa - Nantou",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-red-himalaya",
+     "nazwa": "Red Himalaya",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, Nepal, Autumn Flush",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-reiwa-premier",
+     "nazwa": "Reiwa Premier",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Flowery green tea for the new imperial era in Japan",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-rio-summer",
+     "nazwa": "Rio Summer",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Red rooibos ice tea with note of fruity mint, yerba mate & açaí",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-rio-summer-2",
+     "nazwa": "Rio Summer",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Green iced tea with notes of fruity mint, yerba mate & açaí",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-rooibos-midnight-magic",
+     "nazwa": "Rooibos Midnight Magic",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Rooibos with a fruity candy taste",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-rose-d-himalaya",
+     "nazwa": "Rose D'Himalaya",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Amazingly rosy Darjeeling black tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-rose-de-soie",
+     "nazwa": "Rose De Soie",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Scented black tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-rose-royale",
+     "nazwa": "Rose Royale",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Scented black tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-rose-tudor",
+     "nazwa": "Rose Tudor",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Red rooibos tea, notes of rosy rhubarb",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-rouge-bourbon",
+     "nazwa": "Rouge Bourbon",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Red tea naturelly theine-free, mellow French vanilla taste",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-rouge-bourbon-2",
+     "nazwa": "Rouge Bourbon",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Red tea naturally theine-free, mellow French vanilla taste",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-rouge-in-love",
+     "nazwa": "Rouge In Love",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Fragrant Red Tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-rouge-metis",
+     "nazwa": "Rouge Métis",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Red tea naturally theine-free, red & black fruits, mild flowers",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-rouge-opera",
+     "nazwa": "Rouge Opéra",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Theine-free Red tea, notes of vanilla & red fruits",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-rouge-pleine-lune",
+     "nazwa": "Rouge Pleine Lune",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Theine-free almond Red Tea with a fruity twist",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-rouge-provence",
+     "nazwa": "Rouge Provence",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Theine-free Red Tea, rose & lavender",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-rouge-ruschka",
+     "nazwa": "Rouge Ruschka",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Theine-free flowery Red Tea & citrus flavour",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-rouge-sahara",
+     "nazwa": "Rouge Sahara",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Red Tea, theine-free, voluptuous and savoury mint",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-ruschka",
+     "nazwa": "Ruschka",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "À la Russian black tea, scented with citrus fruit",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-ruschka-blue",
+     "nazwa": "Ruschka Blue",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Russian style blue tea, golden liqueur",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-russian-breakfast-tea",
+     "nazwa": "Russian Breakfast Tea",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Citrus flavoured full-bodied black tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-russian-jade",
+     "nazwa": "Russian Jade",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Sumptuous green tea with notes of citrus & tender rose",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-russian-star",
+     "nazwa": "Russian Star",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Fruity & flowery velvety green tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-russie-the-des-tzars",
+     "nazwa": "Russie - Thé Des Tzars",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, flowers, fruits & bergamot",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-saint-valentin",
+     "nazwa": "Saint-Valentin",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea - Citrus & flowers",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-sakura",
+     "nazwa": "Sakura",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea - With notes of blooming cherry trees",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-sakura-imperial",
+     "nazwa": "Sakura Impérial",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea - With notes of blooming cherry trees",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-sakura-sakura",
+     "nazwa": "Sakura Sakura !",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Sensual floral green tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-sakura-white-tea",
+     "nazwa": "Sakura White Tea",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "White tea with notes of blooming cherry trees",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-samourai",
+     "nazwa": "Samouraï",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea - Bergamot & flowers",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-sencha-matcha-emeraude",
+     "nazwa": "Sencha Matcha Emeraude",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Lush mellow green tea - Japan",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-sexy-tea",
+     "nazwa": "Sexy Tea",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Gourmet black tea with seductive notes of red berries",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-shanghai-breakfast-tea",
+     "nazwa": "Shanghaï Breakfast Tea",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "Joyful aromatic morning assemblage",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-silver-himalaya",
+     "nazwa": "Silver Himalaya",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, Nepal, Summer Flush",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-smoky-hinoki",
+     "nazwa": "Smoky Hinoki",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Grand black tea smoked with Japanese cypress",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-smoky-nara",
+     "nazwa": "Smoky Nara",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Grand cru black tea smoked with oak from Japanese whisky barrels",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-smoky-sakura",
+     "nazwa": "Smoky Sakura",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Grand cru black tea smoked with Japanese cherrywood",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-smoky-yakusugi",
+     "nazwa": "Smoky Yakusugi",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Grand cru black tea smoked with Japanese cedar",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-summer-rose",
+     "nazwa": "Summer Rosé",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "Pink white iced tea with red fruits, grape bergamot & pomegranate",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-summer-snow",
+     "nazwa": "Summer Snow",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green iced tea with notes of fruits & citrus",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-summer-yuzu",
+     "nazwa": "Summer Yuzu",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green iced tea with japanese citrus",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-swan-lake",
+     "nazwa": "Swan Lake",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea with floral notes of rose and violet",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-sweet-dream",
+     "nazwa": "Sweet Dream",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Eight mellow aromatic silky herbs",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-sweet-shanghai",
+     "nazwa": "Sweet Shanghaï",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Aromatic mellow green tea, fruity notes",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-sweetheart-tea",
+     "nazwa": "Sweetheart Tea",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea buds, heart shaped crafted tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-tarte-tatin",
+     "nazwa": "Tarte Tatin",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Red tea Rooibos Héritage Gourmand®",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-temple-de-l-aube",
+     "nazwa": "Temple De L'Aube",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Flowery soft citrus green tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-temple-de-l-aube-2",
+     "nazwa": "Temple De L’Aube",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Flowery soft citrus green tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-temple-des-nuages",
+     "nazwa": "Temple Des Nuages",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "Scented white tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-temple-des-nuages-2",
+     "nazwa": "Temple Des Nuages",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "White Tea, anise seeds accents",
+     "porcjaProducenta": "50g ~ about 20 cups"
+    },
+    {
+     "id": "seed-mariage-freres-thailande-the-des-offrandes",
+     "nazwa": "Thaïlande - Thé Des Offrandes",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea, flowery",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-the-apres-l-orage",
+     "nazwa": "Thé Après L'Orage",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "Scented white tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-the-apres-l-orage-2",
+     "nazwa": "Thé Après L'Orage",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "White tea, mint & flowers",
+     "porcjaProducenta": "50g ~ about 20 cups"
+    },
+    {
+     "id": "seed-mariage-freres-the-au-sahara",
+     "nazwa": "Thé Au Sahara",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea, sweet mint & rose petals",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-the-au-tibet",
+     "nazwa": "Thé Au Tibet",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Silky & flowery black tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-the-blanc-au-tibet",
+     "nazwa": "Thé Blanc Au Tibet",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "White tea, silky & flowery",
+     "porcjaProducenta": "500g ~ about 200 cups"
+    },
+    {
+     "id": "seed-mariage-freres-the-blanc-marco-polo",
+     "nazwa": "Thé Blanc Marco Polo",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "Thé blanc - Fruits & fleurs",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-the-blanc-oriental",
+     "nazwa": "Thé Blanc Oriental",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "White tea, flowers and citrus",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-the-blanc-polo-club",
+     "nazwa": "Thé Blanc Polo Club",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "white tea, fruity & flowery",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-the-blanc-sacre",
+     "nazwa": "Thé Blanc Sacré",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "Harvested with golden scissors, Ceylan",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-the-bleu-de-paques",
+     "nazwa": "Thé Bleu De Pâques",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Blue Tea, golden liqueur",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-the-bleu-des-legendes",
+     "nazwa": "Thé Bleu Des Legendes",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Blue tea with a delicate citrus flavour, golden liqueur",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-the-dansant",
+     "nazwa": "Thé Dansant",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "Balthazar®, Rouge Métis® & Vert Amande™",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-the-de-fete",
+     "nazwa": "Thé De Fête",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, notes of crème brûlée and red fruits - New Blend",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-the-de-lune",
+     "nazwa": "Thé De Lune",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Velvety fruity vanilla black tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-the-de-paques",
+     "nazwa": "Thé De Pâques",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea - Fruits & pâtisserie notes",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-the-des-impressionnistes",
+     "nazwa": "Thé Des Impressionnistes",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Flowery green tea with a vanilla note",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-the-des-legendes",
+     "nazwa": "Thé Des Légendes",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Legends Tea - Sweet citrus green tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-the-des-maharajahs",
+     "nazwa": "Thé Des Maharajahs",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "Black iced tea, fruity & vanilla notes",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-the-des-voyageurs",
+     "nazwa": "Thé Des Voyageurs",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green iced tea with notes of exotic citrus",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-the-en-provence",
+     "nazwa": "Thé En Provence",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Gourmet black tea fruity with a taste of flowery fragrances of Provence",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-the-princier",
+     "nazwa": "Thé Princier",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "White tea, sparkling citrus and succulent fruits",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-the-rouge-de-paques",
+     "nazwa": "Thé Rouge De Pâques",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Black tea & red rooibos",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-the-sur-le-nil",
+     "nazwa": "Thé Sur Le Nil",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea, fruity & lemony flavour",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-the-sur-le-nil-2",
+     "nazwa": "Thé Sur Le Nil",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green iced tea with a fruity & lemony taste",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-the-vert-au-tibet",
+     "nazwa": "Thé Vert Au Tibet",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Silky fragant green tea with flowery notes",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-the-vert-de-paques",
+     "nazwa": "Thé Vert De Pâques",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-the-vert-marco-polo",
+     "nazwa": "Thé Vert Marco Polo",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea, brisk, fruity & flowery",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-the-vert-polo-club",
+     "nazwa": "Thé Vert Polo Club",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea, brisk, fruity & flowery",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-the-vert-sahara",
+     "nazwa": "Thé Vert Sahara",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green iced tea with notes of sweet mint & rose petals",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-the-vert-vanille",
+     "nazwa": "Thé Vert Vanille",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Vanilla green tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-the-vert-a-la-menthe-supreme",
+     "nazwa": "Thé Vert À La Menthe Suprême",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Scented green tea - Spearmint",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-the-a-l-opera",
+     "nazwa": "Thé À L'Opéra",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea, sweet notes of vanilla & red fruits",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-the-a-l-opera-2",
+     "nazwa": "Thé À L’Opéra",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Green tea, sweet notes of vanilla & red fruits",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-tibet-the-des-prieres",
+     "nazwa": "Tibet - Thé Des Prières",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, plants, spices & fruits",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-tilia-argentea",
+     "nazwa": "Tilia Argentea",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Silver linden flowers, artisan herbal tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-tokyo-breakfast-tea",
+     "nazwa": "Tokyo Breakfast Tea",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "A mellow black tea with peppy yuzu",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-tokyo-in-love",
+     "nazwa": "Tokyo In Love",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Fragrant blue tea, golden liqueur",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-tokyo-mojito",
+     "nazwa": "Tokyo Mojito",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Iced green tea with natural aromas of yuzu, mint & lime",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-trois-noix",
+     "nazwa": "Trois Noix",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea, nut, almond & pecan nut",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-vanille-des-iles",
+     "nazwa": "Vanille Des Iles",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "French island vanilla black tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-vanille-imperiale",
+     "nazwa": "Vanille Impériale",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Vanilla black tea - Darjeeling",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-vanille-orchidee-rouge",
+     "nazwa": "Vanille Orchidee Rouge",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Red rooibos, fragrance of pure vanilla",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-vanille-orchidee-noire",
+     "nazwa": "Vanille Orchidée Noire",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Scented black tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-vanille-orchidee-rouge-2",
+     "nazwa": "Vanille Orchidée Rouge",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Red rooibos, fragance of pure vanilla",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-vanille-orchidee-verte",
+     "nazwa": "Vanille Orchidée Verte",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Vanilla green tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-verbena-citriodora",
+     "nazwa": "Verbena Citriodora",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Lemon verbena leaves, artisan herbal tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-vert-provence",
+     "nazwa": "Vert Provence",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Mellow green tea with a fruity & flowery note",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-very-autumn",
+     "nazwa": "Very Autumn",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "Marron glacé flavour",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-very-beautiful",
+     "nazwa": "Very Beautiful",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Fruit tea - Flowers & citrus",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-very-magic",
+     "nazwa": "Very Magic",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Fruit tea - Apple, flowers & citrus",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-very-zen",
+     "nazwa": "Very Zen",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Fruit tea - Fruity & flowery",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-violetta",
+     "nazwa": "Violetta",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "Black iced tea with notes of flowers & violet",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-violette",
+     "nazwa": "Violette",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Scented black tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-voyage-a-rome",
+     "nazwa": "Voyage À Rome",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Sublime Black Tea - Scented black tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-veranda",
+     "nazwa": "Véranda",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Black tea - Exotic fruits & flowers",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-wedding-imperial",
+     "nazwa": "Wedding Impérial",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "A special celebration black tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-white-himalaya",
+     "nazwa": "White Himalaya",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "White tea, Nepal, Summer Flush",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-white-rhapsody",
+     "nazwa": "White Rhapsody",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "Flowery white tea with heavenly fruity notes",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-yanaon",
+     "nazwa": "Yanaon",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "opis": "Black & green tea, festive flowers",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-year-of-dragon",
+     "nazwa": "Year Of Dragon",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Thé des Signes® - Green tea, goji berries",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-year-of-the-dog",
+     "nazwa": "Year Of The Dog",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "Thé des Signes® - White tea, citrus & goji berries",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-year-of-the-horse",
+     "nazwa": "Year Of The Horse",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Thé des Signes® - Black tea, citrus & goji berries",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-year-of-the-monkey",
+     "nazwa": "Year Of The Monkey",
+     "marka": "Mariage Frères",
+     "typ": "biala",
+     "opis": "Thé des Signes® - White tea, citrus, safflowers & goji berries",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-year-of-the-ox",
+     "nazwa": "Year Of The Ox",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Thé des Signes® - Black tea, goji berries",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-year-of-the-pig",
+     "nazwa": "Year Of The Pig",
+     "marka": "Mariage Frères",
+     "typ": "ziolowa",
+     "opis": "Thé des Signes® - Green tea & rooibos, flowers with goji berry",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-year-of-the-rat",
+     "nazwa": "Year Of The Rat",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Thé des Signes® - Blue tea, goji berry, golden liqueur",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-year-of-the-rooster",
+     "nazwa": "Year Of The Rooster",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "opis": "Thé des Signes® - Blue tea, blue flowers & goji berries, golden liqueur",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-year-of-the-sheep",
+     "nazwa": "Year Of The Sheep",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Thé des Signes® - Green tea, fruits & goji berries",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-year-of-the-snake",
+     "nazwa": "Year Of The Snake",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Thé des Signes® - Green tea, mint & goji berries",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-yunnan-imperial",
+     "nazwa": "Yunnan Impérial",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "King of black China teas",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-yuzu-indigo",
+     "nazwa": "Yuzu Indigo",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Yuzu green tea, golden liqueur",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-yuzu-indigo-2",
+     "nazwa": "Yuzu Indigo",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Yuzu luminous green tea, golden liqueur",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-yuzu-temple",
+     "nazwa": "Yuzu Temple",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "opis": "Bright green tea with Japanese yuzu",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-eros",
+     "nazwa": "Éros",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Flowery black tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-etoile-mysterieuse",
+     "nazwa": "Étoile Mystérieuse",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "opis": "Gourmet black tea",
+     "porcjaProducenta": ""
+    }
+   ]
+  }
+ ]
+}

@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.0 — 2026-09-26 — Katalog Mariage Frères
+- Kolekcja startowa: 72 herbaty MF (30 z typem i opisem producenta, 13 z porcją producenta).
+- Seed śledzony pojedynczo: nowe herbaty dopisują się, puste pola uzupełniają, edycje w aplikacji nie są nadpisywane, usunięte nie wracają.
+- Karta herbaty: **opis producenta** i **porcja wg producenta** (oba edytowalne w formularzu).
+- Katalog MF (388 pozycji): autouzupełnianie przy dodawaniu herbaty (nazwa → marka, typ, opis, porcja; wybór wariantu, gdy nazwa jest niejednoznaczna) oraz przeglądarka katalogu z przyciskiem „+ chcę kupić” (Kolekcja → „chcę kupić”).
+- Wyszukiwarka kolekcji przeszukuje też opis producenta.
+
 ## 0.2.0 — 2026-09-26 — Herbaty startowe
 - 36 herbat Mariage Frères z `dane/import-mariage-freres.json` wczytuje się do kolekcji przy pierwszym uruchomieniu; puste pola zostają puste do uzupełnienia.
 - Nowe pole **Link** na karcie herbaty (np. Steepster), edytowalne w formularzu.

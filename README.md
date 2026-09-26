@@ -21,13 +21,23 @@ Adres: `https://<użytkownik>.github.io/herbatnik/`.
 - **Android / Chrome:** menu ⋮ → „Zainstaluj aplikację” / „Dodaj do ekranu głównego”.
 - **iPhone / Safari:** Udostępnij → „Do ekranu początkowego”.
 
-## Herbaty startowe (seed)
+## Herbaty startowe (seed) i katalog sklepu
 
-Pliki `dane/import-*.json` to listy herbat wczytywane do KOLEKCJI przy uruchomieniu aplikacji. Każdy plik (zestaw) wczytuje się **jeden raz** na danym urządzeniu: potem herbaty są zwykłymi wpisami (edytujesz je i usuwasz jak inne), a usunięta herbata nie wraca. Nowy plik (np. `dane/import-kusmi.json`) doda się przy następnym otwarciu aplikacji, także tam, gdzie już jest używana.
+**`dane/import-*.json`**: herbaty wczytywane do KOLEKCJI przy uruchomieniu aplikacji. Każda herbata jest śledzona osobno:
+- nowa herbata w pliku → dopisuje się przy następnym otwarciu aplikacji (także na telefonie, gdzie aplikacja jest już używana);
+- herbata usunięta w aplikacji → nie wraca;
+- pole puste w aplikacji, a w pliku pojawiła się wartość → uzupełnia się;
+- **to, co wpisałaś w aplikacji, nigdy nie jest nadpisywane**. Jeśli wyczyścisz pole, które przyszło z pliku, nie wróci (chyba że w pliku zmieni się jego wartość).
 
-Format pliku: `{ "herbaty": [ { "nazwa", "marka", "typ", "pochodzenie", "aromaty": [], "kubki_z_porcji", "status", "zrodlo" } ] }`. Pola `null` zostają puste (do uzupełnienia w aplikacji), a `zrodlo` (link, np. Steepster) trafia do pola **Link** na karcie herbaty.
+Format: `{ "herbaty": [ { "nazwa", "marka", "typ", "pochodzenie", "aromaty": [], "kubki_z_porcji", "status", "zrodlo", "opis_producenta", "porcja_producent" } ] }`. Pola `null` zostają puste. `zrodlo` → pole **Link**, `opis_producenta` → **Opis producenta**, `porcja_producent` → **Porcja wg producenta** (np. „100g ~ about 40 cups”; to co innego niż „kubki z jednej porcji”, które wpisujesz sama).
 
-Po zmianie w `dane/` uruchom `node scripts/build.mjs`: wygeneruje `app/data/seed.json` (workflow Pages robi to też sam przy deployu). Potem podbij wersję (sekcja „Aktualizacja aplikacji”).
+**`dane/katalog-*.json`**: katalog sklepu (`{ "herbaty": [ { "nazwa", "opis_producenta", "typ", "porcja" } ] }`, marka z nazwy pliku). Nie trafia do kolekcji sam z siebie. Służy do:
+- **autouzupełniania**: przy dodawaniu herbaty wpisz lub wybierz nazwę z listy, a puste pola marka, typ, opis i porcja uzupełnią się same; gdy pod jedną nazwą jest kilka produktów (np. Bel Ami: oolong i rooibos), aplikacja pokaże je do wyboru;
+- **listy „chcę kupić”**: Kolekcja → filtr „chcę kupić” → „Wybierz z katalogu Mariage Frères” → „+ chcę kupić”.
+
+Typy z danych mapowane na 7 typów aplikacji: rooibos, mate i owocowa → ziołowa; „mieszanka” → pusty.
+
+Po zmianie w `dane/` uruchom `node scripts/build.mjs`: wygeneruje `app/data/seed.json` i `app/data/katalog.json` (workflow Pages robi to też sam przy deployu). Potem podbij wersję (sekcja „Aktualizacja aplikacji”).
 
 ## Dane i kopia zapasowa
 
@@ -42,7 +52,7 @@ Po zmianie w `dane/` uruchom `node scripts/build.mjs`: wygeneruje `app/data/seed
   "herbaty": [
     { "id": "mf-2025-01", "nazwa": "Marco Polo", "marka": "Mariage Frères", "typ": "czarna",
       "pochodzenie": "Chiny", "aromaty": ["owoce", "kwiaty"], "kubki": "2–3", "status": "mam",
-      "link": "https://steepster.com/…" }
+      "link": "https://steepster.com/…", "opis": "Fruity & flowery black tea", "porcjaProducenta": "100g ~ about 40 cups" }
   ],
   "degustacje": [
     { "id": "d1", "herbataId": "mf-2025-01", "data": "2025-12-01", "temperatura": 90,
@@ -64,7 +74,7 @@ python3 -m http.server 8123 -d app &
 NODE_PATH=$(npm root -g) node tests/e2e.mjs   # wymaga globalnie zainstalowanego playwright
 ```
 
-Test przechodzi całą ścieżkę na emulowanym Pixelu 7: wczytanie herbat startowych, dodanie herbaty, degustacja w 3 tapnięciach, statystyki, filtry, eksport → import, działanie offline.
+Test przechodzi całą ścieżkę na emulowanym Pixelu 7: wczytanie herbat startowych i aktualizacja z 0.2.0 bez nadpisania edycji, autouzupełnianie i katalog „chcę kupić”, dodanie herbaty, degustacja w 3 tapnięciach, statystyki, filtry, eksport → import, działanie offline.
 
 ## Wiedza (etap 2)
 
@@ -78,8 +88,9 @@ app/            aplikacja (to idzie na GitHub Pages)
   js/db.js      IndexedDB
   sw.js         service worker (offline)
   fonts/        Playfair Display, Cormorant Garamond, Syne (self-hosted, OFL)
-  data/seed.json  herbaty startowe (generowane — nie edytuj ręcznie)
-dane/           listy herbat do wczytania (import-*.json)
+  data/          seed.json, katalog.json (generowane — nie edytuj ręcznie)
+  js/wspolne.js  id herbat i mapowanie typów (wspólne z build.mjs)
+dane/           import-*.json (kolekcja startowa), katalog-*.json (katalog sklepu)
 wiedza/         notatki książkowe (źródło treści Nauki)
 scripts/        build.mjs (dane → app/data), ikony.mjs (render ikon)
 tests/          test end-to-end

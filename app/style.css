@@ -323,3 +323,35 @@ legend { font-family: var(--tytulowa); font-size: 15px; padding: 0; margin-botto
   z-index: 20;
 }
 #toast.widoczny { opacity: 1; transform: translate(-50%, 0); }
+
+/* ---------- Opis producenta i katalog ---------- */
+.opis-producenta {
+  margin: 14px auto 0;
+  max-width: 30em;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.35;
+}
+.opis-producenta span::before { content: '„'; color: var(--zloto); }
+.opis-producenta span::after { content: '”'; color: var(--zloto); }
+.opis-producenta small {
+  display: block;
+  font-style: normal;
+  font-family: var(--geometryczna);
+  font-size: 10px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--szary);
+  margin-top: 4px;
+}
+.podpowiedz { margin: -8px 0 0; font-size: 16px; font-style: italic; color: var(--zloto-ciemne); display: grid; gap: 6px; }
+.podpowiedz[hidden] { display: none; }
+.podpowiedz .chip { font-style: normal; white-space: normal; text-align: left; justify-self: start; }
+.wejscie-katalog { display: grid; gap: 2px; margin: 14px 0 4px; text-align: center; }
+.wejscie-katalog span { font-family: var(--geometryczna); font-weight: 600; font-size: 15px; }
+.wejscie-katalog span::after { content: ' ›'; color: var(--zloto-ciemne); }
+.wejscie-katalog small { color: var(--szary); }
+.wstep { margin: 0; color: var(--szary); font-size: 17px; }
+#lista-katalogu { margin-top: 14px; }
+.katalog-pozycja .pozycja-dol { justify-content: flex-end; }
+.w-kolekcji { font-family: var(--geometryczna); font-size: 13px; color: var(--zloto-ciemne); text-decoration: none; padding: 8px 0; }

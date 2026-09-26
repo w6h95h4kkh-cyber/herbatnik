@@ -7,56 +7,66 @@
      "id": "seed-mariage-freres-cannele",
      "nazwa": "Cannelé",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "czarna",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/39593-cannele-mariage-freres"
+     "link": "https://steepster.com/teas/mariage-freres/39593-cannele-mariage-freres",
+     "opis": "Black tea Héritage Gourmand®",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-fuji-yama",
      "nazwa": "Fuji-Yama",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "zielona",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/12398-fuji-yama"
+     "link": "https://steepster.com/teas/mariage-freres/12398-fuji-yama",
+     "opis": "Green tea, a precious gift from Japan",
+     "porcjaProducenta": "100g ~ about 40 cups"
     },
     {
      "id": "seed-mariage-freres-apollon",
      "nazwa": "Apollon",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "oolong",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/14185-apollon"
+     "link": "https://steepster.com/teas/mariage-freres/14185-apollon",
+     "opis": "Blue tea, alluring golden liqueur with fruity notes",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-eros",
      "nazwa": "Eros",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "czarna",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/8041-eros"
+     "link": "https://steepster.com/teas/mariage-freres/8041-eros",
+     "opis": "Flowery black tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
     },
     {
      "id": "seed-mariage-freres-yuzu-temple",
      "nazwa": "Yuzu Temple",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "zielona",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/5922-yuzu-temple"
+     "link": "https://steepster.com/teas/mariage-freres/5922-yuzu-temple",
+     "opis": "Bright green tea with Japanese yuzu",
+     "porcjaProducenta": "100g ~ about 40 cups"
     },
     {
      "id": "seed-mariage-freres-georgie-op",
@@ -67,18 +77,22 @@
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/1348-georgie-op"
+     "link": "https://steepster.com/teas/mariage-freres/1348-georgie-op",
+     "opis": "",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-phenix",
      "nazwa": "Phénix",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "czarna",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/9981-phenix"
+     "link": "https://steepster.com/teas/mariage-freres/9981-phenix",
+     "opis": "Black tea with notes of honeyed hazelnuts",
+     "porcjaProducenta": "100g ~ about 40 cups"
     },
     {
      "id": "seed-mariage-freres-anis",
@@ -89,7 +103,9 @@
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/10203-anis"
+     "link": "https://steepster.com/teas/mariage-freres/10203-anis",
+     "opis": "",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-le-voyageur",
@@ -100,7 +116,9 @@
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/565-le-voyageur"
+     "link": "https://steepster.com/teas/mariage-freres/565-le-voyageur",
+     "opis": "",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-dragon-de-feu",
@@ -111,18 +129,22 @@
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/3926-dragon-de-feu"
+     "link": "https://steepster.com/teas/mariage-freres/3926-dragon-de-feu",
+     "opis": "",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-blue-himalaya",
      "nazwa": "Blue Himalaya",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "oolong",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/20106-blue-himalaya"
+     "link": "https://steepster.com/teas/mariage-freres/20106-blue-himalaya",
+     "opis": "Blue tea, Nepal, Summer Flush",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-grand-oolong",
@@ -133,18 +155,22 @@
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/16686-grand-oolong"
+     "link": "https://steepster.com/teas/mariage-freres/16686-grand-oolong",
+     "opis": "",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-fleur-d-orient",
      "nazwa": "Fleur d'Orient",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "zielona",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/21983-fleur-dorient"
+     "link": "https://steepster.com/teas/mariage-freres/21983-fleur-dorient",
+     "opis": "Crafted green tea, jasmine, rose and marigold flowers",
+     "porcjaProducenta": "50g ~ about 20 cups"
     },
     {
      "id": "seed-mariage-freres-tarry-souchong",
@@ -155,7 +181,9 @@
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/17723-tarry-souchong"
+     "link": "https://steepster.com/teas/mariage-freres/17723-tarry-souchong",
+     "opis": "",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-silver-dragon",
@@ -166,7 +194,9 @@
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/33558-silver-dragon"
+     "link": "https://steepster.com/teas/mariage-freres/33558-silver-dragon",
+     "opis": "",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-rouge-tea",
@@ -177,7 +207,9 @@
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/33565-rouge-tea"
+     "link": "https://steepster.com/teas/mariage-freres/33565-rouge-tea",
+     "opis": "",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-exposition-coloniale",
@@ -188,18 +220,22 @@
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/40433-exposition-coloniale"
+     "link": "https://steepster.com/teas/mariage-freres/40433-exposition-coloniale",
+     "opis": "",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-christmas-pudding",
      "nazwa": "Christmas Pudding",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "czarna",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/41607-christmas-pudding"
+     "link": "https://steepster.com/teas/mariage-freres/41607-christmas-pudding",
+     "opis": "Gourmet black tea, mellow notes of festive spices",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-chine",
@@ -210,7 +246,9 @@
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/42167-chine"
+     "link": "https://steepster.com/teas/mariage-freres/42167-chine",
+     "opis": "",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-monteviot-sftgfop1",
@@ -221,7 +259,9 @@
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/40368-monteviot-sftgfop1"
+     "link": "https://steepster.com/teas/mariage-freres/40368-monteviot-sftgfop1",
+     "opis": "",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-sungma-ftfgop1",
@@ -232,7 +272,9 @@
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/40370-sungma-ftfgop1"
+     "link": "https://steepster.com/teas/mariage-freres/40370-sungma-ftfgop1",
+     "opis": "",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-blue-tea",
@@ -243,18 +285,22 @@
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/35511-blue-tea"
+     "link": "https://steepster.com/teas/mariage-freres/35511-blue-tea",
+     "opis": "",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-rouge-provence",
      "nazwa": "Rouge Provence",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "ziolowa",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/31557-rouge-provence"
+     "link": "https://steepster.com/teas/mariage-freres/31557-rouge-provence",
+     "opis": "Theine-free Red Tea, rose & lavender",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-very-french",
@@ -265,7 +311,9 @@
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/48944-very-french"
+     "link": "https://steepster.com/teas/mariage-freres/48944-very-french",
+     "opis": "",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-black-magic-tea",
@@ -276,7 +324,9 @@
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/48949-black-magic-tea"
+     "link": "https://steepster.com/teas/mariage-freres/48949-black-magic-tea",
+     "opis": "",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-oolong",
@@ -287,7 +337,9 @@
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/44264-oolong"
+     "link": "https://steepster.com/teas/mariage-freres/44264-oolong",
+     "opis": "",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-midnight-green",
@@ -298,7 +350,9 @@
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/45205-midnight-green"
+     "link": "https://steepster.com/teas/mariage-freres/45205-midnight-green",
+     "opis": "",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-grand-keemun",
@@ -309,7 +363,9 @@
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/43689-grand-keemun"
+     "link": "https://steepster.com/teas/mariage-freres/43689-grand-keemun",
+     "opis": "",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-java-blue",
@@ -320,51 +376,61 @@
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/77847-java-blue"
+     "link": "https://steepster.com/teas/mariage-freres/77847-java-blue",
+     "opis": "",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-paris-kyoto",
      "nazwa": "Paris Kyoto",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "zielona",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/82118-paris-kyoto"
+     "link": "https://steepster.com/teas/mariage-freres/82118-paris-kyoto",
+     "opis": "Green tea",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-smoky-nara",
      "nazwa": "Smoky Nara",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "czarna",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/94101-smoky-nara"
+     "link": "https://steepster.com/teas/mariage-freres/94101-smoky-nara",
+     "opis": "Grand cru black tea smoked with oak from Japanese whisky barrels",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-dream-tea",
      "nazwa": "Dream Tea",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "ziolowa",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/94822-dream-tea"
+     "link": "https://steepster.com/teas/mariage-freres/94822-dream-tea",
+     "opis": "Herbal tea naturelly theine free, eight velvety soothing relaxing herbs",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-hallelujah",
      "nazwa": "Hallelujah",
      "marka": "Mariage Frères",
-     "typ": "",
+     "typ": "czarna",
      "pochodzenie": "",
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/102321-hallelujah"
+     "link": "https://steepster.com/teas/mariage-freres/102321-hallelujah",
+     "opis": "Black tea with festive notes of fruits & vanilla",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-vert-a-la-menthe",
@@ -375,7 +441,9 @@
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/104783-vert-a-la-menthe"
+     "link": "https://steepster.com/teas/mariage-freres/104783-vert-a-la-menthe",
+     "opis": "",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-balthazar-bleu",
@@ -386,7 +454,9 @@
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/105205-balthazar-bleu"
+     "link": "https://steepster.com/teas/mariage-freres/105205-balthazar-bleu",
+     "opis": "",
+     "porcjaProducenta": ""
     },
     {
      "id": "seed-mariage-freres-bloemfontein",
@@ -397,7 +467,477 @@
      "aromaty": [],
      "kubki": "",
      "status": "",
-     "link": "https://steepster.com/teas/mariage-freres/13739-bloemfontein"
+     "link": "https://steepster.com/teas/mariage-freres/13739-bloemfontein",
+     "opis": "",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-veranda",
+     "nazwa": "Veranda",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/33554-veranda",
+     "opis": "Black tea - Exotic fruits & flowers",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-ureshinocha",
+     "nazwa": "Ureshinocha",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/33559-ureshinocha",
+     "opis": "",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-napuk-ftgfop1",
+     "nazwa": "Napuk FTGFOP1",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/33561-napuk-ftgfop1",
+     "opis": "",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-lotus-blanc",
+     "nazwa": "Lotus Blanc",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/33566-lotus-blanc",
+     "opis": "",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-phenix-mf",
+     "nazwa": "Phénix MF",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/36488-phenix-mf",
+     "opis": "",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-peche",
+     "nazwa": "Pêche",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/36919-peche",
+     "opis": "",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-hojicha",
+     "nazwa": "Hojicha",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/46362-hojicha",
+     "opis": "",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-paris-singapour",
+     "nazwa": "Paris Singapour",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/47086-paris-singapour",
+     "opis": "Mellow green tea, refreshing and soothing",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-japon",
+     "nazwa": "Japon",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/42168-japon",
+     "opis": "",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-sakura-2013",
+     "nazwa": "Sakura 2013",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/42170-sakura-2013",
+     "opis": "",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-matin-parisien",
+     "nazwa": "Matin Parisien",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/68462-matin-parisien",
+     "opis": "Bright black tea, sparkling citrus notes",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-lily-muguet-black",
+     "nazwa": "Lily Muguet - Black",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/58367-lily-muguet-black",
+     "opis": "Black tea, lily of the valley fragrance",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-opera-rhapsody",
+     "nazwa": "Opera Rhapsody",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/98798-opera-rhapsody",
+     "opis": "",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-flower-moon",
+     "nazwa": "Flower Moon",
+     "marka": "Mariage Frères",
+     "typ": "oolong",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/98849-flower-moon",
+     "opis": "Blue Tea™, pearly almond and sweet spices, golden liqueur",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-habibi",
+     "nazwa": "Habibi",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/105819-habibi",
+     "opis": "Gourmet black tea, rose lychee and orange blossom",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-smoky-sakura",
+     "nazwa": "Smoky Sakura",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/101499-smoky-sakura",
+     "opis": "Grand cru black tea smoked with Japanese cherrywood",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-english-breakfast",
+     "nazwa": "English Breakfast",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/13660-english-breakfast",
+     "opis": "Strong & malty notorious morning black tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-bannockburn-ftgfop1",
+     "nazwa": "Bannockburn FTGFOP1",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/14182-bannockburn-ftgfop1",
+     "opis": "",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-myrtille",
+     "nazwa": "Myrtille",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/10654-myrtille",
+     "opis": "",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-confucius",
+     "nazwa": "Confucius",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/11556-confucius",
+     "opis": "",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-elixir-d-amour",
+     "nazwa": "Elixir d'Amour",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/12073-elixir-damour",
+     "opis": "Black tea, citrus & flowers",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-narcisse",
+     "nazwa": "Narcisse",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/8795-narcisse",
+     "opis": "",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-chandernagor",
+     "nazwa": "Chandernagor",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/6869-chandernagor",
+     "opis": "Black tea, imperial spices",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-ruschka",
+     "nazwa": "Ruschka",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/2812-ruschka",
+     "opis": "À la Russian black tea, scented with citrus fruit",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-vivaldi",
+     "nazwa": "Vivaldi",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/3682-vivaldi",
+     "opis": "",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-bolero",
+     "nazwa": "Boléro",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/12509-bolero",
+     "opis": "French Riviera fruity black tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-maloon-ftgfop",
+     "nazwa": "Maloon, FTGFOP",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/1155-maloon-ftgfop",
+     "opis": "",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-lingot-d-or",
+     "nazwa": "Lingot d'Or",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/9534-lingot-dor",
+     "opis": "",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-violette",
+     "nazwa": "Violette",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/17701-violette",
+     "opis": "Scented black tea",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-matcha",
+     "nazwa": "Matcha",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/17720-matcha",
+     "opis": "",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-russian-breakfast",
+     "nazwa": "Russian Breakfast",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/18420-russian-breakfast",
+     "opis": "Citrus flavoured full-bodied black tea",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-aida",
+     "nazwa": "Aida",
+     "marka": "Mariage Frères",
+     "typ": "czarna",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/20879-aida",
+     "opis": "Black tea - Citrus",
+     "porcjaProducenta": "100g ~ about 40 cups"
+    },
+    {
+     "id": "seed-mariage-freres-queen-victoria",
+     "nazwa": "Queen Victoria",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/22027-queen-victoria",
+     "opis": "",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-ylang-ylang",
+     "nazwa": "Ylang-Ylang",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/27762-ylang-ylang",
+     "opis": "",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-donyi-polo",
+     "nazwa": "Donyi Polo",
+     "marka": "Mariage Frères",
+     "typ": "",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/27832-donyi-polo",
+     "opis": "",
+     "porcjaProducenta": ""
+    },
+    {
+     "id": "seed-mariage-freres-happy-queen",
+     "nazwa": "Happy Queen",
+     "marka": "Mariage Frères",
+     "typ": "zielona",
+     "pochodzenie": "",
+     "aromaty": [],
+     "kubki": "",
+     "status": "",
+     "link": "https://steepster.com/teas/mariage-freres/28335-happy-queen",
+     "opis": "Green tea citrus, flowers & exotic fruits",
+     "porcjaProducenta": ""
     }
    ]
   }

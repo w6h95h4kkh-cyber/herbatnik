@@ -1,4 +1,5 @@
 import * as db from './db.js';
+import { kluczNazwy } from './wspolne.js';
 
 // ---------- Słowniki ----------
 export const TYPY = [
@@ -25,6 +26,8 @@ const stan = {
   herbaty: [],
   degustacje: [],
   filtr: { tekst: '', status: 'wszystkie', typ: 'wszystkie' },
+  katalog: null, // herbaty z katalogów sklepów (data/katalog.json), wczytywane w tle
+  filtrKatalogu: { tekst: '', typ: 'wszystkie' },
 };
 let nawigacjaWewnetrzna = false;
 
@@ -142,9 +145,11 @@ function listaHerbat() {
   const pasuje = h =>
     (f.status === 'wszystkie' || h.status === f.status) &&
     (f.typ === 'wszystkie' || h.typ === f.typ) &&
-    (!q || [h.nazwa, h.marka, h.pochodzenie, ...(h.aromaty || [])].join(' ').toLocaleLowerCase('pl').includes(q));
+    (!q || [h.nazwa, h.marka, h.pochodzenie, h.opis, ...(h.aromaty || [])].join(' ').toLocaleLowerCase('pl').includes(q));
   const lista = stan.herbaty.filter(pasuje);
-  if (!lista.length) return '<p class="pusto">Nic nie pasuje do filtrów.</p>';
+  const doKatalogu = f.status === 'chce' && stan.katalog?.length
+    ? `<a class="karta wejscie-katalog" href="#/katalog"><span>Wybierz z katalogu Mariage Frères</span><small>${stan.katalog.length} herbat ze sklepu z opisem producenta</small></a>` : '';
+  if (!lista.length) return `${doKatalogu}<p class="pusto">Nic nie pasuje do filtrów.</p>`;
 
   const grupy = new Map();
   lista
@@ -154,7 +159,7 @@ function listaHerbat() {
       if (!grupy.has(m)) grupy.set(m, []);
       grupy.get(m).push(h);
     });
-  return [...grupy].map(([marka, hs]) => `
+  return doKatalogu + [...grupy].map(([marka, hs]) => `
     <h2 class="grupa"><span>${esc(marka)}</span> <small>${hs.length}</small></h2>
     <ul class="lista">${hs.map(h => {
       const sr = sredniaOcena(h.id);
@@ -177,12 +182,14 @@ function widokHerbata(id) {
     <p class="ozdobnik">${h.marka ? esc(h.marka) : '&nbsp;'}</p>
     <h2 class="nazwa-herbaty">${esc(h.nazwa)}</h2>
     ${h.typ ? `<p class="typ-herbaty">${kropkaTypu(h.typ)}herbata ${typ(h.typ).n}</p>` : ''}
+    ${h.opis ? `<blockquote class="opis-producenta"><span>${esc(h.opis)}</span><small>opis producenta</small></blockquote>` : ''}
     ${sr ? `<p class="srednia">${gwiazdki(Math.round(sr))} <small>${fmtSr(sr)} · ${deg.filter(d => d.ocena).length} ocen</small></p>` : ''}
     <dl class="pola">
       ${pole('Pochodzenie', esc(h.pochodzenie))}
       ${pole('Aromaty', h.aromaty?.length ? `<i>${esc(h.aromaty.join(', '))}</i>` : '')}
       ${pole('Link', h.link ? `<a href="${esc(h.link)}" target="_blank" rel="noopener noreferrer">${esc(new URL(h.link).hostname.replace(/^www\./, ''))} ↗</a>` : '')}
       ${pole('Z jednej porcji', h.kubki ? `${esc(h.kubki)} ${/kub/i.test(h.kubki) ? '' : 'kubki'}` : '')}
+      ${pole('Wg producenta', esc(h.porcjaProducenta))}
     </dl>
     <div class="chipy statusy" role="group" aria-label="Status">
       ${STATUSY.map(s => `<button class="chip ${h.status === s.k ? 'wybrany' : ''}" data-akcja="ustaw-status" data-id="${h.id}" data-k="${s.k}">${s.n}</button>`).join('')}
@@ -217,7 +224,9 @@ function widokFormHerbaty(id) {
   const marki = [...new Set([...MARKI_START, ...stan.herbaty.map(x => x.marka).filter(Boolean)])];
   return `${naglowek(h ? 'Edytuj herbatę' : 'Nowa herbata', h ? `#/herbata/${h.id}` : '#/kolekcja')}
   <form id="form-herbata" class="formularz karta" data-id="${h ? h.id : ''}" autocomplete="off">
-    <label>Nazwa<input name="nazwa" required value="${esc(w.nazwa)}" placeholder="np. Marco Polo"></label>
+    <label>Nazwa<input name="nazwa" required list="katalog-nazw" value="${esc(w.nazwa)}" placeholder="np. Marco Polo"></label>
+    <datalist id="katalog-nazw">${opcjeKatalogu()}</datalist>
+    <p id="podpowiedz-katalogu" class="podpowiedz" hidden></p>
     <label>Marka<input name="marka" list="marki" value="${esc(w.marka)}"></label>
     <datalist id="marki">${marki.map(m => `<option value="${esc(m)}">`).join('')}</datalist>
     <fieldset><legend>Typ</legend><div class="chipy">
@@ -226,12 +235,119 @@ function widokFormHerbaty(id) {
     <label>Pochodzenie<input name="pochodzenie" value="${esc(w.pochodzenie)}" placeholder="np. Chiny, Yunnan"></label>
     <label><span>Aromaty <small>(po przecinku)</small></span><input name="aromaty" value="${esc((w.aromaty || []).join(', '))}" placeholder="np. wanilia, owoce, kwiaty"></label>
     <label><span>Z jednej porcji <small>(ile kubków)</small></span><input name="kubki" value="${esc(w.kubki)}" placeholder="np. 2–3"></label>
+    <label><span>Opis producenta</span><textarea name="opis" rows="2">${esc(w.opis)}</textarea></label>
+    <label><span>Porcja wg producenta <small>(np. 100g ~ about 40 cups)</small></span><input name="porcjaProducenta" value="${esc(w.porcjaProducenta)}"></label>
     <label><span>Link <small>(np. Steepster)</small></span><input name="link" type="url" inputmode="url" value="${esc(w.link)}" placeholder="https://…"></label>
     <fieldset><legend>Status</legend><div class="chipy">
       ${STATUSY.map(s => `<label class="chip"><input type="radio" name="status" value="${s.k}" ${w.status === s.k ? 'checked' : ''}>${s.n}</label>`).join('')}
     </div></fieldset>
     <div class="przyklejone"><button class="przycisk glowny szeroki" type="submit">Zapisz</button></div>
   </form>`;
+}
+
+// ---------- Katalog sklepu ----------
+function opcjeKatalogu() {
+  const nazwy = new Map((stan.katalog || []).map(k => [kluczNazwy(k.nazwa), k]));
+  return [...nazwy.values()].map(k => `<option value="${esc(k.nazwa)}">${esc(k.marka)}</option>`).join('');
+}
+const wariantyKatalogu = nazwa => (stan.katalog || []).filter(k => kluczNazwy(k.nazwa) === kluczNazwy(nazwa));
+// Herbata z katalogu jest „w kolekcji”, gdy ma to samo id albo — jeśli nazwa w katalogu jest jednoznaczna — tę samą nazwę.
+const herbataWKolekcji = k => herbata(k.id) || (wariantyKatalogu(k.nazwa).length === 1
+  ? stan.herbaty.find(h => kluczNazwy(h.nazwa) === kluczNazwy(k.nazwa) && (!h.marka || h.marka === k.marka)) : undefined);
+const opisWariantu = k => `${k.typ ? `${typ(k.typ).n} · ` : ''}${k.opis || 'bez opisu'}`;
+
+// Nazwa z katalogu → uzupełnij puste pola (marka, typ, opis, porcja). Niczego, co już wpisane, nie nadpisuje.
+// Gdy pod tą nazwą jest kilka produktów, pokaż je do wyboru zamiast zgadywać.
+function uzupelnijZKatalogu(form, wybrany) {
+  const podpowiedz = $('#podpowiedz-katalogu');
+  const warianty = wybrany ? [wybrany] : wariantyKatalogu(form.elements.nazwa.value);
+  if (!warianty.length) { podpowiedz.hidden = true; return; }
+  podpowiedz.hidden = false;
+  if (warianty.length > 1) {
+    const n = warianty.length;
+    podpowiedz.innerHTML = `W katalogu ${esc(warianty[0].marka)} ta nazwa ma ${n} ${n < 5 ? 'warianty' : 'wariantów'} — który to?
+      ${warianty.map(k => `<button type="button" class="chip" data-akcja="wariant-katalogu" data-id="${k.id}">${esc(opisWariantu(k))}</button>`).join('')}`;
+    return;
+  }
+  const k = warianty[0];
+  const uzupelnione = [];
+  if (!form.elements.marka.value.trim()) { form.elements.marka.value = k.marka; uzupelnione.push('markę'); }
+  if (k.typ && !form.querySelector('input[name=typ]:checked')) {
+    form.querySelector(`input[name=typ][value="${k.typ}"]`).checked = true;
+    uzupelnione.push('typ');
+  }
+  if (k.opis && !form.elements.opis.value.trim()) { form.elements.opis.value = k.opis; uzupelnione.push('opis'); }
+  if (k.porcjaProducenta && !form.elements.porcjaProducenta.value.trim()) {
+    form.elements.porcjaProducenta.value = k.porcjaProducenta;
+    uzupelnione.push('porcję');
+  }
+  podpowiedz.textContent = `Z katalogu ${k.marka}${uzupelnione.length ? ` — uzupełniono: ${uzupelnione.join(', ')}` : ''}.`;
+}
+
+function widokKatalog() {
+  const f = stan.filtrKatalogu;
+  return `${naglowek('Katalog Mariage Frères', '#/kolekcja')}
+  <section class="narzedzia">
+    <p class="wstep">Herbaty ze sklepu. Stuknij <b>+ chcę kupić</b>, a herbata trafi do kolekcji ze statusem „chcę kupić”.</p>
+    <input type="search" id="szukaj-katalog" placeholder="Szukaj: nazwa, opis…" value="${esc(f.tekst)}" autocomplete="off">
+    <div class="chipy przewijane" role="group" aria-label="Typ">
+      <button class="chip ${f.typ === 'wszystkie' ? 'wybrany' : ''}" data-akcja="katalog-typ" data-k="wszystkie">każdy typ</button>
+      ${TYPY.map(t => `<button class="chip ${f.typ === t.k ? 'wybrany' : ''}" data-akcja="katalog-typ" data-k="${t.k}">${kropkaTypu(t.k)}${t.n}</button>`).join('')}
+    </div>
+  </section>
+  <div id="lista-katalogu"></div>`;
+}
+
+function listaKatalogu() {
+  if (!stan.katalog) return '<p class="pusto">Wczytuję katalog…</p>';
+  const f = stan.filtrKatalogu;
+  const q = f.tekst.trim().toLocaleLowerCase('pl');
+  const lista = stan.katalog.filter(k =>
+    (f.typ === 'wszystkie' || k.typ === f.typ) &&
+    (!q || `${k.nazwa} ${k.opis}`.toLocaleLowerCase('pl').includes(q)));
+  if (!lista.length) return '<p class="pusto">Nic nie pasuje.</p>';
+  return `<ul class="lista">${lista.map(k => `<li class="karta pozycja katalog-pozycja">
+    <span class="pozycja-nazwa">${esc(k.nazwa)}</span>
+    <span class="pozycja-meta">${k.typ ? `${kropkaTypu(k.typ)}${typ(k.typ).n} · ` : ''}<i>${esc(k.opis)}</i>${k.porcjaProducenta ? ` · ${esc(k.porcjaProducenta)}` : ''}</span>
+    <span class="pozycja-dol">${przyciskKatalogu(k)}</span>
+  </li>`).join('')}</ul>`;
+}
+
+function przyciskKatalogu(k) {
+  const h = herbataWKolekcji(k);
+  return h
+    ? `<a class="w-kolekcji" href="#/herbata/${h.id}">w kolekcji${h.status ? ` · ${status(h.status).n}` : ''} ›</a>`
+    : `<button class="przycisk maly" data-akcja="dodaj-z-katalogu" data-id="${k.id}">+ chcę kupić</button>`;
+}
+
+async function dodajZKatalogu(el) {
+  const k = stan.katalog.find(x => x.id === el.dataset.id);
+  if (!k || herbataWKolekcji(k)) return;
+  const czas = teraz();
+  const h = {
+    id: k.id, nazwa: k.nazwa, marka: k.marka, typ: k.typ, pochodzenie: '', aromaty: [],
+    kubki: '', status: 'chce', link: '', opis: k.opis, porcjaProducenta: k.porcjaProducenta, utworzono: czas, zmieniono: czas,
+  };
+  await db.zapisz('herbaty', h);
+  stan.herbaty.push(h);
+  db.poprosOTrwalosc();
+  el.outerHTML = przyciskKatalogu(k);
+  toast('Dodano do „chcę kupić”');
+}
+
+async function wczytajKatalog() {
+  try {
+    const odp = await fetch('data/katalog.json');
+    if (!odp.ok) return;
+    const dane = await odp.json();
+    stan.katalog = (dane.katalogi || []).flatMap(k => k.herbaty)
+      .sort((a, b) => a.nazwa.localeCompare(b.nazwa, 'pl'));
+  } catch { return; }
+  // Odśwież to, co zależy od katalogu, jeśli jest na ekranie.
+  const dl = $('#katalog-nazw');
+  if (dl) dl.innerHTML = opcjeKatalogu();
+  if ($('#lista-katalogu')) $('#lista-katalogu').innerHTML = listaKatalogu();
+  if ($('#lista-herbat') && stan.filtr.status === 'chce') $('#lista-herbat').innerHTML = listaHerbat();
 }
 
 function widokFormDegustacji(id, params) {
@@ -360,6 +476,7 @@ function trasa() {
   if (cz[0] === 'degustacja' && cz[1]) return { zakladka: 'degustacje', html: widokFormDegustacji(cz[1], params) };
   if (cz[0] === 'degustacje') return { zakladka: 'degustacje', html: widokDegustacje() };
   if (cz[0] === 'kopia') return { zakladka: 'kopia', html: widokKopia() };
+  if (cz[0] === 'katalog') return { zakladka: 'kolekcja', html: widokKatalog(), poRenderze: () => { $('#lista-katalogu').innerHTML = listaKatalogu(); } };
   return { zakladka: 'kolekcja', html: widokKolekcja(), poRenderze: () => { $('#lista-herbat').innerHTML = listaHerbat(); } };
 }
 
@@ -387,6 +504,8 @@ async function zapiszHerbate(form) {
     pochodzenie: f.get('pochodzenie').trim(),
     aromaty: f.get('aromaty').split(',').map(s => s.trim()).filter(Boolean),
     kubki: f.get('kubki').trim(),
+    opis: f.get('opis').trim(),
+    porcjaProducenta: f.get('porcjaProducenta').trim(),
     status: f.get('status') || '',
     link: bezpiecznyLink(f.get('link')),
     utworzono: stara?.utworzono || teraz(),
@@ -515,6 +634,14 @@ async function klik(e) {
     if (form.elements.czas.value === '' && ost.czas != null) form.elements.czas.value = fmtCzas(ost.czas);
     $('#wybor-herbaty').innerHTML = wyborHerbaty(id);
     if (!id) $('#szukaj-herbaty')?.focus();
+  } else if (a === 'katalog-typ') {
+    stan.filtrKatalogu.typ = el.dataset.k;
+    el.parentElement.querySelectorAll('.chip').forEach(c => c.classList.toggle('wybrany', c === el));
+    $('#lista-katalogu').innerHTML = listaKatalogu();
+  } else if (a === 'wariant-katalogu') {
+    uzupelnijZKatalogu(el.form, stan.katalog.find(k => k.id === el.dataset.id));
+  } else if (a === 'dodaj-z-katalogu') {
+    dodajZKatalogu(el);
   } else if (a === 'eksport') {
     eksport();
   }
@@ -534,7 +661,12 @@ function odznaczRadio(e) {
 }
 
 function wpisywanie(e) {
-  if (e.target.id === 'szukaj') {
+  if (e.target.name === 'nazwa' && e.target.form?.id === 'form-herbata') {
+    uzupelnijZKatalogu(e.target.form);
+  } else if (e.target.id === 'szukaj-katalog') {
+    stan.filtrKatalogu.tekst = e.target.value;
+    $('#lista-katalogu').innerHTML = listaKatalogu();
+  } else if (e.target.id === 'szukaj') {
     stan.filtr.tekst = e.target.value;
     $('#lista-herbat').innerHTML = listaHerbat();
   } else if (e.target.id === 'szukaj-herbaty') {
@@ -546,28 +678,47 @@ function wpisywanie(e) {
   }
 }
 
-// Herbaty startowe z data/seed.json (generowane z dane/import-*.json).
-// Każdy zestaw wczytuje się raz — potem herbaty są już Twoje (edycja, usuwanie).
+// Herbaty startowe z data/seed.json (generowane z dane/import-*.json), śledzone pojedynczo:
+// - nowa herbata z pliku → dodana (także gdy aplikacja jest już w użyciu),
+// - herbata usunięta w aplikacji → nie wraca,
+// - puste pole, dla którego plik ma nową wartość → uzupełnione; to, co wpisane w aplikacji, nie jest nadpisywane.
+const POLA_SEED = ['marka', 'typ', 'pochodzenie', 'aromaty', 'kubki', 'status', 'link', 'opis', 'porcjaProducenta'];
+const puste = v => v == null || v === '' || (Array.isArray(v) && !v.length);
+const rowne = (a, b) => JSON.stringify(a ?? '') === JSON.stringify(b ?? '');
+
 async function wczytajZestawyStartowe() {
   let seed;
   try {
     const odp = await fetch('data/seed.json', { cache: 'no-cache' });
-    if (!odp.ok) return 0;
+    if (!odp.ok) return {};
     seed = await odp.json();
-  } catch { return 0; } // offline przy pierwszym starcie — spróbujemy następnym razem
-  const meta = (await db.pobierz('meta', 'zestawy')) || { klucz: 'zestawy', wczytane: [] };
-  const nowe = (seed.zestawy || []).filter(z => !meta.wczytane.includes(z.id));
-  if (!nowe.length) return 0;
-  const sa = new Set(stan.herbaty.map(h => h.id));
+  } catch { return {}; } // offline przy pierwszym starcie — spróbujemy następnym razem
+  const meta = (await db.pobierz('meta', 'seed')) || { klucz: 'seed', herbaty: {} };
+  const przed = JSON.stringify(meta);
+  if (!Object.keys(meta.herbaty).length && await db.pobierz('meta', 'zestawy')) {
+    // Migracja z 0.2.0 (zestawy wczytywane w całości): tamte herbaty miały same puste pola.
+    stan.herbaty.filter(h => h.id.startsWith('seed-')).forEach(h => { meta.herbaty[h.id] = {}; });
+  }
+  const wBazie = new Map(stan.herbaty.map(h => [h.id, h]));
   const czas = teraz();
-  const herbaty = nowe.flatMap(z => z.herbaty)
-    .filter(h => h.id && h.nazwa && !sa.has(h.id))
-    .map(h => ({ ...h, link: bezpiecznyLink(h.link), utworzono: czas, zmieniono: czas }));
-  if (herbaty.length) await db.zapiszWiele('herbaty', herbaty);
-  meta.wczytane.push(...nowe.map(z => z.id));
-  await db.zapisz('meta', meta);
-  stan.herbaty.push(...herbaty);
-  return herbaty.length;
+  const dodane = [], uzupelnione = [];
+  for (const sh of (seed.zestawy || []).flatMap(z => z.herbaty)) {
+    if (!sh.id || !sh.nazwa) continue;
+    const znane = meta.herbaty[sh.id];
+    const h = wBazie.get(sh.id);
+    if (!znane && !h) {
+      dodane.push({ ...sh, link: bezpiecznyLink(sh.link), utworzono: czas, zmieniono: czas });
+    } else if (h) {
+      const pola = POLA_SEED.filter(p => puste(h[p]) && !puste(sh[p]) && !rowne(sh[p], znane?.[p]));
+      pola.forEach(p => { h[p] = p === 'link' ? bezpiecznyLink(sh[p]) : sh[p]; });
+      if (pola.length) { h.zmieniono = czas; uzupelnione.push(h); }
+    }
+    meta.herbaty[sh.id] = Object.fromEntries(POLA_SEED.map(p => [p, sh[p] ?? '']));
+  }
+  if (dodane.length || uzupelnione.length) await db.zapiszWiele('herbaty', [...dodane, ...uzupelnione]);
+  if (JSON.stringify(meta) !== przed) await db.zapisz('meta', meta);
+  stan.herbaty.push(...dodane);
+  return { dodane: dodane.length, uzupelnione: uzupelnione.length };
 }
 
 async function wczytaj() {
@@ -595,11 +746,13 @@ export async function start() {
   window.addEventListener('hashchange', () => { nawigacjaWewnetrzna = true; renderuj(); window.scrollTo(0, 0); });
   try {
     await wczytaj();
-    const ile = await wczytajZestawyStartowe();
-    if (ile) toast(`Dodano ${ile} herbat do kolekcji`);
+    const { dodane, uzupelnione } = await wczytajZestawyStartowe();
+    const info = [dodane && `dodano ${dodane} herbat`, uzupelnione && `uzupełniono ${uzupelnione}`].filter(Boolean).join(' · ');
+    if (info) toast(`Kolekcja: ${info}`);
   } catch (e) {
     main.innerHTML = `<p class="pusto">Nie mogę otworzyć bazy danych w tej przeglądarce (${esc(e.message)}). W trybie prywatnym niektóre przeglądarki blokują zapis.</p>`;
     return;
   }
   renderuj();
+  wczytajKatalog();
 }
