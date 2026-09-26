@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Herbatnik</title>
+  <meta name="description" content="Prywatna aplikacja herbaciana: kolekcja i degustacje.">
+  <meta name="theme-color" content="#fdf6ec">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Herbatnik">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="style.css">
+  <script>window.HERBATNIK_WERSJA = '0.4.0';</script>
+  <script type="module">
+    import { start } from './js/app.js';
+    start();
+    if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
+  </script>
+</head>
+<body>
+  <main id="main" class="strona"></main>
+  <nav class="nawigacja" aria-label="Zakładki"></nav>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
