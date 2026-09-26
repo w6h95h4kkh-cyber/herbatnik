@@ -1,5 +1,5 @@
 {
- "opis": "Katalog sklepu Mariage Frères (9 stron wklejonych przez Misię 2026-09-26). Opis producenta w oryginale. Typ wyprowadzony tylko z opisu (Blue tea = oolong, Red tea = rooibos); null = opis nie mówi. 'porcja' = info producenta o liczbie filiżanek. Ta sama nazwa może mieć kilka wariantów (np. Lily Muguet czarna/zielona/biała).",
+ "opis": "Katalog sklepu Mariage Frères (10 stron — komplet wklejonych przez Misię 2026-09-26). Opis producenta w oryginale. Typ wyprowadzony tylko z opisu (Blue tea = oolong, Red tea = rooibos); null = opis nie mówi. 'porcja' = info producenta o liczbie filiżanek. Ta sama nazwa może mieć kilka wariantów (np. Lily Muguet czarna/zielona/biała).",
  "herbaty": [
   {
    "nazwa": "1854",
@@ -111,9 +111,39 @@
   },
   {
    "nazwa": "Ambootia",
+   "opis_producenta": "SFTGFOP1 DJ24 - Spring Flush - Premium First Flush",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Ambootia",
    "opis_producenta": "SFTGFOP1 EX3/2026 - Spring Flush – Premium First Flush",
    "porcja": null,
    "typ": null
+  },
+  {
+   "nazwa": "Ambootia - Bps",
+   "opis_producenta": "Black tea, summer flush - Darjeeling, India",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Ambootia Lune D’Or",
+   "opis_producenta": "SFTGFOP1 - Black tea, autumn flush - Darjeeling, India",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Ambootia Nuage D’Or",
+   "opis_producenta": "SFTGFOP1 - Black tea, autumn flush - Darjeeling, India",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "czarna"
+  },
+  {
+   "nazwa": "Ambootia Royal",
+   "opis_producenta": "SFTGFOP1 - Black tea, Summer Flush - darjeeling, India",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "czarna"
   },
   {
    "nazwa": "Ambre Bleu",
@@ -363,6 +393,12 @@
   },
   {
    "nazwa": "Bloomfield",
+   "opis_producenta": "SFTGFOP1 - DJ3/2026 - Spring Flush - Premium First Flush",
+   "porcja": "50g ~ about 20 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Bloomfield",
    "opis_producenta": "SFTGFOP1 DJ4/2025 - Spring Flush – Premium First Flush",
    "porcja": "50g ~ about 20 cups",
    "typ": null
@@ -537,6 +573,12 @@
   },
   {
    "nazwa": "Castleton",
+   "opis_producenta": "FTGFOP1 DJ19/2026 - Spring Flush – Premium first flush",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Castleton",
    "opis_producenta": "FTGFOP1 DJ2/2024 - Spring Flush - Premium First Flush",
    "porcja": "50g ~ about 20 cups",
    "typ": null
@@ -544,6 +586,12 @@
   {
    "nazwa": "Castleton",
    "opis_producenta": "FTGFOP1 DJ51/20 - Darjeeling Summer Flush 2020",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Castleton",
+   "opis_producenta": "FTGFOP1 DJ8/2026 - Spring Flush – Premium first flush",
    "porcja": "100g ~ about 40 cups",
    "typ": null
   },
@@ -1910,6 +1958,12 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Lotus D’Or",
+   "opis_producenta": "Black tea with Lotus stamen - Viêt-Nam",
+   "porcja": "50g ~ about 20 cups",
+   "typ": "czarna"
+  },
+  {
    "nazwa": "Lotus Pourpre",
    "opis_producenta": "Blue tea with Lotus stamen",
    "porcja": "50g ~ about 20 cups",
@@ -2048,6 +2102,12 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Mandarine Amoureuse",
+   "opis_producenta": "Green tea, luscious hint of rose mandarin",
+   "porcja": null,
+   "typ": "zielona"
+  },
+  {
    "nazwa": "Mandarine In Love",
    "opis_producenta": "Flavoured green tea",
    "porcja": null,
@@ -2163,6 +2223,12 @@
   },
   {
    "nazwa": "Margaret’s Hope",
+   "opis_producenta": "FTGFOP1 - Summer Flush - Darjeeling, India",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Margaret’s Hope",
    "opis_producenta": "FTGFOP1 DJ-4/2025 - Récolte de Printemps - Premium First Flush",
    "porcja": "50g ~ about 20 cups",
    "typ": null
@@ -2180,10 +2246,28 @@
    "typ": null
   },
   {
+   "nazwa": "Margaret's Hope",
+   "opis_producenta": "FTGFOP1 DJ26/2026 - Spring Flush - Premium First Flush",
+   "porcja": "50g ~ about 20 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Margaret's Hope",
+   "opis_producenta": "FTGFOP1 DJ42/2026 - Spring Flush - Premium First Flush",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
+  },
+  {
    "nazwa": "Master",
    "opis_producenta": "Spring & summer black teas assemblage",
    "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
+  },
+  {
+   "nazwa": "Matcha Fuji San",
+   "opis_producenta": "Powdered green tea – Cultivar Saemidori, Samidori, Yabukita - Shizuoka, Japan",
+   "porcja": null,
+   "typ": "zielona"
   },
   {
    "nazwa": "Matcha Kyoto",
@@ -2200,6 +2284,12 @@
   {
    "nazwa": "Matcha Uji",
    "opis_producenta": "Powdered green tea – Cultivar Yabukita - Uji, Japan",
+   "porcja": null,
+   "typ": "zielona"
+  },
+  {
+   "nazwa": "Matcha Yutakamidori",
+   "opis_producenta": "Powdered green tea – Cultivar Yutakamidori - Kagoshima, Japan",
    "porcja": null,
    "typ": "zielona"
   },
@@ -2366,6 +2456,18 @@
    "typ": "czarna"
   },
   {
+   "nazwa": "Nagri",
+   "opis_producenta": "SFTGFOP1 - EX1/2026 - Spring Flush - Premium First Flush",
+   "porcja": "50g ~ about 20 cups",
+   "typ": null
+  },
+  {
+   "nazwa": "Nagri",
+   "opis_producenta": "SFTGFOP1 - EX2/2026 - Spring Flush - Premium First Flush",
+   "porcja": "50g ~ about 20 cups",
+   "typ": null
+  },
+  {
    "nazwa": "Nakupenda - Fop",
    "opis_producenta": "Black tea from Malawi - First Flush",
    "porcja": "100g ~ about 40 cups",
@@ -2426,6 +2528,12 @@
    "typ": null
   },
   {
+   "nazwa": "Namring Upper Divin",
+   "opis_producenta": "FTGFOP1 - EX9/2026 - Spring Flush - Premium First Flush",
+   "porcja": "100g ~ about 40 cups",
+   "typ": null
+  },
+  {
    "nazwa": "Namring Upper Elixir",
    "opis_producenta": "FTGFOP1 EX3/2026 - Spring Flush – Premium First Flush",
    "porcja": null,
@@ -2436,6 +2544,12 @@
    "opis_producenta": "FTGFOP1 /2024 - Récolte d'été - Thé Noir - Darjeeling Inde",
    "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
+  },
+  {
+   "nazwa": "Namring Upper Féerique",
+   "opis_producenta": "FTGFOP1 (EX4) - Spring Flush - Premium First Flush",
+   "porcja": null,
+   "typ": null
   },
   {
    "nazwa": "Namring Upper Glory",
@@ -2592,6 +2706,12 @@
    "opis_producenta": "Evening black tea, low in theine",
    "porcja": "100g ~ about 40 cups",
    "typ": "czarna"
+  },
+  {
+   "nazwa": "Oaks",
+   "opis_producenta": "SFTGFOP1 - EX2/2026 - Spring Flush - Premium First Flush",
+   "porcja": "50g ~ about 20 cups",
+   "typ": null
   },
   {
    "nazwa": "Oaks",
@@ -4206,6 +4326,12 @@
    "opis_producenta": "Green iced tea",
    "porcja": null,
    "typ": "zielona"
+  },
+  {
+   "nazwa": "Tonganagaon",
+   "opis_producenta": "Black tea FTGFOP1 - Assam",
+   "porcja": "100g ~ about 40 cups",
+   "typ": "czarna"
   },
   {
    "nazwa": "Trois Noix",
